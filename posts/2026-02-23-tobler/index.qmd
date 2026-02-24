@@ -1,0 +1,21 @@
+---
+title: "The world seen from Sirius"
+description: "A tribute to Waldo Tobler"
+author:
+  - name: Claude Grasland
+    url: https://sirius.github.io/
+    orcid: 0000-0003-1504-4965
+    affiliation: Professeur de géographie, Université Paris Cité, UMR Géographie-cités
+    affiliation-url: https://geographie-cites.cnrs.fr/
+date: 2026-02-23
+categories: [World, news, Tobler] # self-defined categories
+citation: 
+  url: https://sirius.github.io/fr/posts/2026-02-23-tobler/ 
+image: news.jpg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+bibliography: references.bib
+---
+
+**The world seen from Sirius** 
+
+## Summary

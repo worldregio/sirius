@@ -1,0 +1,24 @@
+---
+title: "THE SIRIUS PROJECT"
+subtitle: "A tribute to Waldo Tobler"
+toc: false
+about:
+  id: hero-heading
+  template: trestles  
+  image-width: 17em
+  image-shape: round
+  image: img/tobler.jpg
+  image-alt: "Carte sensible du Monde"
+  links:
+    - text: Waldo Tobler (1930-2018)
+      href: https://en.wikipedia.org/wiki/Waldo_R._Tobler
+---
+
+
+:::{#hero-heading}
+
+
+:::
+
+
+

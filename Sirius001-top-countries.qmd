@@ -1,0 +1,251 @@
+---
+title: "Top countries"
+subtitle: "Sirius Project - Working Paper 001"
+author: "Claude Grasland"
+date: "2026-02-24"
+date-format: iso
+lang: en
+format:
+  html:
+    embed-resources: true
+    theme: yeti
+    smooth-scroll: true
+    fontsize: 0.9em
+    toc: true
+    toc-depth: 2
+    toc-title: "."
+    css: custom.css
+    crossrefs-hover: false
+execute:
+  warning: false
+  message: false 
+  cache: false   
+  echo: false
+  comment: false
+knitr:
+  opts_chunk:
+    out.width: "100%"
+editor_options: 
+  chunk_output_type: console
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+library(data.table)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(FactoMineR)
+library(sf, quietly = T)
+library(DT)
+#library(mapsf, quietly = T)
+#library(visNetwork, quietly=T)
+```
+
+## Research question
+
+Which countries are the most mentionned in the news ? What are the variations according to media or time period ?How to aggregate the data from different sources.
+
+
+
+
+## Data preparation
+
+### Load media
+
+We load the hypercube of each of the media of the database. Then we keep only the countries or territories that fit with the map.  
+
+```{r}
+# Check media list
+listmedia <- list.files("sirius")
+k<-length(listmedia)
+
+# Load first media
+media<-listmedia[1]
+hc<-readRDS(paste0("sirius/",media,"/hc_int.RDS"))
+
+# Load other media
+for (i in 2:k) {
+  media<-listmedia[i]
+  hc2<-readRDS(paste0("sirius/",media,"/hc_int.RDS"))
+  hc<-rbind(hc,hc2)
+}
+rm(hc2)
+class(hc)
+
+
+# Filter carto
+map<-readRDS("geom/gravitymap_V5.rds") %>% filter(is.na(last_year)==T)
+
+
+# Extract name and code
+codename<-map %>% st_drop_geometry() %>% select(ISO3=iso3, country)
+mystates<-names(table(map$iso3))
+
+hc <- hc %>% filter(where1 %in% mystates, 
+                    where2 %in% mystates,
+                    where1 !="PRI",
+                    where2 != "PRI")
+
+```
+
+### Matrix of salience by host countries
+
+Finally we standardize in order to obtain a salience of frequency per 10,000 news. 
+
+```{r}
+# Agregate
+tab<-hc[,.(  Fij=sum(news)),
+        .(i=who,j=where1)]
+
+# Transform in matrix
+tab2<-dcast(tab, formula = (j~i),fill = 0)
+#write.table(tab2,"coverage.csv",row.names = F, sep=";")
+mat<-as.matrix(tab2[,-1])
+row.names(mat)<-tab2$j
+
+# Put host-guest cells to 0
+
+n<-dim(mat)[1]
+p<-dim(mat)[2]
+rowN<-row.names(mat)
+colN<-substr(colnames(mat),1,3)
+for (i in 1:n) {
+  for (j in 1:p) {
+    
+    if (rowN[i]==colN[j]) {mat[i,j]<-0}
+  }
+}
+
+
+## Compute value p. 100000
+
+t<-apply(mat,2,sum,na.rm=T)
+mat <- round(100000*prop.table(mat,2))
+
+
+# Put host-guest cells to 0
+
+n<-dim(mat)[1]
+p<-dim(mat)[2]
+rowN<-row.names(mat)
+colN<-substr(colnames(mat),1,3)
+for (i in 1:n) {
+  for (j in 1:p) {
+    
+    if (rowN[i]==colN[j]) {mat[i,j]<-NA}
+  }
+}
+
+# Transform in dataframe
+tab<-as.data.frame(mat)
+tab$ISO3 <- substr(rownames(mat),1,3)
+
+
+# Add name
+
+
+tab <- tab %>% left_join(codename)
+tab<-tab[,c(25,26,1:24)]
+
+
+kable(tab,caption = "Salience of countries by media (p. 100,000)")
+```
+
+### Compute parameters
+
+```{r}
+## Add parameters
+tab$mean <- apply(mat,1,mean, na.rm=T)
+tab$rnk<-rank(-tab$mean)
+tab$sd<-apply(mat,1,sd,na.rm=T)
+tab$min <- apply(mat, 1,min, na.rm=T)
+tab$Q1 <- apply(mat, 1, quantile, 0.25, na.rm=T)
+tab$Q2 <- apply(mat,1,median, na.rm=T)
+tab$Q3 <- apply(mat, 1, quantile, 0.75, na.rm=T)
+tab$max<-apply(mat,1,max,na.rm=T)
+tab$nbsup0 <- apply(mat>0,1,sum,na.rm=T)
+tab$nbsup10 <- apply(mat>10,1,sum,na.rm=T)
+tab$nbsup100 <- apply(mat>100,1,sum,na.rm=T)
+
+param<-tab[,c(28, 1,2,27,29:37)] %>% arrange(-mean)
+
+
+kable(param, digits = 0,row.names = F, caption = "Salience of countries (p. 100,000)")
+
+```
+
+
+
+## Typology of media profiles
+
+
+### Correlation matrix
+
+We establish a correlation matrix based on the Spearman correlation coefficient based on rank. The rank correlation has been chosen against the classical Pearson coefficient because it is less influenced by the weight of top countries (USA, China, Russia, ...) and is more likely to reval regional organisation of news at world scale. 
+
+The correlation are based after exclusion of the host countries (where media are located) . For example, the correlation between *Le Monde* and *Times of India* will exclude the salience of France and India from the vectors of values used for the measure of correlation. 
+
+```{r}
+
+mat2 <- tab[tab$nbsup10>5,3:26]
+
+# Correlation matrix (pearson)
+#cor1 <- cor(mat2,use = "pairwise.complete.obs")
+
+
+# Correlation matrux (Spearman)
+cor2 <- cor(mat2,use = "pairwise.complete.obs", method="spearman")
+
+
+kable(cor2, digits=2, caption = "Spearman correlation coefficient between median values")
+```
+
+
+
+### Principal Component Analysis
+
+The PCA provide a first viusalization of the proximity between media and some clustrs can be easily observed on the plan defined by the two first component. It is a simple approximation and better results could be obtained with Multi Dimensional Scaling (MDS) or Network Analysis (it will be done later).
+
+```{r}
+
+#library(explor)
+acp<-PCA(cor2, graph=F)
+#explor(acp)
+res <- explor::prepare_results(acp)
+explor::PCA_ind_plot(res, xax = 1, yax = 2, ind_sup = FALSE, lab_var = "Lab",
+    ind_lab_min_contrib = 0, col_var = NULL, labels_size = 9, point_opacity = 0.5,
+    opacity_var = NULL, point_size = 64, ellipses = FALSE, transitions = TRUE,
+    labels_positions = "auto", xlim = c(-8.36, 5.68), ylim = c(-7.93, 6.11))
+
+```
+
+- **Comment** : The figure reveals immediately a clustering of media based on geographical or language proximity. Notice the specific situation of the french media *Le Monde* in an intermediate position between media from Western Europe and media from Northern Africa. 
+
+
+
+
+### Hierarchical Cluster Analysis
+
+The hierarchical cluster analysis is realized on the matrix of dissimilarity between $D$ defined as the difference between 1 and the Spearman correlation coefficient : 
+
+$D_{ij} = 1 - \rho_{ij}$
+
+We can then apply different clustering methods. We have chosen here the classical method of Ward. 
+
+```{r}
+mydis<-1-cor2
+
+cah_euc <- HCPC(acp,nb.clust = 7,method = "ward",graph = F)
+
+plot(cah_euc,choice = "tree",title = "Hierarchical clustering of media",)
+
+
+```
+
+- **Comment : ** The tree reveals a first partition in three main groups A, B and C, followed by a subdivision in 7 subgroups. The group A characterized media from Subsaharan Africa (A.1)  and North Africa & Arabia  (A.2). The group B is associated only to coutries located in Latin America .
+Finally, the group C is divided in four subgroups corresponding  to Black Sea region (B.1),  Asia-Pacifica (B.2), Northern America and the U.K (B.3) and Western Europe (B.4).
+
+

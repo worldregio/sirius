@@ -1,0 +1,69 @@
+---
+title: "The New York Times"
+name: "The New York Times"
+image: img/USA_nytime.jpg
+bibliography: biblio/USA_nytime.bib
+nocite: '@*'
+csl: geo.csl
+categories: 
+- Pure player
+- Print
+about:
+  template: marquee
+  image: img/USA_nytime.jpg
+  image-width: 18em
+  image-shape: rounded
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
+code: USA_nytime 
+pays: USA
+title-block-categories: false
+
+format:
+  html: 
+    css: styles_bis.css
+---
+
+::: {#profil}
+
+::: {#code}
+{{< meta code >}}
+:::
+
+::: {#pays}
+<i class="bi bi-globe2"></i> {{< meta pays >}}\
+:::
+:::
+
+- Website : [Le Monde](https://www.nytimes.com/)
+
+
+## <i class="bi bi-ui-checks-grid"></i> Scale
+
+::: {#liste}
+-   Global
+-   National
+
+:::
+
+## <i class="bi bi-person-video3"></i> Topics
+
+<div>
+
+-   General news
+-   Political news
+-   Economic news
+
+
+
+</div>
+
+## <i class="bi bi-file-earmark-text"></i> Publications
+
+::: {#refs}
+:::

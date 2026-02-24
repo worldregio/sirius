@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "SIRIUS"
+  navbar:
+    left:
+      - href: index.qmd
+        text: "About"
+      - href: media.qmd
+        text: Media
+      - text: Working Papers
+        menu:
+          - href: Sirius001-top-countries.qmd  
+            text: "WP1. Top countries by media"
+      - posts.qmd
+    right: 
+      - icon: github # add icons as navbar buttons
+        href: https://github.com/worldregio/sirius/
+        target: _blank
+  page-footer:
+    background: dark
+    left: Copyright 2026, Claude Grasland
+format:
+  html:
+    theme: 
+      light: minty    
+      dark: solar
+    css: styles.css
+    toc: true
+
+
+

@@ -1,0 +1,69 @@
+---
+title: "Le Monde"
+name: "Le Monde"
+image: img/FRA_lmonde.jpg
+bibliography: biblio/FRA_lmonde.bib
+nocite: '@*'
+csl: geo.csl
+categories: 
+- Pure player
+- Print
+about:
+  template: marquee
+  image: img/FRA_lmonde.jpg
+  image-width: 18em
+  image-shape: rounded
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
+code: FRA_lmonde 
+pays: France
+title-block-categories: false
+
+format:
+  html: 
+    css: styles_bis.css
+---
+
+::: {#profil}
+
+::: {#code}
+{{< meta code >}}
+:::
+
+::: {#pays}
+<i class="bi bi-globe2"></i> {{< meta pays >}}\
+:::
+:::
+
+- Website : [Le Monde](https://www.lemonde.fr/)
+
+
+## <i class="bi bi-ui-checks-grid"></i> Scale
+
+::: {#liste}
+-   Global
+-   National
+
+:::
+
+## <i class="bi bi-person-video3"></i> Topics
+
+<div>
+
+-   General news
+-   Political news
+-   Economic news
+
+
+
+</div>
+
+## <i class="bi bi-file-earmark-text"></i> Publications
+
+::: {#refs}
+:::

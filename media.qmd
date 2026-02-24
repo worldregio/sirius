@@ -1,0 +1,30 @@
+---
+title: "**Media**"
+image : img/news.jpg
+listing:
+  id: participants
+  fields: [image, code, name,  pays]
+  filter-ui: [code, name, pays]
+  contents: media
+  sort: "name"
+  sort-ui: [code, name, pays]
+  type: table
+  categories: true
+  image-height: 100px
+  table-hover: true
+  field-links: ["name"]
+  image-placeholder: img/wip.jpg
+  page-size: 50
+  field-display-names:
+    code: "Code"
+    name: "Name"
+    pays: "Country"
+about:
+  template: marquee
+  image-width: 40em
+---
+
+Here is the list of media collected for the Sirius project.
+
+::: {#participants}
+:::
