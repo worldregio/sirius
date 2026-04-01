@@ -40,6 +40,7 @@ library(knitr)
 library(FactoMineR)
 library(sf, quietly = T)
 library(DT)
+library(mapsf)
 #library(mapsf, quietly = T)
 #library(visNetwork, quietly=T)
 ```
@@ -88,6 +89,8 @@ hc <- hc %>% filter(where1 %in% mystates,
                     where2 %in% mystates,
                     where1 !="PRI",
                     where2 != "PRI")
+
+
 
 ```
 
@@ -177,6 +180,44 @@ kable(param, digits = 0,row.names = F, caption = "Salience of countries (p. 100,
 
 ```
 
+### Map of average salience
+
+```{r}
+grat<-readRDS("geom/WORLD30.RDS")
+wld <- readRDS("geom/gravitymapV5_pole.RDS")
+wld<-wld %>% inner_join(param) %>% mutate(sal = mean/1000)
+mf_map(grat, type="base", lty=3,col="gray95")
+mf_map(wld, type = "base",add=T, col="white")
+mf_map(wld, type="prop", var="sal",
+       col="red", alpha=0.3, inches=0.4,
+       leg_title = "Salience (%)",
+       leg_val_rnd = 1)
+mf_layout("Map of average salience of countries (2013-2020)",
+          credits = "(c) Grasland C., 2026 - Source : MediaCloud database",
+          frame=T,
+          arrow=F, 
+          scale=F)
+
+```
+
+### Dorling cartogram
+
+```{r}
+library(cartogram)
+cart<-cartogram_dorling(x=wld,weight="sal",k = 1)
+
+mf_map(grat, type="base", lty=3,col="gray80")
+mf_map(wld, type = "base",add=T, col="white", borde=NA)
+mf_map(cart, type="base",col="red", add=T, border="white", lwd=0.4)
+mf_layout("Dorling cartogram of average salience of countries (2013-2020)",
+          credits = "(c) Grasland C., 2026 - Source : MediaCloud",
+          frame=T,
+          arrow=F, 
+          scale=F)
+```
+
+
+
 
 
 ## Typology of media profiles
@@ -248,4 +289,75 @@ plot(cah_euc,choice = "tree",title = "Hierarchical clustering of media",)
 - **Comment : ** The tree reveals a first partition in three main groups A, B and C, followed by a subdivision in 7 subgroups. The group A characterized media from Subsaharan Africa (A.1)  and North Africa & Arabia  (A.2). The group B is associated only to coutries located in Latin America .
 Finally, the group C is divided in four subgroups corresponding  to Black Sea region (B.1),  Asia-Pacifica (B.2), Northern America and the U.K (B.3) and Western Europe (B.4).
 
+## Network analysis
 
+We start by computing for each media what are the three media with highest correlation that we consider as the most similar in terms of mdia coverage. We use the 4 main correlations between one media and the other to elaborate the network
+
+```{r}
+link<- reshape2::melt(cor2)
+names(link)<-c("i","j","Rij")
+int <- link %>% filter(Rij <0.9999) %>% group_by(i) %>%
+          mutate(rnk =rank(-Rij)) %>%
+          filter(rnk <5) %>% arrange(i,rnk)
+```
+
+
+```{r, eval=F}
+library(visNetwork)
+nodes<-data.frame(code = unique(c(int$i,int$j)))
+nodes$code<-as.character(nodes$code)
+nodes$id<-1:length(nodes$code)
+nodes$label<-nodes$code
+nodes$color <-"red"
+nodes$color[nodes$code %in% int$j]<-"red"
+
+
+# Adjust edge codes
+
+int$size<-4-int$rnk
+edges <- int %>% mutate(width = 1+5*size / max(size)) %>%
+                left_join(nodes %>% select(i=code, from = id)) %>%  
+                left_join(nodes %>% select(j=code, to = id )) 
+
+# compute nodesize
+#toti<-int %>% group_by(i) %>% summarize(size =sum(size)) %>% select (code=i,size)
+tot<-int %>% group_by(j) %>% summarize(size =sum(size)) %>% select (code=j,size)
+tot$size[is.na(tot$size)]<-0
+#tot<-rbind(toti,totj)
+#tot<-unique(tot)
+tot$code<-as.factor(tot$code)
+nodes <- left_join(nodes,tot) 
+nodes$size[is.na(nodes$size)]<-0
+nodes$value = 1 +5*sqrt(nodes$size/max(nodes$size,na.rm=T))
+
+
+#sel_nodes <-nodes %>% filter(code %in% unique(c(sel_edges$i,sel_edges$j)))
+
+# eliminate loops
+
+#if(loops == FALSE) {edges <- edges[edges$from < edges$to,]}
+
+net<- visNetwork(nodes, 
+                  edges, 
+                  main = "Network",
+height = "1000px", 
+                  width = "70%")   %>%   
+   visNodes(scaling =list(min =2, max=20, 
+                          label=list(min=20,max=40, 
+                                    maxVisible = 20)))%>%
+  visEdges(scaling = list(min=20,max=60),
+           arrows = 'to',)%>%
+       visOptions(highlightNearest = TRUE,
+     #               selectedBy = "group", 
+    #               manipulation = TRUE,
+                  nodesIdSelection = TRUE) %>%
+        visInteraction(navigationButtons = TRUE) %>%
+         visLegend() %>%
+      visIgraphLayout(layout ="layout.fruchterman.reingold",smooth = TRUE)
+
+net
+```
+
+![Network of top correlations between media coverage](img/network_correlation.jpg)
+
+- **Comment** : The network analysis provide a more complete view of the proximity between newspapers than the clustering method. We recognize some strong clusters previously identified between arab countries, subsaharan Africa, eastern Europe and Middle East and the largest one between english speaking newspaer from northern America, Europe  and Asia. But we can also better appreciate the specific situation of some media that appears isolated (specific) because they are never present in the list of top correlations of the other newspapers. It is the case for Le Monde (France),la Repubblica (Italy), Republica (Indonesia) or Asahi Shimbum (Japan). This media plays an interesting role of bridge between clusters that would be otherwise not connected. This function of betweeness is also insure by other media that are strongly associated to their cluster but related to the rest by weak ties. For example the Spanish newspaper ABC is connected to the english grouo vie The NYT. The algerian newspaper Alnahar is connected with the nigerian newspaper Vanguardia, etc... 
