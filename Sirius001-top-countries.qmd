@@ -78,12 +78,13 @@ class(hc)
 
 
 # Filter carto
-map<-readRDS("geom/gravitymap_V5.rds") %>% filter(is.na(last_year)==T)
+map<-readRDS("geom/world_riate.RDS")
 
 
 # Extract name and code
-codename<-map %>% st_drop_geometry() %>% select(ISO3=iso3, country)
-mystates<-names(table(map$iso3))
+codename<-map %>% st_drop_geometry() %>% select(ISO3, NAMEen)
+mystates<-names(table(map$ISO3))
+
 
 hc <- hc %>% filter(where1 %in% mystates, 
                     where2 %in% mystates,
@@ -183,9 +184,24 @@ kable(param, digits = 0,row.names = F, caption = "Salience of countries (p. 100,
 ### Map of average salience
 
 ```{r}
+
+
+
+
+
 grat<-readRDS("geom/WORLD30.RDS")
-wld <- readRDS("geom/gravitymapV5_pole.RDS")
-wld<-wld %>% inner_join(param) %>% mutate(sal = mean/1000)
+wld <- st_transform(map, st_crs(grat))
+wld<-wld %>% inner_join(tab)
+st_crs(wld)
+
+#saveRDS(wld,"geom/sirius.RDS")
+#st_write(wld,"geom/sirius.geojson",delete_dsn = T)
+#st_write(grat,"geom/grat30.geojson",delete_dsn = T)
+
+
+
+wld<-wld%>% mutate(sal = mean/1000)
+
 mf_map(grat, type="base", lty=3,col="gray95")
 mf_map(wld, type = "base",add=T, col="white")
 mf_map(wld, type="prop", var="sal",
@@ -198,6 +214,7 @@ mf_layout("Map of average salience of countries (2013-2020)",
           arrow=F, 
           scale=F)
 
+
 ```
 
 ### Dorling cartogram
@@ -206,7 +223,7 @@ mf_layout("Map of average salience of countries (2013-2020)",
 library(cartogram)
 cart<-cartogram_dorling(x=wld,weight="sal",k = 1)
 
-mf_map(grat, type="base", lty=3,col="gray80")
+mf_map(grat, type="base", lty=3,col="gray90")
 mf_map(wld, type = "base",add=T, col="white", borde=NA)
 mf_map(cart, type="base",col="red", add=T, border="white", lwd=0.4)
 mf_layout("Dorling cartogram of average salience of countries (2013-2020)",
@@ -279,7 +296,7 @@ We can then apply different clustering methods. We have chosen here the classica
 ```{r}
 mydis<-1-cor2
 
-cah_euc <- HCPC(acp,nb.clust = 7,method = "ward",graph = F)
+cah_euc <- HCPC(acp,nb.clust = 6,method = "ward",graph = F)
 
 plot(cah_euc,choice = "tree",title = "Hierarchical clustering of media",)
 
