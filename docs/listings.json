@@ -1,0 +1,17 @@
+[
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2026-02-23-tobler/index.html"
+    ]
+  },
+  {
+    "listing": "/media.html",
+    "items": [
+      "/media/FRA_lmonde.html",
+      "/media/BRA_oglobo.html",
+      "/media/USA_nytime.html",
+      "/media/ZAF_times.html"
+    ]
+  }
+]
