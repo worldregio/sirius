@@ -1,24 +1,66 @@
 [
   {
-    "objectID": "media/BRA_oglobo.html#scale",
-    "href": "media/BRA_oglobo.html#scale",
-    "title": "O Globo",
+    "objectID": "media/CHN_mopost.html#scale",
+    "href": "media/CHN_mopost.html#scale",
+    "title": "South China Morning Post",
     "section": " Scale",
     "text": "Scale\n\n\nGlobal\nNational"
   },
   {
-    "objectID": "media/BRA_oglobo.html#topics",
-    "href": "media/BRA_oglobo.html#topics",
-    "title": "O Globo",
+    "objectID": "media/CHN_mopost.html#topics",
+    "href": "media/CHN_mopost.html#topics",
+    "title": "South China Morning Post",
     "section": " Topics",
     "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
   },
   {
-    "objectID": "media/BRA_oglobo.html#publications",
-    "href": "media/BRA_oglobo.html#publications",
-    "title": "O Globo",
+    "objectID": "media/CHN_mopost.html#publications",
+    "href": "media/CHN_mopost.html#publications",
+    "title": "South China Morning Post",
     "section": " Publications",
-    "text": "Publications\n\n\nCHEN X. 2025. News framings of o globo regarding chinese society during the covid-19 pandemic. Brazilian Journalism Research 21: E1716"
+    "text": "Publications\n\n\nWu S. 2023. Evaluating “exemplary data journalism” from asia: An exploration into south china morning post’s data stories on china and the world. Journalism 24: 2042–2058"
+  },
+  {
+    "objectID": "media/RUS_isvest.html#scale",
+    "href": "media/RUS_isvest.html#scale",
+    "title": "Isvestia",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/RUS_isvest.html#topics",
+    "href": "media/RUS_isvest.html#topics",
+    "title": "Isvestia",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/RUS_isvest.html#publications",
+    "href": "media/RUS_isvest.html#publications",
+    "title": "Isvestia",
+    "section": " Publications",
+    "text": "Publications\n\n\nKoleva K. 2016. Comrades to the rescue: Czechoslovakia in 1968 and ukraine in 2014 through the lens of izvestia. In Media in ProcessRoutledge; 76–98."
+  },
+  {
+    "objectID": "media/EGY_alwafd.html#scale",
+    "href": "media/EGY_alwafd.html#scale",
+    "title": "Al Wafd",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/EGY_alwafd.html#topics",
+    "href": "media/EGY_alwafd.html#topics",
+    "title": "Al Wafd",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/EGY_alwafd.html#publications",
+    "href": "media/EGY_alwafd.html#publications",
+    "title": "Al Wafd",
+    "section": " Publications",
+    "text": "Publications\n\n\nAyyad K, Lugo-Ocando J. 2023. Reporters’ agency and (de) escalation during the 2011 uprising in egypt: Re-writing the historical role of the news media during the arab spring. Online Journal of Communication and Media Technologies 13: e202330"
   },
   {
     "objectID": "media/USA_nytime.html#scale",
@@ -53,7 +95,7 @@
     "href": "media.html",
     "title": "Media",
     "section": "",
-    "text": "Here is the list of media collected for the Sirius project.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Code\n      \n      \n        Name\n      \n      \n        Country\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nCode\n\n\nName\n\n\nCountry\n\n\n\n\n\n\n\n\n\nFRA_lmonde\n\n\nLe Monde\n\n\nFrance\n\n\n\n\n\n\n\nBRA_oglobo\n\n\nO Globo\n\n\nBrazil\n\n\n\n\n\n\n\nUSA_nytime\n\n\nThe New York Times\n\n\nUSA\n\n\n\n\n\n\n\nZAF_times\n\n\nThe Sunday Times (Timeslive)\n\n\nSouth Africa\n\n\n\n\nNo matching items"
+    "text": "Here is the list of media collected for the Sirius project.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Code\n      \n      \n        Name\n      \n      \n        Country\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nCode\n\n\nName\n\n\nCountry\n\n\n\n\n\n\n\n\n\nEGY_alwafd\n\n\nAl Wafd\n\n\nEgypt\n\n\n\n\n\n\n\nRUS_isvest\n\n\nIsvestia\n\n\nRussia\n\n\n\n\n\n\n\nFRA_lmonde\n\n\nLe Monde\n\n\nFrance\n\n\n\n\n\n\n\nBRA_oglobo\n\n\nO Globo\n\n\nBrazil\n\n\n\n\n\n\n\nIDN_republ\n\n\nRepublika\n\n\nIndonesia\n\n\n\n\n\n\n\nCHN_mopost\n\n\nSouth China Morning Post\n\n\nChina - Hong Kong\n\n\n\n\n\n\n\nUSA_nytime\n\n\nThe New York Times\n\n\nUSA\n\n\n\n\n\n\n\nZAF_times\n\n\nThe Sunday Times (Timeslive)\n\n\nSouth Africa\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2026-02-23-tobler/index.html",
@@ -152,5 +194,47 @@
     "title": "The Sunday Times (Timeslive)",
     "section": " Publications",
     "text": "Publications\n\n\nRadebe M. 2022. New features of media imperialism: The south african online media and the coverage of the ukrainian war. Communicare: Journal for Communication Sciences in Southern Africa 41: 75–89"
+  },
+  {
+    "objectID": "media/BRA_oglobo.html#scale",
+    "href": "media/BRA_oglobo.html#scale",
+    "title": "O Globo",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/BRA_oglobo.html#topics",
+    "href": "media/BRA_oglobo.html#topics",
+    "title": "O Globo",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/BRA_oglobo.html#publications",
+    "href": "media/BRA_oglobo.html#publications",
+    "title": "O Globo",
+    "section": " Publications",
+    "text": "Publications\n\n\nCHEN X. 2025. News framings of o globo regarding chinese society during the covid-19 pandemic. Brazilian Journalism Research 21: E1716"
+  },
+  {
+    "objectID": "media/IDN_republ.html#scale",
+    "href": "media/IDN_republ.html#scale",
+    "title": "Republika",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/IDN_republ.html#topics",
+    "href": "media/IDN_republ.html#topics",
+    "title": "Republika",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/IDN_republ.html#publications",
+    "href": "media/IDN_republ.html#publications",
+    "title": "Republika",
+    "section": " Publications",
+    "text": "Publications\n\n\nWidyadhana RD, Sandy F, Susanti D. 2025. Framing analysis of republika and BBC news indonesia on the conflict of palestine-israel. BIS Humanities and Social Science 2: V225053–V225053"
   }
 ]

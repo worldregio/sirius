@@ -1,8 +1,8 @@
 ---
-title: "O Globo"
-name: "O Globo"
-image: img/BRA_oglobo.jpg
-bibliography: biblio/BRA_oglobo.bib
+title: "Isvestia"
+name: "Isvestia"
+image: img/RUS_isvest.jpg
+bibliography: biblio/RUS_isvest.bib
 nocite: '@*'
 csl: geo.csl
 categories: 
@@ -10,7 +10,7 @@ categories:
 - Print
 about:
   template: marquee
-  image: img/BRA_oglobo.jpg
+  image: img/RUS_isvest.jpg
   image-width: 18em
   image-shape: rounded
   links:
@@ -20,8 +20,8 @@ about:
     - icon: github
       text: Github
       href: https://github.com
-code: BRA_oglobo 
-pays: Brazil
+code: RUS_isvest
+pays: Russia
 title-block-categories: false
 
 format:
@@ -36,7 +36,7 @@ library(dplyr)
 library(sf)
 library(cartogram)
 library(mapsf)
-media<-"BRA_oglobo"
+media<-"RUS_isvest"
 hc<-readRDS(paste0("../sirius/",media,"/hc_int.RDS")) %>%  filter(where1 !=substr(media,1,3))
 nbnews<-sum(hc$news)
 tab<-hc[,.(nb=sum(news)),.(ISO3=where1)] %>% 
@@ -49,7 +49,7 @@ wld<-left_join(map,tab)
 wld2 <-wld %>% filter(is.na(sal)==F)
 
 cart<-cartogram_dorling(x=wld2,weight="sal",k = 2)
-png("img/BRA_oglobo_salience.png",width = 1000, height=1000)
+png("img/RUS_isvest_salience.png",width = 1000, height=1000)
 mf_map(grat, type="base", lty=3,col="lightblue")
 mf_map(wld, type = "base",add=T, col="lightyellow", borde=NA)
 mf_map(cart, type="base",col="red", add=T, border="white", lwd=0.4)
@@ -62,7 +62,7 @@ mf_layout("",
 dev.off()
 ```
 
-![](img/BRA_oglobo_salience.png)
+![](img/RUS_isvest_salience.png)
 
 
 
@@ -76,7 +76,7 @@ dev.off()
 :::
 :::
 
-- Website : [O Globo](https://oglobo.globo.com/)
+- Website : [Isvestia](https://newizv.ru/)
 
 
 ## <i class="bi bi-ui-checks-grid"></i> Scale

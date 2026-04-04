@@ -8,8 +8,12 @@
   {
     "listing": "/media.html",
     "items": [
+      "/media/EGY_alwafd.html",
+      "/media/RUS_isvest.html",
       "/media/FRA_lmonde.html",
       "/media/BRA_oglobo.html",
+      "/media/IDN_republ.html",
+      "/media/CHN_mopost.html",
       "/media/USA_nytime.html",
       "/media/ZAF_times.html"
     ]
