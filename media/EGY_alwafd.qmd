@@ -48,12 +48,12 @@ map<-st_transform(map,st_crs(grat))
 wld<-left_join(map,tab)
 wld2 <-wld %>% filter(is.na(sal)==F)
 
-cart<-cartogram_dorling(x=wld2,weight="sal",k = 0.5)
+cart<-cartogram_dorling(x=wld2,weight="sal",k = 1)
 png("img/EGY_alwafd_salience.png",width = 1000, height=1000)
 mf_map(grat, type="base", lty=3,col="lightblue")
 mf_map(wld, type = "base",add=T, col="lightyellow", borde=NA)
 mf_map(cart, type="base",col="red", add=T, border="white", lwd=0.4,inches = 0.01)
-mf_label(cart, var = "ISO3",cex=2*sqrt(cart$sal/max(cart$sal)), col="white")
+mf_label(cart, var = "ISO3",cex=2.5*sqrt(cart$sal/max(cart$sal)), col="white")
 mf_layout("",
           credits = "(c) Grasland C., 2026 - Source : MediaCloud",
           frame=T,

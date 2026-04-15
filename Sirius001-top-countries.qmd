@@ -152,7 +152,7 @@ tab$ISO3 <- substr(rownames(mat),1,3)
 
 
 tab <- tab %>% left_join(codename)
-tab<-tab[,c(25,26,1:24)]
+tab<-tab[,c(31,32,1:30)]
 
 
 kable(tab,caption = "Salience of countries by media (p. 100,000)")
@@ -174,7 +174,7 @@ tab$nbsup0 <- apply(mat>0,1,sum,na.rm=T)
 tab$nbsup10 <- apply(mat>10,1,sum,na.rm=T)
 tab$nbsup100 <- apply(mat>100,1,sum,na.rm=T)
 
-param<-tab[,c(28, 1,2,27,29:37)] %>% arrange(-mean)
+param<-tab[,c(34, 1,2,33,35:43)] %>% arrange(-mean)
 
 
 kable(param, digits = 0,row.names = F, caption = "Salience of countries (p. 100,000)")
@@ -248,7 +248,7 @@ The correlation are based after exclusion of the host countries (where media are
 
 ```{r}
 
-mat2 <- tab[tab$nbsup10>5,3:26]
+mat2 <- tab[tab$nbsup10>5,3:32]
 
 # Correlation matrix (pearson)
 #cor1 <- cor(mat2,use = "pairwise.complete.obs")
@@ -296,7 +296,7 @@ We can then apply different clustering methods. We have chosen here the classica
 ```{r}
 mydis<-1-cor2
 
-cah_euc <- HCPC(acp,nb.clust = 6,method = "ward",graph = F)
+cah_euc <- HCPC(acp,nb.clust = 7,method = "ward",graph = F)
 
 plot(cah_euc,choice = "tree",title = "Hierarchical clustering of media",)
 
@@ -313,9 +313,10 @@ We start by computing for each media what are the three media with highest corre
 ```{r}
 link<- reshape2::melt(cor2)
 names(link)<-c("i","j","Rij")
-int <- link %>% filter(Rij <0.9999) %>% group_by(i) %>%
+int <- link %>% filter(Rij <0.9998) %>% group_by(i) %>%
           mutate(rnk =rank(-Rij)) %>%
-          filter(rnk <5) %>% arrange(i,rnk)
+          filter(rnk <6) %>% arrange(i,rnk)
+        #  filter(Rij > 0.80)
 ```
 
 
@@ -332,7 +333,7 @@ nodes$color[nodes$code %in% int$j]<-"red"
 # Adjust edge codes
 
 int$size<-4-int$rnk
-edges <- int %>% mutate(width = 1+5*size / max(size)) %>%
+edges <- int %>% mutate(width = 1+5*size / max(size, na.rm=T)) %>%
                 left_join(nodes %>% select(i=code, from = id)) %>%  
                 left_join(nodes %>% select(j=code, to = id )) 
 
@@ -345,7 +346,8 @@ tot$size[is.na(tot$size)]<-0
 tot$code<-as.factor(tot$code)
 nodes <- left_join(nodes,tot) 
 nodes$size[is.na(nodes$size)]<-0
-nodes$value = 1 +5*sqrt(nodes$size/max(nodes$size,na.rm=T))
+nodes$value=4
+#nodes$value = 1 +5*sqrt(nodes$size/max(nodes$size,na.rm=T))
 
 
 #sel_nodes <-nodes %>% filter(code %in% unique(c(sel_edges$i,sel_edges$j)))
@@ -376,5 +378,6 @@ net
 ```
 
 ![Network of top correlations between media coverage](img/network_correlation.jpg)
+
 
 - **Comment** : The network analysis provide a more complete view of the proximity between newspapers than the clustering method. We recognize some strong clusters previously identified between arab countries, subsaharan Africa, eastern Europe and Middle East and the largest one between english speaking newspaer from northern America, Europe  and Asia. But we can also better appreciate the specific situation of some media that appears isolated (specific) because they are never present in the list of top correlations of the other newspapers. It is the case for Le Monde (France),la Repubblica (Italy), Republica (Indonesia) or Asahi Shimbum (Japan). This media plays an interesting role of bridge between clusters that would be otherwise not connected. This function of betweeness is also insure by other media that are strongly associated to their cluster but related to the rest by weak ties. For example the Spanish newspaper ABC is connected to the english grouo vie The NYT. The algerian newspaper Alnahar is connected with the nigerian newspaper Vanguardia, etc... 

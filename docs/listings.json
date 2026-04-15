@@ -1,21 +1,38 @@
 [
   {
-    "listing": "/posts.html",
+    "listing": "/media.html",
     "items": [
-      "/posts/2026-02-23-tobler/index.html"
+      "/media/ESP_abc.html",
+      "/media/DZA_alnaha.html",
+      "/media/EGY_alwafd.html",
+      "/media/JPN_asahis.html",
+      "/media/MEX_inform.html",
+      "/media/DEU_frankf.html",
+      "/media/IRN_hamsha.html",
+      "/media/RUS_isvest.html",
+      "/media/ISR_jerpos.html",
+      "/media/KOR_kyungh.html",
+      "/media/ARG_nacion.html",
+      "/media/FRA_lmonde.html",
+      "/media/BRA_oglobo.html",
+      "/media/ITA_repubb.html",
+      "/media/IDN_republ.html",
+      "/media/TUR_sabah.html",
+      "/media/CHN_mopost.html",
+      "/media/AUS_sydmor.html",
+      "/media/BLR_telegr.html",
+      "/media/USA_nytime.html",
+      "/media/KEN_standa.html",
+      "/media/ZAF_times.html",
+      "/media/IND_tindia.html",
+      "/media/CAN_tostar.html",
+      "/media/NGA_vangua.html"
     ]
   },
   {
-    "listing": "/media.html",
+    "listing": "/posts.html",
     "items": [
-      "/media/EGY_alwafd.html",
-      "/media/RUS_isvest.html",
-      "/media/FRA_lmonde.html",
-      "/media/BRA_oglobo.html",
-      "/media/IDN_republ.html",
-      "/media/CHN_mopost.html",
-      "/media/USA_nytime.html",
-      "/media/ZAF_times.html"
+      "/posts/2026-02-23-tobler/index.html"
     ]
   }
 ]

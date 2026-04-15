@@ -7,11 +7,8 @@ about:
   template: trestles  
   image-width: 17em
   image-shape: round
-  image: img/tobler.jpg
-  image-alt: "Carte sensible du Monde"
-  links:
-    - text: Waldo Tobler (1930-2018)
-      href: https://en.wikipedia.org/wiki/Waldo_R._Tobler
+  image: img/network_correlation.jpg  
+  image-alt: "Correlation between media coverage"
 ---
 
 
