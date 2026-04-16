@@ -1,0 +1,105 @@
+---
+title: "The Independent"
+name: "The Independent"
+image: img/GBR_indept.jpg
+bibliography: biblio/GBR_indept.bib
+nocite: '@*'
+csl: geo.csl
+categories: 
+- Pure player
+- Print
+about:
+  template: marquee
+  image: img/GBR_indept.jpg
+  image-width: 18em
+  image-shape: rounded
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
+code: GBR_indept
+pays: United Kingdom
+title-block-categories: false
+
+format:
+  html: 
+    css: styles_bis.css
+---
+
+
+```{r, eval=F, echo=F}
+library(data.table)
+library(dplyr)
+library(sf)
+library(cartogram)
+library(mapsf)
+media<-"GBR_indept"
+hc<-readRDS(paste0("../sirius/",media,"/hc_int.RDS")) %>%  filter(where1 !=substr(media,1,3))
+nbnews<-sum(hc$news)
+tab<-hc[,.(nb=sum(news)),.(ISO3=where1)] %>% 
+         arrange(-nb) %>% 
+        mutate(sal = 100*nb/nbnews)
+map<-readRDS("../geom/world_riate.RDS")
+grat<-st_read("../geom/grat30.geojson")
+map<-st_transform(map,st_crs(grat))
+wld<-left_join(map,tab)
+wld2 <-wld %>% filter(is.na(sal)==F)
+
+cart<-cartogram_dorling(x=wld2,weight="sal",k = 2)
+png("img/GBR_indept_salience.png",width = 1000, height=1000)
+mf_map(grat, type="base", lty=3,col="lightblue")
+mf_map(wld, type = "base",add=T, col="lightyellow", borde=NA)
+mf_map(cart, type="base",col="red", add=T, border="white", lwd=0.4)
+mf_label(cart, var = "ISO3",cex=3.5*sqrt(cart$sal/max(cart$sal)), col="white")
+mf_layout("",
+          credits = "(c) Grasland C., 2026 - Source : MediaCloud",
+          frame=T,
+          arrow=F, 
+          scale=F)
+dev.off()
+```
+
+![](img/GBR_indept_salience.png)
+
+
+
+
+::: {#profil}
+
+
+
+::: {#pays}
+<i class="bi bi-globe2"></i> {{< meta pays >}}\
+:::
+:::
+
+- Website : [The Independent](https://www.independent.co.uk/)
+
+
+## <i class="bi bi-ui-checks-grid"></i> Scale
+
+::: {#liste}
+-   Global
+-   National
+
+:::
+
+## <i class="bi bi-person-video3"></i> Topics
+
+<div>
+
+-   General news
+-   Political news
+-   Economic news
+
+
+
+</div>
+
+## <i class="bi bi-file-earmark-text"></i> Publications
+
+::: {#refs}
+:::
