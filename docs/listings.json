@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2026-02-23-tobler/index.html"
+    ]
+  },
+  {
     "listing": "/media.html",
     "items": [
       "/media/ESP_abc.html",
@@ -22,7 +28,6 @@
       "/media/TUR_sabah.html",
       "/media/CHN_mopost.html",
       "/media/AUS_sydmor.html",
-      "/media/BLR_telegr.html",
       "/media/GBR_indept.html",
       "/media/USA_nytime.html",
       "/media/PAK_thenew.html",
@@ -32,12 +37,6 @@
       "/media/SGP_today.html",
       "/media/CAN_tostar.html",
       "/media/NGA_vangua.html"
-    ]
-  },
-  {
-    "listing": "/posts.html",
-    "items": [
-      "/posts/2026-02-23-tobler/index.html"
     ]
   }
 ]
