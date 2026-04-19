@@ -1,348 +1,5 @@
 [
   {
-    "objectID": "media/JPN_asahis.html#scale",
-    "href": "media/JPN_asahis.html#scale",
-    "title": "Asahi Shimbum",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/JPN_asahis.html#topics",
-    "href": "media/JPN_asahis.html#topics",
-    "title": "Asahi Shimbum",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/JPN_asahis.html#publications",
-    "href": "media/JPN_asahis.html#publications",
-    "title": "Asahi Shimbum",
-    "section": " Publications",
-    "text": "Publications\n\n\nMcNeill D. 2019. Japan’s contemporary media. In Critical Issues in Contemporary JapanRoutledge; 59–72."
-  },
-  {
-    "objectID": "media/UKR_fakty.html#scale",
-    "href": "media/UKR_fakty.html#scale",
-    "title": "Fakty i Kommentarii",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/UKR_fakty.html#topics",
-    "href": "media/UKR_fakty.html#topics",
-    "title": "Fakty i Kommentarii",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/UKR_fakty.html#publications",
-    "href": "media/UKR_fakty.html#publications",
-    "title": "Fakty i Kommentarii",
-    "section": " Publications",
-    "text": "Publications\n\n\nSzostek J. 2014. Russia and the news media in ukraine: A case of “soft power”? East European Politics and Societies 28: 463–486"
-  },
-  {
-    "objectID": "media/BLR_telegr.html#scale",
-    "href": "media/BLR_telegr.html#scale",
-    "title": "Telegraph News (Belarus)",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/BLR_telegr.html#topics",
-    "href": "media/BLR_telegr.html#topics",
-    "title": "Telegraph News (Belarus)",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/BLR_telegr.html#publications",
-    "href": "media/BLR_telegr.html#publications",
-    "title": "Telegraph News (Belarus)",
-    "section": " Publications",
-    "text": "Publications\n\n\nYeliseyeu A, Laputska V. 2016. Anti-belarus disinformation in russian media: Trends, features, countermeasures. EAST Media Review 1"
-  },
-  {
-    "objectID": "media/GBR_indept.html#scale",
-    "href": "media/GBR_indept.html#scale",
-    "title": "The Independent",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/GBR_indept.html#topics",
-    "href": "media/GBR_indept.html#topics",
-    "title": "The Independent",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/GBR_indept.html#publications",
-    "href": "media/GBR_indept.html#publications",
-    "title": "The Independent",
-    "section": " Publications",
-    "text": "Publications\n\n\nKnight M. 2015. Data journalism in the UK: A preliminary analysis of form and content. Journal of Media practice 16: 55–72"
-  },
-  {
-    "objectID": "media/AUS_sydmor.html#scale",
-    "href": "media/AUS_sydmor.html#scale",
-    "title": "Sydney Morning Herald",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/AUS_sydmor.html#topics",
-    "href": "media/AUS_sydmor.html#topics",
-    "title": "Sydney Morning Herald",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/AUS_sydmor.html#publications",
-    "href": "media/AUS_sydmor.html#publications",
-    "title": "Sydney Morning Herald",
-    "section": " Publications",
-    "text": "Publications\n\n\nZion L, Sherwood M, O’Donnell P, Marjoribanks T, Ricketson M, Dodd A, Deuze M, Buller B. 2023. Media in the news: How australia’s media beat covered two major journalism change events. Journalism Practice 17: 264–282"
-  },
-  {
-    "objectID": "media/CHN_mopost.html#scale",
-    "href": "media/CHN_mopost.html#scale",
-    "title": "South China Morning Post",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/CHN_mopost.html#topics",
-    "href": "media/CHN_mopost.html#topics",
-    "title": "South China Morning Post",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/CHN_mopost.html#publications",
-    "href": "media/CHN_mopost.html#publications",
-    "title": "South China Morning Post",
-    "section": " Publications",
-    "text": "Publications\n\n\nWu S. 2023. Evaluating “exemplary data journalism” from asia: An exploration into south china morning post’s data stories on china and the world. Journalism 24: 2042–2058"
-  },
-  {
-    "objectID": "media/SGP_today.html#scale",
-    "href": "media/SGP_today.html#scale",
-    "title": "Today (Singapore)",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/SGP_today.html#topics",
-    "href": "media/SGP_today.html#topics",
-    "title": "Today (Singapore)",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/SGP_today.html#publications",
-    "href": "media/SGP_today.html#publications",
-    "title": "Today (Singapore)",
-    "section": " Publications",
-    "text": "Publications\n\n\nGeorge C. 2012. Freedom from the press: Journalism and state power in singapore. NUS Press."
-  },
-  {
-    "objectID": "media/ITA_repubb.html#scale",
-    "href": "media/ITA_repubb.html#scale",
-    "title": "Repubblica",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/ITA_repubb.html#topics",
-    "href": "media/ITA_repubb.html#topics",
-    "title": "Repubblica",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/ITA_repubb.html#publications",
-    "href": "media/ITA_repubb.html#publications",
-    "title": "Repubblica",
-    "section": " Publications",
-    "text": "Publications\n\n\nBentivegna S, Marchetti R. 2019. News users on facebook: Interaction strategies on the pages of el paı̀s, la repubblica, le monde, and the guardian. Journalism Studies 20: 2182–2199"
-  },
-  {
-    "objectID": "media/KEN_standa.html#scale",
-    "href": "media/KEN_standa.html#scale",
-    "title": "The Standard (Kenya)",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/KEN_standa.html#topics",
-    "href": "media/KEN_standa.html#topics",
-    "title": "The Standard (Kenya)",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/KEN_standa.html#publications",
-    "href": "media/KEN_standa.html#publications",
-    "title": "The Standard (Kenya)",
-    "section": " Publications",
-    "text": "Publications\n\n\nEkdale B, Tully M. 2019. African elections as a testing ground: Comparing coverage of cambridge analytica in nigerian and kenyan newspapers. African Journalism Studies 40: 27–43"
-  },
-  {
-    "objectID": "media/RUS_isvest.html#scale",
-    "href": "media/RUS_isvest.html#scale",
-    "title": "Isvestia",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/RUS_isvest.html#topics",
-    "href": "media/RUS_isvest.html#topics",
-    "title": "Isvestia",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/RUS_isvest.html#publications",
-    "href": "media/RUS_isvest.html#publications",
-    "title": "Isvestia",
-    "section": " Publications",
-    "text": "Publications\n\n\nKoleva K. 2016. Comrades to the rescue: Czechoslovakia in 1968 and ukraine in 2014 through the lens of izvestia. In Media in ProcessRoutledge; 76–98."
-  },
-  {
-    "objectID": "media/BRA_oglobo.html#scale",
-    "href": "media/BRA_oglobo.html#scale",
-    "title": "O Globo",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/BRA_oglobo.html#topics",
-    "href": "media/BRA_oglobo.html#topics",
-    "title": "O Globo",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/BRA_oglobo.html#publications",
-    "href": "media/BRA_oglobo.html#publications",
-    "title": "O Globo",
-    "section": " Publications",
-    "text": "Publications\n\n\nCHEN X. 2025. News framings of o globo regarding chinese society during the covid-19 pandemic. Brazilian Journalism Research 21: E1716"
-  },
-  {
-    "objectID": "media/CAN_tostar.html#scale",
-    "href": "media/CAN_tostar.html#scale",
-    "title": "Toronto Star",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/CAN_tostar.html#topics",
-    "href": "media/CAN_tostar.html#topics",
-    "title": "Toronto Star",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/CAN_tostar.html#publications",
-    "href": "media/CAN_tostar.html#publications",
-    "title": "Toronto Star",
-    "section": " Publications",
-    "text": "Publications\n\n\nStoddart MC, Haluza-DeLay R, Tindall DB. 2016. Canadian news media coverage of climate change: Historical trajectories, dominant frames, and international comparisons. Society & Natural Resources 29: 218–232"
-  },
-  {
-    "objectID": "media/ZAF_times.html#scale",
-    "href": "media/ZAF_times.html#scale",
-    "title": "The Sunday Times (Timeslive)",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/ZAF_times.html#topics",
-    "href": "media/ZAF_times.html#topics",
-    "title": "The Sunday Times (Timeslive)",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/ZAF_times.html#publications",
-    "href": "media/ZAF_times.html#publications",
-    "title": "The Sunday Times (Timeslive)",
-    "section": " Publications",
-    "text": "Publications\n\n\nRadebe M. 2022. New features of media imperialism: The south african online media and the coverage of the ukrainian war. Communicare: Journal for Communication Sciences in Southern Africa 41: 75–89"
-  },
-  {
-    "objectID": "media/USA_nytime.html#scale",
-    "href": "media/USA_nytime.html#scale",
-    "title": "The New York Times",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/USA_nytime.html#topics",
-    "href": "media/USA_nytime.html#topics",
-    "title": "The New York Times",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/USA_nytime.html#publications",
-    "href": "media/USA_nytime.html#publications",
-    "title": "The New York Times",
-    "section": " Publications",
-    "text": "Publications\n\n\nHamilton JM, Tworek HJ. 2023. Not all the news that’s fit to print: The new york times as a research tool. Political Communication 40: 660–669"
-  },
-  {
-    "objectID": "media/DZA_alnaha.html#scale",
-    "href": "media/DZA_alnaha.html#scale",
-    "title": "Al Nahar",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/DZA_alnaha.html#topics",
-    "href": "media/DZA_alnaha.html#topics",
-    "title": "Al Nahar",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/DZA_alnaha.html#publications",
-    "href": "media/DZA_alnaha.html#publications",
-    "title": "Al Nahar",
-    "section": " Publications",
-    "text": "Publications\n\n\nBenammar SK. 2020. Mass media in algeria. In Routledge Handbook on Arab MediaRoutledge; 11–21."
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Blog",
-    "section": "",
-    "text": "The world seen from Sirius\n\n\n\nWorld\n\nnews\n\nTobler\n\n\n\nA tribute to Waldo Tobler\n\n\n\n\n\nFeb 23, 2026\n\n\nClaude Grasland\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "media.html",
-    "href": "media.html",
-    "title": "Media",
-    "section": "",
-    "text": "Here is the list of media collected for the Sirius project.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Code\n      \n      \n        Name\n      \n      \n        Country\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nCode\n\n\nName\n\n\nCountry\n\n\n\n\n\n\n\n\n\nESP_abc\n\n\nABC\n\n\nSpain\n\n\n\n\n\n\n\nDZA_alnaha\n\n\nAl Nahar\n\n\nAlgeria\n\n\n\n\n\n\n\nEGY_alwafd\n\n\nAl Wafd\n\n\nEgypt\n\n\n\n\n\n\n\nJPN_asahis\n\n\nAsahi Shimbum\n\n\nJapan\n\n\n\n\n\n\n\nMEX_inform\n\n\nEl Informador\n\n\nMexico\n\n\n\n\n\n\n\nDEU_frankf\n\n\nFAZ\n\n\nGermany\n\n\n\n\n\n\n\nUKR_fakty\n\n\nFakty i Kommentarii\n\n\nUkraine\n\n\n\n\n\n\n\nIRN_hamsha\n\n\nHamshari\n\n\nIran\n\n\n\n\n\n\n\nRUS_isvest\n\n\nIsvestia\n\n\nRussia\n\n\n\n\n\n\n\nISR_jerpos\n\n\nJerusalem Post\n\n\nIsrael\n\n\n\n\n\n\n\nKOR_kyungh\n\n\nKyunghyang Shinmun\n\n\nSouth Korea\n\n\n\n\n\n\n\nARG_nacion\n\n\nLa Nacion\n\n\nArgentina\n\n\n\n\n\n\n\nFRA_lmonde\n\n\nLe Monde\n\n\nFrance\n\n\n\n\n\n\n\nMYS_kini\n\n\nMalaysiakini\n\n\nMalaysia\n\n\n\n\n\n\n\nBRA_oglobo\n\n\nO Globo\n\n\nBrazil\n\n\n\n\n\n\n\nITA_repubb\n\n\nRepubblica\n\n\nItaly\n\n\n\n\n\n\n\nIDN_republ\n\n\nRepublika\n\n\nIndonesia\n\n\n\n\n\n\n\nTUR_sabah\n\n\nSabah\n\n\nTurkey\n\n\n\n\n\n\n\nCHN_mopost\n\n\nSouth China Morning Post\n\n\nChina - Hong Kong\n\n\n\n\n\n\n\nAUS_sydmor\n\n\nSydney Morning Herald\n\n\nAustralia\n\n\n\n\n\n\n\nBLR_telegr\n\n\nTelegraph News (Belarus)\n\n\nBelarus\n\n\n\n\n\n\n\nGBR_indept\n\n\nThe Independent\n\n\nUnited Kingdom\n\n\n\n\n\n\n\nUSA_nytime\n\n\nThe New York Times\n\n\nUSA\n\n\n\n\n\n\n\nPAK_thenew\n\n\nThe News (Pakistan)\n\n\nPakistan\n\n\n\n\n\n\n\nKEN_standa\n\n\nThe Standard (Kenya)\n\n\nKenya\n\n\n\n\n\n\n\nZAF_times\n\n\nThe Sunday Times (Timeslive)\n\n\nSouth Africa\n\n\n\n\n\n\n\nIND_tindia\n\n\nTime of India\n\n\nIndia\n\n\n\n\n\n\n\nSGP_today\n\n\nToday (Singapore)\n\n\nSingapore\n\n\n\n\n\n\n\nCAN_tostar\n\n\nToronto Star\n\n\nCanada\n\n\n\n\n\n\n\nNGA_vangua\n\n\nVanguard\n\n\nNigeria\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/2026-02-23-tobler/index.html",
-    "href": "posts/2026-02-23-tobler/index.html",
-    "title": "The world seen from Sirius",
-    "section": "",
-    "text": "The world seen from Sirius"
-  },
-  {
-    "objectID": "posts/2026-02-23-tobler/index.html#summary",
-    "href": "posts/2026-02-23-tobler/index.html#summary",
-    "title": "The world seen from Sirius",
-    "section": "Summary",
-    "text": "Summary"
-  },
-  {
     "objectID": "Sirius001-top-countries.html",
     "href": "Sirius001-top-countries.html",
     "title": "Top countries",
@@ -361,14 +18,14 @@
     "href": "Sirius001-top-countries.html#data-preparation",
     "title": "Top countries",
     "section": "Data preparation",
-    "text": "Data preparation\n\nLoad media\nWe load the hypercube of each of the media of the database. Then we keep only the countries or territories that fit with the map.\n\n\n[1] \"data.table\" \"data.frame\"\n\n\n\n\nMatrix of salience by host countries\nFinally we standardize in order to obtain a salience of frequency per 10,000 news.\n\n\n\nSalience of countries by media (p. 100,000)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nISO3\nNAMEen\nARG_nacion\nAUS_sydmor\nBLR_telegr\nBRA_oglobo\nCAN_tostar\nCHN_mopost\nDEU_frankf\nDZA_alnaha\nEGY_alwafd\nESP_abc\nFRA_lmonde\nGBR_indept\nIDN_republ\nIND_tindia\nIRN_hamsha\nISR_jerpos\nITA_repubb\nJPN_asahis\nKEN_standa\nKOR_kyungh\nMEX_inform\nMYS_strait\nNGA_vangua\nPAK_thenew\nRUS_isvest\nSGP_today\nTUR_sabah\nUKR_fakty\nUSA_nytime\nZAF_times\n\n\n\n\nAFG\nAfghanistan\n155\n502\n150\n517\n832\n395\n1199\n860\n773\n474\n973\n678\n77\n1049\n1554\n481\n601\n89\n385\n99\n630\n163\n231\n2470\n554\n401\n954\n250\n1398\n334\n\n\nAGO\nAngola\n50\n9\n6\n124\n12\n16\n19\n34\n0\n56\n101\n32\n22\n14\n16\n10\n57\n0\n148\n25\n32\n3\n242\n24\n26\n14\n24\n6\n34\n240\n\n\nALB\nAlbania\n26\n11\n43\n25\n58\n14\n93\n19\n44\n86\n79\n34\n73\n30\n45\n41\n304\n0\n12\n5\n43\n16\n30\n51\n38\n26\n196\n70\n43\n23\n\n\nAND\nAndorra\n44\n1\n4\n10\n0\n3\n16\n4\n4\n316\n15\n7\n17\n0\n1\n8\n75\n0\n0\n7\n36\n0\n4\n3\n0\n3\n52\n6\n4\n0\n\n\nARE\nUnited Arab Emirates\n96\n168\n88\n62\n133\n152\n37\n1131\n2026\n77\n117\n161\n395\n578\n160\n335\n96\n0\n248\n7\n37\n338\n324\n869\n194\n181\n230\n176\n90\n133\n\n\nARG\nArgentina\nNA\n452\n229\n3895\n275\n284\n727\n741\n796\n2251\n896\n554\n770\n331\n394\n222\n1801\n364\n324\n316\n2653\n189\n788\n454\n403\n315\n419\n386\n494\n648\n\n\nARM\nArmenia\n48\n7\n220\n30\n22\n9\n111\n51\n58\n66\n108\n49\n38\n41\n249\n35\n57\n24\n8\n0\n40\n8\n11\n20\n659\n32\n240\n388\n43\n22\n\n\nATG\nAntigua and Barbuda\n9\n0\n0\n6\n6\n5\n0\n0\n0\n0\n3\n0\n0\n5\n0\n0\n0\n0\n0\n0\n3\n0\n0\n33\n2\n0\n0\n0\n6\n0\n\n\nAUS\nAustralia\n1559\nNA\n346\n1235\n1170\n2811\n1469\n240\n563\n1428\n1531\n2716\n4941\n3166\n1174\n481\n1715\n827\n732\n1240\n1168\n2995\n576\n4112\n521\n1153\n952\n608\n1766\n2713\n\n\nAUT\nAustria\n210\n117\n330\n227\n192\n95\n2217\n249\n544\n451\n517\n271\n238\n117\n362\n182\n928\n165\n110\n316\n235\n37\n144\n250\n488\n203\n709\n501\n241\n196\n\n\nAZE\nAzerbaijan\n28\n24\n100\n43\n23\n21\n140\n57\n50\n57\n68\n74\n93\n33\n2516\n127\n119\n5\n44\n43\n71\n23\n39\n121\n281\n36\n730\n179\n60\n82\n\n\nBDI\nBurundi\n33\n30\n0\n46\n75\n32\n40\n57\n78\n41\n272\n45\n43\n30\n0\n22\n103\n43\n1442\n14\n41\n6\n386\n47\n0\n171\n10\n2\n94\n735\n\n\nBEL\nBelgium\n353\n195\n375\n356\n269\n185\n655\n479\n325\n679\n1135\n536\n9\n239\n411\n261\n931\n596\n333\n373\n509\n106\n396\n305\n443\n165\n809\n537\n281\n444\n\n\nBEN\nBenin\n0\n9\n0\n6\n3\n1\n21\n22\n82\n4\n3\n1\n1\n5\n8\n0\n19\n4\n59\n4\n6\n0\n6561\n7\n9\n15\n27\n2\n12\n54\n\n\nBFA\nBurkina Faso\n24\n55\n10\n0\n68\n11\n71\n81\n83\n63\n460\n54\n33\n24\n0\n46\n123\n25\n347\n0\n76\n22\n355\n60\n28\n71\n39\n17\n78\n283\n\n\nBGD\nBangladesh\n82\n358\n26\n163\n465\n499\n0\n66\n17\n133\n305\n322\n482\n1943\n142\n148\n335\n68\n236\n87\n157\n1093\n167\n1726\n47\n404\n201\n40\n363\n504\n\n\nBGR\nBulgaria\n42\n38\n206\n89\n54\n19\n172\n80\n68\n100\n135\n118\n106\n52\n133\n105\n258\n62\n46\n33\n78\n6\n64\n99\n234\n89\n326\n371\n79\n39\n\n\nBHR\nBahrain\n13\n53\n2\n59\n41\n38\n15\n469\n654\n81\n116\n124\n166\n125\n426\n228\n240\n19\n43\n67\n75\n51\n53\n274\n27\n158\n78\n9\n126\n96\n\n\nBHS\nBahamas\n46\n46\n21\n57\n195\n29\n42\n0\n0\n76\n82\n101\n9\n33\n13\n9\n59\n34\n34\n40\n158\n25\n19\n46\n7\n12\n28\n21\n125\n47\n\n\nBIH\nBosnia and Herzegovina\n59\n16\n24\n13\n51\n32\n81\n183\n54\n89\n150\n87\n130\n15\n95\n39\n124\n30\n21\n26\n52\n56\n59\n68\n42\n86\n450\n47\n71\n21\n\n\nBLR\nBelarus\n31\n19\nNA\n29\n70\n13\n146\n3\n90\n48\n58\n33\n19\n15\n77\n41\n75\n30\n20\n47\n42\n8\n61\n76\n1367\n16\n104\n1395\n70\n21\n\n\nBLZ\nBelize\n59\n0\n4\n4\n78\n6\n6\n9\n6\n22\n1\n4\n12\n0\n6\n0\n10\n9\n0\n0\n30\n0\n0\n0\n0\n6\n0\n4\n14\n16\n\n\nBOL\nBolivia\n1386\n40\n18\n763\n76\n19\n70\n43\n15\n415\n183\n59\n102\n31\n87\n20\n127\n83\n42\n63\n755\n25\n73\n30\n78\n79\n49\n19\n142\n31\n\n\nBRA\nBrazil\n6719\n862\n447\nNA\n1146\n745\n1998\n1278\n942\n2141\n2294\n1120\n145\n818\n899\n422\n2473\n1600\n905\n621\n3037\n680\n1683\n1001\n801\n1409\n1083\n815\n1656\n1031\n\n\nBRB\nBarbados\n33\n20\n0\n29\n41\n3\n3\n0\n0\n29\n3\n57\n16\n11\n0\n0\n16\n0\n18\n0\n25\n25\n9\n45\n2\n3\n3\n4\n14\n16\n\n\nBRN\nBrunei\n8\n22\n1\n11\n4\n36\n0\n17\n20\n14\n13\n52\n159\n25\n14\n9\n15\n32\n11\n34\n10\n465\n8\n11\n0\n68\n6\n1\n22\n11\n\n\nBTN\nBhutan\n1\n1\n3\n14\n20\n46\n0\n33\n7\n12\n9\n4\n4\n228\n12\n2\n18\n0\n10\n36\n0\n0\n4\n19\n3\n6\n3\n7\n30\n22\n\n\nBWA\nBotswana\n8\n17\n6\n10\n28\n12\n25\n206\n10\n24\n33\n41\n7\n15\n9\n12\n22\n0\n147\n0\n12\n0\n56\n7\n9\n20\n0\n7\n33\n484\n\n\nCAF\nCentral African Republic\n6\n29\n3\n61\n145\n47\n0\n16\n26\n98\n583\n72\n27\n30\n39\n48\n193\n0\n467\n0\n41\n6\n87\n44\n28\n93\n41\n2\n127\n360\n\n\nCAN\nCanada\n483\n656\n522\n785\nNA\n1082\n904\n508\n463\n667\n1095\n877\n608\n1052\n735\n479\n868\n991\n471\n984\n1243\n321\n529\n621\n851\n686\n655\n959\n1512\n469\n\n\nCHE\nSwitzerland\n756\n151\n409\n878\n259\n179\n1202\n280\n286\n861\n1548\n323\n424\n262\n543\n108\n2001\n534\n140\n623\n401\n527\n285\n488\n522\n136\n695\n707\n253\n202\n\n\nCHL\nChile\n4091\n175\n44\n1328\n239\n146\n303\n60\n89\n676\n515\n198\n27\n105\n175\n83\n373\n319\n121\n115\n1672\n163\n200\n119\n128\n214\n170\n90\n398\n162\n\n\nCHN\nChina\n4902\n10635\n814\n4844\n6053\nNA\n7373\n2184\n2904\n4642\n3874\n5381\n5890\n10434\n3990\n2262\n4701\n16077\n8185\n9428\n3373\n18885\n5019\n8254\n3117\n13655\n3314\n1429\n11103\n4462\n\n\nCIV\nCôte d’Ivoire\n36\n21\n6\n35\n36\n31\n52\n192\n73\n48\n540\n73\n88\n30\n72\n57\n102\n0\n305\n22\n39\n3\n454\n72\n41\n75\n46\n7\n51\n394\n\n\nCMR\nCameroon\n24\n40\n14\n103\n85\n44\n90\n378\n206\n77\n576\n91\n101\n37\n137\n79\n124\n80\n430\n29\n141\n19\n1656\n53\n43\n113\n92\n19\n60\n396\n\n\nCOD\nDemocratic Republic of the Congo\n13\n122\n22\n148\n353\n89\n173\n76\n17\n125\n932\n200\n90\n102\n124\n134\n413\n96\n1856\n25\n6\n53\n1036\n396\n71\n372\n145\n40\n356\n1679\n\n\nCOG\nCongo\n4\n0\n0\n1\n0\n2\n6\n35\n23\n9\n36\n0\n1\n2\n6\n3\n15\n0\n21\n0\n0\n0\n4\n3\n0\n6\n24\n0\n0\n11\n\n\nCOL\nColombia\n2189\n131\n105\n1502\n323\n105\n362\n266\n156\n1405\n610\n198\n10\n126\n234\n104\n470\n345\n164\n172\n2313\n80\n145\n96\n156\n317\n284\n193\n466\n119\n\n\nCOM\nComoros\n0\n0\n27\n3\n0\n5\n0\n25\n10\n0\n45\n0\n12\n2\n4\n2\n4\n0\n37\n0\n0\n0\n16\n15\n8\n14\n0\n44\n0\n16\n\n\nCPV\nCabo Verde\n3\n0\n0\n37\n7\n0\n3\n63\n5\n65\n29\n25\n0\n3\n3\n11\n15\n0\n3\n0\n9\n0\n27\n1\n2\n11\n6\n0\n10\n73\n\n\nCRI\nCosta Rica\n6789\n0\n6\n131\n0\n0\n74\n29\n29\n152\n80\n0\n50\n0\n37\n0\n110\n0\n0\n60\n505\n0\n0\n0\n26\n0\n40\n22\n0\n0\n\n\nCUB\nCuba\n1731\n141\n1056\n1054\n675\n137\n414\n187\n109\n1385\n415\n268\n168\n162\n189\n198\n245\n532\n240\n106\n1240\n4912\n102\n152\n2379\n275\n166\n1747\n743\n269\n\n\nCYP\nCyprus\n66\n34\n83\n26\n112\n25\n146\n61\n167\n95\n78\n96\n36\n35\n50\n213\n106\n27\n44\n4\n60\n85\n54\n71\n198\n89\n1300\n142\n57\n104\n\n\nCZE\nCzechia\n69\n33\n307\n69\n124\n36\n109\n93\n205\n97\n97\n123\n13\n59\n103\n40\n217\n82\n33\n7\n60\n9\n47\n115\n596\n12\n111\n579\n60\n46\n\n\nDEU\nGermany\n2746\n881\n2060\n2273\n1348\n820\nNA\n1366\n2990\n5103\n3472\n1948\n2198\n950\n3002\n1387\n4859\n1512\n875\n2319\n2618\n322\n1560\n1503\n3102\n1361\n4598\n3640\n1849\n1136\n\n\nDJI\nDjibouti\n10\n3\n3\n4\n10\n23\n1\n26\n37\n7\n47\n6\n5\n7\n6\n5\n2\n21\n80\n0\n1\n2\n18\n11\n3\n10\n26\n4\n7\n15\n\n\nDMA\nDominica\n0\n0\n7\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n12\n0\n0\n11\n0\n0\n\n\nDNK\nDenmark\n206\n337\n81\n188\n440\n162\n444\n155\n216\n594\n301\n549\n291\n356\n196\n248\n396\n200\n244\n252\n200\n125\n222\n362\n63\n153\n406\n127\n494\n332\n\n\nDOM\nDominican Republic\n130\n8\n0\n76\n75\n15\n7\n3\n1\n112\n94\n43\n14\n20\n4\n6\n45\n0\n1\n29\n118\n0\n5\n4\n0\n12\n24\n0\n95\n6\n\n\nDZA\nAlgeria\n48\n29\n32\n102\n44\n28\n159\nNA\n1945\n132\n0\n52\n133\n38\n174\n83\n147\n84\n272\n46\n67\n46\n524\n105\n83\n85\n171\n57\n97\n175\n\n\nECU\nEcuador\n1003\n102\n40\n616\n151\n80\n160\n18\n3\n743\n235\n96\n112\n40\n77\n77\n191\n140\n62\n36\n755\n32\n18\n54\n129\n108\n70\n66\n147\n73\n\n\nEGY\nEgypt\n538\n690\n262\n958\n1293\n517\n1038\n3811\nNA\n1189\n1476\n968\n1806\n797\n1646\n3230\n866\n1001\n1633\n181\n986\n342\n1456\n625\n933\n841\n1759\n428\n1185\n1894\n\n\nERI\nEritrea\n0\n4\n1\n14\n26\n0\n45\n6\n27\n9\n0\n11\n18\n1\n4\n13\n110\n7\n75\n4\n1\n3\n5\n7\n0\n22\n6\n2\n34\n25\n\n\nESH\nWestern Sahara\n0\n0\n0\n1\n4\n0\n3\n280\n46\n19\n15\n0\n3\n3\n0\n5\n5\n0\n8\n0\n0\n0\n10\n2\n3\n20\n2\n0\n6\n17\n\n\nESP\nSpain\n3731\n1073\n944\n2380\n1397\n990\n2410\n1132\n704\nNA\n2047\n2804\n1998\n949\n1179\n716\n4589\n742\n1204\n1715\n2568\n188\n1984\n1349\n1152\n853\n3112\n1629\n1767\n1435\n\n\nEST\nEstonia\n45\n15\n114\n19\n45\n17\n122\n5\n14\n60\n47\n53\n32\n24\n30\n21\n58\n44\n8\n22\n21\n47\n12\n22\n258\n25\n91\n182\n26\n27\n\n\nETH\nEthiopia\n60\n45\n7\n80\n170\n62\n124\n156\n405\n105\n287\n72\n16\n82\n62\n142\n277\n85\n1424\n101\n109\n51\n505\n99\n45\n139\n106\n39\n155\n322\n\n\nFIN\nFinland\n149\n164\n159\n104\n352\n102\n274\n61\n78\n310\n278\n228\n101\n131\n1432\n104\n251\n64\n181\n247\n169\n47\n126\n101\n580\n186\n122\n263\n208\n104\n\n\nFJI\nFiji\n73\n420\n6\n25\n42\n161\n0\n8\n11\n19\n47\n78\n41\n40\n11\n9\n2\n68\n60\n42\n38\n32\n4\n39\n14\n25\n24\n4\n39\n111\n\n\nFLK\nFalkland Islands\n160\n2\n0\n0\n0\n0\n1\n0\n0\n13\n0\n11\n1\n0\n0\n0\n9\n0\n0\n0\n5\n0\n0\n0\n1\n0\n3\n0\n1\n5\n\n\nFRA\nFrance\n4430\n1802\n1804\n3533\n1994\n1518\n5265\n5557\n2582\n7077\nNA\n3298\n170\n1302\n3465\n1566\n5097\n925\n1391\n2266\n3541\n691\n2069\n1809\n3327\n1508\n3552\n3170\n2738\n2024\n\n\nFRO\nFaroe Islands\n0\n0\n3\n3\n0\n0\n45\n0\n0\n3\n18\n0\n0\n1\n3\n0\n4\n0\n0\n0\n0\n0\n0\n0\n6\n0\n0\n5\n0\n0\n\n\nFSM\nMicronesia (Federated States of)\n0\n2\n0\n0\n4\n3\n6\n0\n0\n6\n0\n0\n3\n0\n2\n9\n4\n4\n0\n7\n1\n6\n0\n2\n0\n0\n0\n0\n0\n0\n\n\nGAB\nGabon\n8\n3\n3\n14\n9\n12\n29\n166\n0\n20\n223\n61\n30\n6\n14\n12\n19\n4\n154\n32\n6\n0\n326\n48\n2\n30\n43\n7\n30\n216\n\n\nGBR\nUnited Kingdom\n2546\n6801\n2873\n2409\n5727\n6679\n3702\n2216\n3182\n4846\n2654\nNA\n6538\n7439\n2087\n4522\n2319\n1408\n6270\n5265\n2214\n4774\n7420\n5953\n4105\n5849\n2437\n4980\n6592\n6740\n\n\nGEO\nGeorgia\n0\n240\n500\n0\n644\n59\n156\n56\n115\n0\n18\n391\n0\n146\n163\n107\n0\n9\n69\n0\n0\n15\n67\n115\n1173\n60\n213\n948\n1168\n142\n\n\nGGY\nGuernsey\n16\n29\n1\n3\n3\n2\n0\n0\n0\n6\n9\n14\n0\n3\n0\n0\n4\n0\n8\n51\n0\n0\n2\n2\n0\n0\n0\n0\n3\n2\n\n\nGHA\nGhana\n38\n12\n267\n55\n72\n37\n88\n228\n250\n78\n137\n63\n144\n30\n18\n14\n84\n115\n561\n225\n48\n32\n1819\n50\n244\n60\n78\n499\n79\n397\n\n\nGIN\nGuinea\n0\n76\n30\n9\n69\n46\n30\n43\n14\n0\n290\n104\n65\n38\n31\n26\n96\n48\n265\n4\n0\n22\n425\n21\n45\n62\n0\n37\n65\n205\n\n\nGMB\nGambia\n8\n23\n0\n21\n41\n34\n40\n352\n6\n23\n171\n52\n29\n13\n9\n31\n119\n11\n170\n0\n7\n22\n566\n3\n14\n47\n18\n2\n52\n167\n\n\nGNB\nGuinea-Bissau\n4\n3\n1\n6\n3\n8\n0\n18\n15\n10\n35\n1\n1\n0\n1\n0\n9\n0\n59\n0\n4\n0\n99\n7\n2\n14\n3\n1\n6\n56\n\n\nGNQ\nEquatorial Guinea\n27\n6\n4\n42\n0\n2\n1\n56\n32\n62\n77\n4\n0\n3\n0\n3\n26\n4\n80\n0\n3\n6\n146\n31\n2\n5\n7\n7\n6\n116\n\n\nGRC\nGreece\n648\n497\n519\n1059\n551\n331\n3261\n686\n874\n1676\n1898\n829\n356\n333\n466\n269\n1857\n809\n237\n265\n634\n112\n165\n503\n473\n937\n2433\n863\n846\n597\n\n\nGRD\nGrenada\n133\n17\n3\n80\n23\n2\n0\n0\n0\n1544\n0\n49\n4\n6\n8\n6\n7\n0\n27\n0\n236\n0\n2\n34\n5\n0\n0\n0\n4\n75\n\n\nGRL\nGreenland\n22\n56\n5\n14\n68\n56\n79\n0\n7\n82\n80\n70\n0\n26\n32\n6\n133\n0\n8\n13\n37\n42\n51\n20\n18\n18\n16\n8\n68\n19\n\n\nGTM\nGuatemala\n534\n26\n1\n166\n159\n23\n68\n40\n3\n162\n132\n51\n36\n31\n31\n88\n77\n69\n24\n30\n1140\n16\n34\n30\n47\n102\n59\n17\n228\n37\n\n\nGUY\nGuyana\n37\n7\n0\n21\n28\n0\n6\n0\n0\n8\n0\n7\n18\n15\n2\n0\n2\n0\n7\n0\n27\n6\n9\n34\n3\n18\n0\n0\n33\n4\n\n\nHKG\nHong Kong\n218\n1109\n85\n836\n822\n4731\n32\n44\n9\n470\n28\n648\n152\n708\n129\n308\n743\n2277\n519\n1256\n337\n1757\n292\n852\n198\n2078\n137\n118\n1584\n689\n\n\nHND\nHonduras\n491\n75\n11\n143\n83\n22\n48\n10\n44\n234\n105\n54\n46\n15\n15\n29\n90\n23\n44\n24\n602\n12\n40\n14\n11\n69\n36\n14\n171\n27\n\n\nHRV\nCroatia\n199\n112\n214\n174\n176\n53\n347\n158\n161\n189\n234\n198\n213\n107\n151\n75\n400\n105\n134\n105\n213\n41\n239\n125\n188\n81\n214\n333\n87\n113\n\n\nHTI\nHaiti\n177\n33\n3\n187\n256\n58\n91\n25\n19\n107\n259\n91\n382\n66\n20\n45\n82\n0\n97\n4\n286\n27\n32\n17\n21\n87\n22\n7\n309\n86\n\n\nHUN\nHungary\n102\n108\n363\n225\n189\n72\n815\n80\n140\n283\n534\n207\n127\n107\n204\n223\n558\n144\n53\n471\n150\n40\n71\n133\n251\n286\n254\n595\n364\n104\n\n\nIDN\nIndonesia\n175\n1536\n101\n541\n438\n1630\n449\n151\n272\n464\n0\n476\nNA\n651\n488\n284\n323\n955\n421\n1416\n657\n6026\n497\n533\n276\n1789\n545\n173\n524\n584\n\n\nIND\nIndia\n707\n1900\n418\n1047\n2166\n2873\n1185\n1207\n1139\n1133\n1336\n1991\n1991\nNA\n1673\n576\n1249\n1493\n1655\n891\n1253\n4659\n1441\n8569\n1307\n2464\n1055\n798\n2836\n2394\n\n\nIRL\nIreland\n439\n1298\n132\n233\n890\n636\n514\n20\n84\n676\n622\n3440\n219\n382\n200\n248\n5\n146\n326\n606\n225\n463\n231\n473\n233\n573\n283\n216\n1294\n610\n\n\nIRN\nIran\n823\n927\n170\n1968\n1673\n864\n2336\n1359\n2128\n1312\n1912\n1589\n2020\n1755\nNA\n11170\n1191\n2363\n895\n1454\n1204\n955\n1030\n2036\n1204\n2270\n2385\n322\n3322\n1128\n\n\nIRQ\nIraq\n575\n903\n93\n887\n1297\n483\n1172\n4028\n4179\n962\n1446\n1540\n1111\n1073\n4662\n2050\n712\n1160\n539\n202\n904\n303\n445\n736\n644\n1088\n3826\n184\n1262\n718\n\n\nISL\nIceland\n105\n104\n62\n94\n235\n111\n338\n3\n14\n161\n225\n403\n106\n34\n51\n42\n239\n82\n40\n58\n91\n68\n149\n48\n73\n53\n229\n103\n233\n109\n\n\nISR\nIsrael\n1290\n1515\n459\n1651\n1298\n598\n2421\n1091\n3042\n1168\n1946\n1736\n3017\n921\n2024\nNA\n982\n1219\n755\n243\n1190\n1886\n1000\n815\n942\n867\n2914\n822\n2435\n1021\n\n\nITA\nItaly\n2766\n807\n1001\n2176\n1215\n750\n3616\n1178\n1123\n3100\n2418\n1628\n2976\n790\n1806\n393\nNA\n1117\n884\n1397\n1715\n155\n1108\n860\n1650\n1034\n2314\n1750\n1678\n1135\n\n\nJAM\nJamaica\n166\n67\n13\n77\n218\n44\n706\n0\n11\n41\n44\n114\n44\n46\n12\n22\n7\n71\n90\n7\n144\n0\n103\n230\n35\n34\n9\n32\n130\n70\n\n\nJEY\nJersey\n98\n0\n0\n0\n3\n0\n1\n0\n0\n188\n72\n3\n0\n0\n0\n0\n0\n0\n0\n0\n247\n0\n0\n0\n0\n0\n0\n0\n3\n4\n\n\nJOR\nJordan\n76\n1100\n28\n129\n933\n284\n106\n632\n1478\n183\n165\n742\n218\n200\n264\n1122\n0\n193\n151\n159\n111\n98\n195\n316\n82\n174\n184\n43\n1299\n328\n\n\nJPN\nJapan\n1612\n2654\n481\n1624\n2165\n7619\n2072\n632\n1704\n1930\n1774\n2395\n2782\n2624\n2468\n1058\n1671\nNA\n1721\n12769\n1799\n1587\n1122\n2673\n2021\n3707\n1065\n884\n2894\n3130\n\n\nKAZ\nKazakhstan\n38\n28\n223\n41\n59\n57\n99\n39\n87\n60\n84\n79\n54\n71\n272\n44\n121\n63\n34\n154\n66\n131\n60\n122\n633\n64\n294\n354\n68\n42\n\n\nKEN\nKenya\n220\n211\n24\n231\n441\n202\n309\n368\n287\n276\n544\n466\n242\n251\n137\n216\n368\n251\nNA\n110\n343\n75\n1062\n268\n59\n265\n175\n30\n396\n1463\n\n\nKGZ\nKyrgyzstan\n0\n29\n40\n11\n6\n22\n3\n0\n6\n6\n0\n16\n20\n49\n84\n9\n10\n27\n10\n58\n9\n20\n22\n68\n284\n25\n103\n75\n18\n7\n\n\nKHM\nCambodia\n47\n301\n22\n46\n101\n441\n62\n13\n34\n53\n172\n96\n290\n53\n83\n19\n99\n331\n41\n148\n57\n232\n40\n38\n91\n235\n53\n37\n166\n90\n\n\nKIR\nKiribati\n8\n17\n0\n3\n7\n10\n5\n0\n0\n6\n5\n6\n6\n0\n0\n0\n0\n0\n0\n0\n3\n0\n2\n2\n2\n1\n3\n0\n10\n4\n\n\nKNA\nSaint Kitts and Nevis\n0\n0\n3\n0\n0\n3\n0\n0\n0\n0\n0\n0\n0\n2\n0\n2\n0\n0\n0\n0\n0\n22\n0\n8\n3\n0\n0\n2\n0\n0\n\n\nKOR\nSouth Korea\n457\n656\n115\n730\n995\n3219\n894\n270\n623\n506\n586\n834\n1367\n801\n785\n401\n306\n8792\n688\nNA\n564\n672\n514\n1211\n777\n1655\n525\n243\n1633\n770\n\n\nKOS\nKosovo\n8\n20\n51\n28\n45\n12\n167\n23\n30\n68\n69\n83\n43\n9\n35\n47\n115\n27\n22\n13\n20\n2\n14\n37\n90\n82\n246\n76\n83\n16\n\n\nKWT\nKuwait\n29\n63\n10\n31\n49\n47\n27\n545\n1578\n66\n67\n33\n161\n168\n358\n154\n34\n21\n38\n47\n46\n34\n70\n171\n23\n105\n130\n17\n58\n41\n\n\nLAO\nLaos\n1\n59\n1\n11\n31\n89\n21\n8\n7\n19\n44\n14\n58\n31\n8\n11\n36\n94\n8\n218\n17\n86\n13\n4\n22\n54\n11\n3\n54\n28\n\n\nLBN\nLebanon\n25\n292\n22\n242\n309\n142\n220\n855\n1264\n233\n602\n325\n19\n110\n1151\n2081\n320\n143\n145\n51\n121\n154\n296\n165\n217\n495\n403\n38\n375\n133\n\n\nLBR\nLiberia\n612\n36\n23\n73\n119\n38\n59\n78\n28\n111\n160\n69\n57\n51\n29\n32\n57\n71\n332\n36\n115\n15\n579\n34\n24\n71\n50\n34\n175\n233\n\n\nLBY\nLibya\n107\n139\n88\n0\n321\n189\n494\n2984\n2098\n376\n1250\n325\n356\n239\n343\n544\n2213\n248\n679\n50\n317\n130\n1048\n291\n355\n647\n856\n119\n361\n780\n\n\nLCA\nSaint Lucia\n0\n0\n3\n0\n0\n0\n0\n0\n0\n0\n0\n0\n10\n0\n0\n0\n51\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n\n\nLIE\nLiechtenstein\n1\n0\n9\n2\n9\n3\n48\n0\n3\n21\n5\n6\n2\n11\n0\n0\n53\n0\n0\n7\n4\n0\n4\n2\n25\n0\n2\n7\n9\n0\n\n\nLKA\nSri Lanka\n173\n583\n18\n86\n366\n433\n163\n63\n86\n150\n149\n376\n5\n1686\n115\n126\n98\n203\n198\n154\n111\n747\n166\n1883\n68\n326\n81\n57\n337\n639\n\n\nLSO\nLesotho\n2\n0\n2\n14\n10\n6\n4\n17\n11\n22\n23\n12\n4\n3\n5\n0\n9\n4\n111\n0\n12\n0\n113\n1\n3\n12\n1\n3\n12\n594\n\n\nLTU\nLithuania\n26\n15\n358\n25\n47\n13\n136\n7\n34\n68\n0\n62\n20\n39\n40\n107\n118\n16\n15\n0\n30\n0\n24\n34\n326\n32\n130\n616\n61\n11\n\n\nLUX\nLuxembourg\n30\n18\n56\n523\n15\n25\n239\n23\n3\n198\n265\n90\n31\n28\n39\n29\n245\n25\n11\n4\n28\n55\n51\n44\n52\n34\n58\n75\n62\n18\n\n\nLVA\nLatvia\n43\n17\n181\n24\n58\n16\n90\n3\n25\n99\n31\n37\n21\n16\n35\n19\n46\n11\n11\n22\n37\n6\n6\n13\n359\n17\n56\n283\n37\n7\n\n\nMAC\nMacau\n13\n120\n3\n20\n14\n1675\n18\n2\n1\n15\n14\n24\n9\n44\n16\n0\n28\n65\n6\n85\n15\n375\n5\n33\n3\n104\n2\n1\n33\n24\n\n\nMAR\nMorocco\n233\n53\n70\n172\n92\n49\n201\n4870\n1433\n1020\n1029\n107\n274\n110\n103\n161\n376\n30\n269\n66\n216\n25\n549\n144\n66\n76\n224\n81\n135\n269\n\n\nMCO\nMonaco\n287\n134\n124\n126\n73\n75\n0\n440\n111\n517\n1518\n345\n250\n62\n19\n9\n1537\n28\n123\n22\n290\n6\n324\n255\n113\n18\n32\n205\n94\n265\n\n\nMDA\nMoldova\n11\n13\n313\n0\n10\n15\n0\n3\n14\n4\n34\n19\n16\n16\n6\n25\n14\n11\n11\n4\n2\n3\n2\n8\n402\n41\n108\n528\n37\n7\n\n\nMDG\nMadagascar\n26\n22\n5\n6\n47\n18\n35\n40\n49\n52\n354\n46\n36\n23\n9\n11\n88\n16\n205\n25\n33\n66\n163\n14\n14\n29\n33\n5\n42\n243\n\n\nMDV\nMaldives\n22\n33\n20\n25\n25\n129\n37\n11\n27\n33\n42\n84\n69\n412\n31\n17\n68\n70\n29\n29\n15\n120\n2\n126\n17\n77\n65\n59\n49\n60\n\n\nMEX\nMexico\n3111\n513\n251\n2074\n2252\n535\n1309\n363\n463\n2471\n1214\n1196\n539\n542\n351\n529\n1182\n757\n500\n454\nNA\n434\n468\n514\n540\n1052\n482\n466\n2369\n597\n\n\nMHL\nMarshall Islands\n0\n7\n0\n2\n9\n19\n6\n0\n9\n4\n3\n2\n0\n16\n0\n8\n4\n0\n0\n0\n9\n0\n0\n5\n0\n6\n0\n0\n14\n7\n\n\nMKD\nNorth Macedonia\n13\n20\n52\n4\n93\n30\n115\n24\n47\n96\n0\n37\n27\n34\n38\n35\n84\n43\n15\n0\n34\n3\n3\n23\n72\n75\n221\n111\n72\n35\n\n\nMLI\nMali\n6\n54\n145\n81\n216\n66\n274\n1593\n351\n143\n1189\n93\n153\n128\n3965\n149\n148\n1102\n794\n14\n22\n70\n539\n109\n154\n252\n833\n272\n150\n530\n\n\nMLT\nMalta\n91\n71\n38\n166\n81\n27\n153\n42\n79\n169\n230\n137\n22\n53\n71\n31\n598\n41\n40\n18\n27\n82\n146\n41\n41\n83\n73\n79\n84\n48\n\n\nMMR\nMyanmar\n89\n361\n38\n20\n485\n1193\n186\n89\n231\n112\n459\n413\n1155\n617\n232\n196\n283\n780\n172\n216\n137\n2448\n167\n673\n230\n1074\n289\n57\n663\n280\n\n\nMNE\nMontenegro\n260\n1\n61\n194\n19\n6\n71\n15\n10\n34\n3\n117\n24\n5\n11\n40\n108\n0\n25\n7\n31\n28\n13\n10\n211\n32\n134\n114\n35\n5\n\n\nMNG\nMongolia\n22\n23\n4\n17\n36\n151\n18\n10\n14\n23\n39\n15\n20\n50\n45\n2\n51\n236\n4\n0\n6\n145\n13\n39\n51\n36\n41\n17\n38\n14\n\n\nMOZ\nMozambique\n23\n50\n2\n82\n36\n25\n14\n23\n55\n56\n153\n45\n45\n74\n12\n26\n93\n12\n330\n2\n45\n78\n94\n34\n9\n62\n28\n7\n58\n766\n\n\nMRT\nMauritania\n14\n8\n0\n9\n7\n2\n3\n212\n156\n134\n110\n3\n15\n2\n12\n6\n34\n0\n19\n0\n11\n0\n36\n3\n3\n12\n18\n0\n2\n74\n\n\nMUS\nMauritius\n0\n22\n0\n0\n1\n24\n23\n0\n15\n0\n238\n37\n14\n143\n34\n3\n31\n0\n194\n0\n0\n53\n52\n33\n0\n14\n5\n0\n17\n143\n\n\nMWI\nMalawi\n14\n34\n4\n10\n31\n14\n23\n41\n31\n33\n58\n31\n63\n13\n9\n0\n30\n0\n270\n0\n12\n6\n241\n20\n0\n26\n3\n9\n6\n530\n\n\nMYS\nMalaysia\n234\n990\n110\n252\n433\n2228\n353\n161\n179\n316\n202\n645\n3648\n778\n601\n272\n357\n752\n645\n307\n373\nNA\n387\n691\n306\n2368\n400\n179\n433\n607\n\n\nNAM\nNamibia\n48\n28\n1\n21\n30\n15\n43\n10\n10\n32\n47\n45\n37\n11\n16\n3\n52\n0\n150\n0\n4\n8\n121\n19\n2\n8\n6\n6\n21\n311\n\n\nNCL\nNew Caledonia\n0\n29\n0\n12\n1\n0\n0\n10\n3\n3\n309\n0\n6\n2\n3\n8\n7\n0\n0\n0\n8\n0\n0\n7\n3\n14\n9\n2\n0\n7\n\n\nNER\nNiger\n9\n11\n1\n29\n38\n15\n46\n360\n109\n50\n297\n17\n26\n21\n23\n55\n130\n23\n334\n4\n51\n6\n5170\n41\n2\n78\n32\n2\n93\n206\n\n\nNGA\nNigeria\n356\n258\n96\n854\n610\n225\n416\n1227\n642\n415\n920\n448\n703\n409\n288\n328\n481\n305\n3263\n66\n639\n252\nNA\n483\n203\n634\n400\n150\n449\n3196\n\n\nNIC\nNicaragua\n748\n25\n4\n273\n76\n51\n59\n10\n9\n287\n179\n29\n10\n10\n12\n48\n63\n20\n12\n25\n595\n8\n5\n25\n14\n47\n30\n10\n132\n25\n\n\nNLD\nNetherlands\n705\n758\n423\n567\n834\n439\n743\n256\n285\n724\n660\n1301\n1075\n571\n553\n467\n1102\n571\n627\n397\n564\n501\n733\n669\n620\n435\n1383\n742\n998\n810\n\n\nNOR\nNorway\n192\n116\n195\n292\n357\n132\n562\n95\n173\n547\n291\n390\n4\n188\n230\n138\n445\n118\n121\n232\n127\n111\n120\n176\n399\n184\n303\n306\n286\n140\n\n\nNPL\nNepal\n132\n269\n67\n192\n342\n455\n234\n35\n96\n202\n195\n299\n173\n1800\n120\n254\n168\n265\n201\n152\n272\n484\n143\n398\n85\n214\n129\n88\n299\n291\n\n\nNRU\nNauru\n0\n462\n0\n1\n1\n19\n6\n0\n2\n0\n6\n10\n17\n2\n3\n0\n13\n4\n4\n4\n0\n4\n4\n8\n3\n13\n0\n0\n13\n21\n\n\nNZL\nNew Zealand\n498\n4827\n81\n343\n678\n1198\n459\n133\n147\n340\n368\n1341\n462\n1350\n79\n272\n335\n92\n358\n371\n354\n1449\n197\n1807\n114\n409\n305\n149\n582\n1411\n\n\nOMN\nOman\n3\n17\n0\n36\n18\n23\n46\n197\n370\n61\n54\n27\n209\n144\n21\n98\n157\n61\n57\n87\n8\n50\n22\n129\n20\n48\n37\n0\n27\n30\n\n\nPAK\nPakistan\n151\n824\n78\n423\n927\n1053\n498\n718\n604\n369\n671\n1242\n911\n9072\n1238\n611\n404\n645\n623\n114\n442\n830\n488\nNA\n304\n846\n746\n149\n1005\n1037\n\n\nPAN\nPanama\n798\n111\n52\n216\n323\n153\n260\n53\n81\n538\n497\n243\n120\n155\n54\n55\n221\n255\n112\n36\n723\n228\n87\n1191\n57\n109\n59\n84\n209\n147\n\n\nPER\nPeru\n1617\n125\n41\n898\n224\n88\n217\n39\n63\n869\n3\n220\n203\n83\n266\n84\n231\n262\n88\n147\n1373\n149\n74\n107\n117\n258\n148\n65\n224\n104\n\n\nPHL\nPhilippines\n269\n681\n87\n317\n889\n2676\n414\n244\n322\n549\n500\n454\n1205\n466\n280\n434\n351\n899\n452\n772\n630\n1261\n368\n503\n221\n1566\n295\n171\n916\n702\n\n\nPLW\nPalau\n13\n0\n0\n6\n1\n17\n0\n0\n0\n877\n9\n6\n13\n0\n3\n0\n22\n108\n4\n7\n3\n8\n2\n0\n0\n3\n0\n0\n17\n0\n\n\nPNG\nPapua New Guinea\n8\n315\n0\n30\n26\n105\n0\n15\n9\n30\n27\n86\n113\n34\n11\n36\n34\n25\n64\n0\n53\n68\n29\n25\n9\n69\n37\n11\n40\n47\n\n\nPOL\nPoland\n238\n279\n897\n423\n672\n196\n1568\n87\n209\n451\n671\n662\n187\n343\n382\n973\n731\n166\n292\n360\n262\n105\n292\n323\n790\n400\n293\n1623\n684\n266\n\n\nPRK\nNorth Korea\n667\n1031\n90\n1122\n1157\n2110\n1829\n411\n631\n872\n1079\n1608\n771\n885\n779\n1134\n569\n8409\n483\n8168\n990\n1379\n484\n533\n411\n1792\n526\n135\n2178\n523\n\n\nPRT\nPortugal\n505\n208\n283\n1365\n379\n236\n640\n2019\n936\n1943\n472\n848\n509\n386\n210\n125\n597\n148\n389\n234\n661\n123\n481\n247\n336\n178\n590\n516\n277\n391\n\n\nPRY\nParaguay\n1136\n7\n9\n687\n27\n14\n63\n13\n1\n131\n60\n18\n31\n29\n31\n22\n54\n46\n34\n29\n310\n5\n32\n27\n44\n11\n45\n25\n38\n52\n\n\nPSE\nPalestinian Territories\n423\n369\n627\n1199\n580\n263\n244\n4631\n3551\n618\n1124\n800\n3439\n411\n1561\n10464\n520\n430\n350\n373\n579\n788\n218\n586\n1428\n527\n1294\n1142\n803\n572\n\n\nQAT\nQatar\n426\n207\n61\n421\n204\n230\n746\n1215\n1057\n417\n483\n362\n507\n369\n1108\n659\n815\n177\n450\n342\n378\n353\n566\n825\n155\n296\n771\n112\n302\n310\n\n\nROM\nRomania\n56\n50\n327\n84\n130\n55\n391\n111\n130\n13\n273\n135\n54\n79\n183\n113\n354\n66\n22\n7\n55\n25\n63\n126\n196\n125\n284\n537\n142\n54\n\n\nRUS\nRussia\n2448\n2034\n17364\n2956\n2974\n1824\n6515\n2957\n3429\n2886\n3125\n4122\n2416\n1916\n4870\n3621\n2740\n5103\n1616\n2906\n2983\n1195\n2283\n1810\nNA\n2837\n4879\n31217\n4514\n1915\n\n\nRWA\nRwanda\n21\n26\n0\n28\n105\n34\n77\n61\n53\n87\n323\n50\n17\n25\n11\n54\n53\n73\n1308\n54\n13\n4\n303\n21\n12\n45\n44\n0\n102\n341\n\n\nSAU\nSaudi Arabia\n282\n421\n133\n695\n541\n364\n1045\n5449\n5129\n20\n849\n1308\n2980\n906\n859\n997\n480\n0\n536\n7\n236\n516\n1070\n1255\n529\n533\n1286\n258\n859\n391\n\n\nSDN\nSudan\n13\n157\n11\n135\n249\n92\n85\n608\n1074\n74\n393\n209\n283\n89\n167\n319\n193\n792\n1680\n222\n61\n69\n588\n244\n57\n270\n275\n17\n260\n955\n\n\nSEN\nSenegal\n36\n56\n14\n47\n141\n25\n64\n374\n222\n103\n3\n109\n98\n27\n45\n21\n145\n82\n367\n27\n71\n28\n532\n62\n56\n35\n393\n25\n110\n344\n\n\nSGP\nSingapore\n188\n604\n43\n347\n217\n3180\n468\n50\n162\n249\n187\n283\n1508\n991\n212\n112\n407\n601\n263\n660\n272\n3089\n236\n2408\n98\nNA\n115\n82\n343\n437\n\n\nSLB\nSolomon Islands\n3\n43\n1\n11\n15\n20\n9\n3\n3\n6\n20\n13\n0\n9\n0\n6\n6\n0\n0\n0\n18\n7\n0\n2\n18\n7\n4\n6\n7\n9\n\n\nSLE\nSierra Leone\n86\n53\n7\n66\n162\n47\n55\n61\n44\n123\n106\n100\n74\n54\n48\n16\n129\n0\n271\n0\n127\n3\n428\n20\n14\n38\n14\n16\n103\n289\n\n\nSLV\nEl Salvador\n331\n17\n10\n120\n102\n27\n25\n15\n5\n157\n109\n60\n22\n14\n55\n24\n34\n0\n13\n11\n390\n25\n4\n16\n20\n62\n29\n23\n124\n19\n\n\nSMR\nSan Marino\n0\n3\n13\n12\n0\n7\n49\n3\n3\n6\n7\n28\n17\n3\n0\n0\n317\n0\n4\n0\n0\n6\n8\n15\n2\n0\n9\n19\n0\n16\n\n\nSOM\nSomalia\n26\n131\n28\n125\n320\n76\n164\n440\n430\n141\n296\n129\n236\n101\n84\n185\n247\n136\n2655\n54\n205\n81\n290\n96\n76\n210\n205\n75\n277\n591\n\n\nSRB\nSerbia\n180\n56\n181\n93\n129\n48\n263\n94\n110\n192\n173\n122\n125\n106\n142\n33\n368\n83\n29\n204\n146\n22\n83\n110\n475\n108\n313\n304\n121\n68\n\n\nSSD\nSouth Sudan\n29\n123\n11\n116\n292\n104\n114\n335\n348\n75\n330\n102\n93\n89\n81\n151\n370\n0\n2708\n0\n198\n11\n320\n49\n36\n242\n50\n15\n244\n890\n\n\nSTP\nSao Tome and Principe\n0\n0\n0\n3\n0\n3\n3\n7\n0\n3\n6\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n9\n0\n0\n0\n0\n0\n0\n4\n\n\nSUR\nSuriname\n2\n4\n1\n7\n6\n3\n6\n0\n1\n3\n3\n0\n0\n1\n0\n0\n0\n0\n0\n0\n8\n3\n4\n5\n1\n5\n6\n2\n17\n0\n\n\nSVK\nSlovakia\n16\n24\n3058\n32\n92\n17\n157\n12\n53\n58\n136\n112\n0\n30\n41\n19\n205\n11\n29\n25\n25\n22\n38\n40\n2795\n53\n135\n5194\n51\n27\n\n\nSVN\nSlovenia\n33\n26\n99\n21\n62\n15\n143\n41\n68\n82\n96\n97\n0\n22\n54\n25\n175\n23\n15\n18\n33\n0\n19\n26\n52\n43\n107\n157\n63\n20\n\n\nSWE\nSweden\n235\n498\n349\n420\n916\n408\n859\n382\n609\n660\n635\n1091\n350\n485\n484\n467\n840\n273\n440\n564\n248\n322\n358\n305\n608\n335\n735\n603\n740\n550\n\n\nSWZ\nEswatini\n4\n3\n0\n0\n26\n5\n3\n0\n0\n6\n4\n5\n7\n0\n0\n3\n0\n4\n29\n2\n0\n0\n72\n5\n0\n3\n1\n0\n1\n208\n\n\nSYC\nSeychelles\n28\n6\n6\n6\n12\n8\n8\n5\n11\n6\n10\n19\n13\n40\n6\n2\n24\n0\n151\n0\n0\n35\n78\n6\n17\n3\n16\n9\n0\n115\n\n\nSYR\nSyria\n1737\n1420\n582\n2246\n2120\n953\n3388\n4026\n4215\n2432\n4866\n3022\n2311\n1378\n3409\n7576\n1870\n2736\n1172\n264\n2933\n1225\n806\n1284\n4521\n2744\n6378\n968\n2880\n2006\n\n\nTCD\nChad\n23\n111\n7\n16\n294\n112\n26\n110\n87\n21\n228\n41\n23\n43\n6\n59\n39\n14\n203\n7\n29\n8\n774\n44\n45\n63\n43\n9\n132\n497\n\n\nTGO\nTogo\n0\n3\n0\n0\n2\n2\n21\n5\n0\n4\n89\n6\n30\n18\n3\n11\n7\n0\n84\n7\n6\n16\n340\n11\n1\n6\n546\n0\n10\n83\n\n\nTHA\nThailand\n242\n1246\n170\n470\n824\n2681\n527\n81\n281\n421\n532\n804\n1363\n873\n635\n362\n445\n5430\n441\n1034\n327\n4956\n366\n624\n419\n2110\n342\n369\n828\n1038\n\n\nTJK\nTajikistan\n6\n17\n38\n3\n9\n13\n16\n8\n31\n13\n0\n5\n32\n30\n127\n12\n18\n30\n14\n0\n0\n1\n11\n78\n251\n8\n54\n65\n17\n11\n\n\nTKM\nTurkmenistan\n8\n5\n8\n11\n6\n15\n16\n4\n10\n7\n17\n14\n22\n33\n184\n9\n7\n5\n0\n53\n7\n4\n9\n60\n27\n12\n52\n15\n9\n9\n\n\nTLS\nTimor-Leste\n3\n175\n0\n6\n7\n28\n3\n0\n3\n0\n0\n1\n228\n3\n0\n3\n0\n28\n4\n0\n3\n34\n0\n7\n0\n17\n3\n0\n14\n0\n\n\nTON\nTonga\n112\n146\n0\n0\n6\n27\n20\n3\n0\n10\n49\n55\n13\n21\n3\n15\n30\n76\n17\n43\n19\n6\n0\n10\n3\n9\n6\n0\n14\n43\n\n\nTTO\nTrinidad and Tobago\n84\n10\n6\n9\n64\n11\n16\n3\n0\n10\n0\n29\n25\n26\n9\n0\n7\n0\n13\n4\n46\n9\n19\n13\n0\n2\n4\n9\n34\n15\n\n\nTUN\nTunisia\n40\n52\n51\n141\n113\n73\n286\n4525\n1516\n305\n984\n217\n218\n82\n264\n233\n431\n0\n353\n7\n161\n72\n334\n132\n123\n162\n237\n75\n170\n349\n\n\nTUR\nTurkey\n744\n685\n950\n1207\n1315\n593\n4581\n4219\n2743\n1393\n2518\n1558\n2457\n771\n3444\n3968\n1636\n1816\n605\n429\n1027\n619\n939\n1544\n3300\n2105\nNA\n1633\n1740\n832\n\n\nTUV\nTuvalu\n0\n1\n0\n3\n1\n1\n0\n0\n0\n9\n0\n0\n3\n0\n0\n0\n4\n5\n8\n7\n3\n0\n0\n0\n0\n3\n0\n0\n0\n0\n\n\nTWN\nTaiwan\n93\n300\n55\n148\n219\n3121\n247\n83\n122\n123\n228\n206\n481\n410\n153\n149\n125\n2386\n174\n980\n210\n763\n158\n315\n110\n747\n96\n96\n477\n339\n\n\nTZA\nTanzania\n33\n26\n9\n37\n79\n38\n67\n202\n97\n62\n89\n81\n36\n56\n36\n29\n64\n36\n3304\n22\n59\n52\n467\n38\n33\n88\n73\n19\n39\n373\n\n\nUGA\nUganda\n66\n66\n6\n53\n119\n29\n64\n64\n156\n63\n170\n122\n52\n64\n35\n44\n97\n28\n3527\n38\n56\n11\n401\n62\n20\n94\n56\n7\n102\n627\n\n\nUKR\nUkraine\n779\n896\n44075\n929\n1481\n652\n3052\n716\n990\n1336\n1469\n1694\n629\n878\n975\n1223\n710\n1336\n619\n156\n1120\n675\n640\n428\n14521\n1734\n1188\nNA\n1937\n951\n\n\nURY\nUruguay\n2330\n70\n32\n776\n75\n75\n120\n15\n7\n235\n127\n159\n170\n53\n28\n35\n175\n164\n100\n69\n499\n40\n116\n110\n39\n79\n69\n56\n75\n101\n\n\nUSA\nUnited States of America\n8357\n27246\n7022\n21296\n25324\n21331\n5022\n9208\n14240\n8318\n9550\n19200\n16063\n18611\n20349\n18200\n16939\n6958\n13923\n26071\n23174\n11440\n13629\n14303\n19433\n13620\n17246\n12602\nNA\n13233\n\n\nUZB\nUzbekistan\n6\n54\n66\n16\n40\n26\n44\n11\n33\n14\n36\n13\n88\n54\n191\n34\n39\n27\n4\n59\n22\n10\n20\n70\n270\n22\n132\n131\n38\n12\n\n\nVAT\nVatican City\n1120\n257\n34\n1231\n353\n238\n404\n49\n354\n817\n318\n285\n144\n173\n77\n238\n866\n159\n201\n0\n706\n236\n274\n180\n78\n217\n132\n67\n382\n321\n\n\nVCT\nSaint Vincent and the Grenadines\n6\n0\n0\n0\n0\n0\n0\n0\n0\n3\n0\n6\n6\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n2\n0\n0\n0\n0\n0\n0\n\n\nVEN\nVenezuela\n4367\n297\n91\n4717\n605\n262\n954\n187\n322\n4372\n1325\n379\n441\n243\n507\n347\n640\n507\n188\n154\n3420\n207\n179\n210\n840\n691\n339\n149\n1146\n199\n\n\nVNM\nVietnam\n97\n480\n47\n124\n291\n1089\n214\n0\n0\n178\n147\n281\n558\n316\n166\n120\n163\n1189\n151\n2042\n131\n987\n160\n180\n152\n556\n80\n89\n887\n277\n\n\nVUT\nVanuatu\n0\n74\n0\n12\n23\n19\n14\n7\n3\n3\n22\n12\n36\n17\n0\n32\n1\n27\n0\n7\n22\n8\n4\n7\n10\n22\n16\n2\n4\n35\n\n\nWSM\nSamoa\n21\n146\n0\n3\n10\n28\n0\n0\n0\n1\n15\n84\n9\n0\n0\n9\n25\n101\n21\n0\n3\n32\n6\n5\n1\n11\n0\n0\n10\n52\n\n\nYEM\nYemen\n165\n224\n38\n399\n518\n210\n420\n2184\n2507\n245\n1097\n557\n846\n571\n1598\n1419\n546\n274\n369\n167\n583\n170\n185\n785\n276\n949\n436\n63\n797\n413\n\n\nZAF\nSouth Africa\n558\n2571\n0\n423\n1267\n792\n528\n47\n195\n364\n907\n1574\n225\n2811\n420\n538\n402\n101\n3804\n0\n214\n1712\n5419\n2864\n10\n548\n226\n0\n1042\nNA\n\n\nZMB\nZambia\n18\n9\n1\n13\n13\n6\n32\n154\n85\n12\n37\n35\n9\n18\n14\n11\n31\n20\n455\n2\n23\n16\n476\n36\n17\n43\n19\n2\n14\n464\n\n\nZWE\nZimbabwe\n70\n245\n26\n189\n320\n178\n48\n134\n150\n128\n312\n255\n91\n280\n100\n70\n106\n87\n1629\n87\n108\n269\n911\n589\n48\n277\n58\n29\n245\n4773\n\n\n\n\n\n\n\nCompute parameters\n\n\n\nSalience of countries (p. 100,000)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nrnk\nISO3\nNAMEen\nmean\nsd\nmin\nQ1\nQ2\nQ3\nmax\nnbsup0\nnbsup10\nnbsup100\n\n\n\n\n1\nUSA\nUnited States of America\n15583\n6043\n5022\n11440\n14303\n19433\n27246\n29\n29\n29\n\n\n2\nCHN\nChina\n6455\n4382\n814\n3373\n4902\n8254\n18885\n29\n29\n29\n\n\n3\nRUS\nRussia\n4533\n5901\n1195\n2283\n2956\n4122\n31217\n29\n29\n29\n\n\n4\nGBR\nUnited Kingdom\n4502\n1908\n1408\n2546\n4774\n6270\n7439\n29\n29\n29\n\n\n5\nUKR\nUkraine\n3027\n8298\n156\n710\n975\n1469\n44075\n29\n29\n29\n\n\n6\nFRA\nFrance\n2740\n1599\n170\n1566\n2266\n3533\n7077\n29\n29\n29\n\n\n7\nSYR\nSyria\n2582\n1691\n264\n1308\n2278\n3296\n7576\n30\n30\n30\n\n\n8\nJPN\nJapan\n2505\n2362\n481\n1612\n1930\n2654\n12769\n29\n29\n29\n\n\n9\nDEU\nGermany\n2200\n1246\n322\n1361\n1948\n2990\n5103\n29\n29\n29\n\n\n10\nIRN\nIran\n1854\n1919\n170\n1030\n1454\n2036\n11170\n29\n29\n29\n\n\n11\nIND\nIndia\n1842\n1555\n418\n1133\n1336\n1991\n8569\n29\n29\n29\n\n\n12\nTUR\nTurkey\n1771\n1175\n429\n832\n1544\n2457\n4581\n29\n29\n29\n\n\n13\nESP\nSpain\n1681\n983\n188\n990\n1397\n2047\n4589\n29\n29\n29\n\n\n14\nAUS\nAustralia\n1583\n1159\n240\n732\n1235\n1766\n4941\n29\n29\n29\n\n\n15\nITA\nItaly\n1536\n837\n155\n1001\n1215\n1806\n3616\n29\n29\n29\n\n\n16\nPRK\nNorth Korea\n1425\n1942\n90\n528\n878\n1324\n8409\n30\n30\n29\n\n\n17\nISR\nIsrael\n1423\n761\n243\n921\n1190\n1886\n3042\n29\n29\n29\n\n\n18\nBRA\nBrazil\n1406\n1219\n145\n815\n1031\n1656\n6719\n29\n29\n29\n\n\n19\nPSE\nPalestinian Territories\n1330\n2018\n218\n425\n602\n1185\n10464\n30\n30\n30\n\n\n20\nIRQ\nIraq\n1306\n1227\n93\n592\n933\n1288\n4662\n30\n30\n29\n\n\n21\nEGY\nEgypt\n1184\n803\n181\n690\n986\n1476\n3811\n29\n29\n29\n\n\n22\nKOR\nSouth Korea\n1089\n1595\n115\n514\n688\n894\n8792\n29\n29\n29\n\n\n23\nZAF\nSouth Africa\n1019\n1309\n0\n214\n528\n1267\n5419\n26\n25\n24\n\n\n24\nTHA\nThailand\n1008\n1268\n81\n367\n530\n994\n5430\n30\n30\n29\n\n\n25\nSAU\nSaudi Arabia\n998\n1300\n0\n371\n538\n1033\n5449\n29\n28\n27\n\n\n26\nMEX\nMexico\n949\n768\n251\n468\n539\n1196\n3111\n29\n29\n29\n\n\n27\nVEN\nVenezuela\n943\n1353\n91\n208\n363\n803\n4717\n30\n30\n29\n\n\n28\nPAK\nPakistan\n932\n1598\n78\n423\n645\n911\n9072\n29\n29\n28\n\n\n29\nGRC\nGreece\n833\n717\n112\n384\n616\n871\n3261\n30\n30\n30\n\n\n30\nHKG\nHong Kong\n772\n972\n9\n141\n494\n848\n4731\n30\n29\n25\n\n\n31\nIDN\nIndonesia\n772\n1109\n0\n284\n488\n651\n6026\n28\n28\n28\n\n\n32\nARG\nArgentina\n771\n842\n189\n324\n452\n770\n3895\n29\n29\n29\n\n\n33\nCAN\nCanada\n761\n277\n321\n522\n686\n959\n1512\n29\n29\n29\n\n\n34\nCUB\nCuba\n713\n992\n102\n166\n268\n976\n4912\n30\n30\n30\n\n\n35\nNLD\nNetherlands\n684\n271\n256\n514\n644\n754\n1383\n30\n30\n30\n\n\n36\nNZL\nNew Zealand\n684\n919\n79\n216\n363\n654\n4827\n30\n30\n27\n\n\n37\nMYS\nMalaysia\n662\n780\n110\n272\n387\n645\n3648\n29\n29\n29\n\n\n38\nNGA\nNigeria\n645\n760\n66\n288\n416\n639\n3263\n29\n29\n27\n\n\n39\nAFG\nAfghanistan\n641\n521\n77\n271\n510\n853\n2470\n30\n30\n27\n\n\n40\nYEM\nYemen\n634\n600\n38\n229\n428\n794\n2507\n30\n30\n28\n\n\n41\nPHL\nPhilippines\n630\n518\n87\n318\n460\n754\n2676\n30\n30\n29\n\n\n42\nSGP\nSingapore\n614\n852\n43\n187\n272\n601\n3180\n29\n29\n25\n\n\n43\nLBY\nLibya\n598\n699\n0\n202\n349\n671\n2984\n29\n29\n27\n\n\n44\nPRT\nPortugal\n541\n474\n123\n239\n390\n595\n2019\n30\n30\n30\n\n\n45\nCHE\nSwitzerland\n533\n430\n108\n260\n416\n677\n2001\n30\n30\n30\n\n\n46\nSWE\nSweden\n526\n214\n235\n352\n484\n628\n1091\n30\n30\n30\n\n\n47\nIRL\nIreland\n524\n637\n5\n220\n354\n609\n3440\n30\n29\n27\n\n\n48\nPOL\nPoland\n494\n381\n87\n263\n352\n672\n1623\n30\n30\n29\n\n\n49\nQAT\nQatar\n477\n299\n61\n298\n398\n636\n1215\n30\n30\n29\n\n\n50\nMLI\nMali\n453\n770\n6\n97\n152\n485\n3965\n30\n29\n22\n\n\n51\nMMR\nMyanmar\n445\n499\n20\n168\n256\n584\n2448\n30\n30\n25\n\n\n52\nCOL\nColombia\n438\n598\n10\n127\n196\n358\n2313\n30\n29\n27\n\n\n53\nTWN\nTaiwan\n437\n675\n55\n124\n208\n392\n3121\n30\n30\n25\n\n\n54\nBEL\nBelgium\n423\n242\n9\n272\n374\n529\n1135\n30\n29\n29\n\n\n55\nSVK\nSlovakia\n417\n1161\n0\n24\n39\n107\n5194\n29\n29\n8\n\n\n56\nMAR\nMorocco\n417\n904\n25\n77\n152\n269\n4870\n30\n30\n20\n\n\n57\nCHL\nChile\n417\n782\n27\n116\n172\n315\n4091\n30\n30\n24\n\n\n58\nZWE\nZimbabwe\n394\n886\n26\n87\n142\n275\n4773\n30\n30\n19\n\n\n59\nTUN\nTunisia\n390\n838\n0\n77\n166\n300\n4525\n29\n28\n21\n\n\n60\nVNM\nVietnam\n372\n451\n0\n126\n172\n439\n2042\n28\n28\n24\n\n\n61\nJOR\nJordan\n366\n411\n0\n116\n188\n325\n1478\n29\n29\n24\n\n\n62\nLBN\nLebanon\n365\n445\n19\n135\n226\n362\n2081\n30\n30\n25\n\n\n63\nAUT\nAustria\n361\n401\n37\n184\n240\n429\n2217\n30\n30\n28\n\n\n64\nBGD\nBangladesh\n353\n461\n0\n83\n184\n394\n1943\n29\n29\n21\n\n\n65\nVAT\nVatican City\n330\n311\n0\n148\n238\n354\n1231\n29\n29\n24\n\n\n66\nLKA\nSri Lanka\n322\n439\n5\n89\n158\n359\n1883\n30\n29\n21\n\n\n67\nSDN\nSudan\n321\n374\n11\n86\n216\n310\n1680\n30\n30\n20\n\n\n68\nKEN\nKenya\n320\n295\n24\n202\n251\n368\n1463\n29\n29\n25\n\n\n69\nCOD\nDemocratic Republic of the Congo\n309\n466\n6\n72\n124\n355\n1856\n30\n29\n18\n\n\n70\nARE\nUnited Arab Emirates\n288\n411\n0\n92\n160\n305\n2026\n29\n28\n20\n\n\n71\nPER\nPeru\n280\n388\n3\n85\n148\n229\n1617\n30\n29\n20\n\n\n72\nDNK\nDenmark\n278\n137\n63\n190\n246\n360\n594\n30\n30\n28\n\n\n73\nCRI\nCosta Rica\n271\n1235\n0\n0\n14\n58\n6789\n16\n15\n5\n\n\n74\nSOM\nSomalia\n270\n469\n26\n87\n152\n270\n2655\n30\n30\n21\n\n\n75\nNPL\nNepal\n268\n309\n35\n135\n202\n286\n1800\n30\n30\n25\n\n\n76\nSSD\nSouth Sudan\n251\n498\n0\n49\n109\n280\n2708\n28\n28\n17\n\n\n77\nMCO\nMonaco\n247\n374\n0\n40\n124\n282\n1537\n29\n27\n18\n\n\n78\nNER\nNiger\n243\n936\n1\n16\n35\n89\n5170\n30\n24\n7\n\n\n79\nHUN\nHungary\n242\n187\n40\n107\n196\n285\n815\n30\n30\n25\n\n\n80\nPAN\nPanama\n241\n264\n36\n82\n150\n252\n1191\n30\n30\n20\n\n\n81\nNOR\nNorway\n232\n135\n4\n128\n190\n300\n562\n30\n29\n28\n\n\n82\nBEN\nBenin\n232\n1196\n0\n2\n6\n18\n6561\n26\n10\n1\n\n\n83\nFIN\nFinland\n223\n253\n47\n104\n162\n250\n1432\n30\n30\n26\n\n\n84\nGEO\nGeorgia\n219\n336\n0\n10\n88\n200\n1173\n23\n22\n15\n\n\n85\nUGA\nUganda\n210\n639\n6\n40\n64\n101\n3527\n30\n28\n8\n\n\n86\nURY\nUruguay\n200\n430\n7\n54\n77\n151\n2330\n30\n29\n13\n\n\n87\nGHA\nGhana\n194\n338\n12\n48\n78\n227\n1819\n30\n30\n12\n\n\n88\nTZA\nTanzania\n188\n597\n9\n36\n54\n80\n3304\n30\n29\n4\n\n\n89\nECU\nEcuador\n181\n250\n3\n56\n88\n150\n1003\n30\n29\n14\n\n\n90\nCMR\nCameroon\n178\n311\n14\n43\n88\n134\n1656\n30\n30\n12\n\n\n91\nETH\nEthiopia\n178\n262\n7\n62\n103\n156\n1424\n30\n29\n16\n\n\n92\nAZE\nAzerbaijan\n176\n461\n5\n37\n58\n114\n2516\n30\n29\n8\n\n\n93\nHRV\nCroatia\n171\n84\n41\n108\n168\n213\n400\n30\n30\n25\n\n\n94\nDZA\nAlgeria\n171\n355\n0\n46\n84\n147\n1945\n28\n28\n12\n\n\n95\nBOL\nBolivia\n164\n298\n15\n31\n66\n98\n1386\n30\n30\n8\n\n\n96\nSRB\nSerbia\n149\n105\n22\n86\n122\n181\n475\n30\n30\n20\n\n\n97\nROM\nRomania\n141\n127\n7\n55\n112\n173\n537\n30\n29\n16\n\n\n98\nKWT\nKuwait\n141\n293\n10\n33\n48\n124\n1578\n30\n29\n9\n\n\n99\nBLR\nBelarus\n139\n346\n3\n20\n42\n75\n1395\n29\n27\n4\n\n\n100\nBDI\nBurundi\n131\n288\n0\n24\n42\n77\n1442\n27\n24\n6\n\n\n101\nBHR\nBahrain\n131\n151\n2\n42\n76\n150\n654\n30\n28\n12\n\n\n102\nCYP\nCyprus\n122\n228\n4\n46\n74\n106\n1300\n30\n29\n9\n\n\n103\nISL\nIceland\n122\n96\n3\n54\n98\n158\n403\n30\n29\n15\n\n\n104\nSEN\nSenegal\n122\n138\n3\n30\n63\n133\n532\n30\n29\n11\n\n\n105\nCZE\nCzechia\n118\n143\n7\n42\n76\n114\n596\n30\n28\n11\n\n\n106\nKAZ\nKazakhstan\n118\n127\n28\n55\n67\n122\n633\n30\n30\n9\n\n\n107\nKHM\nCambodia\n116\n108\n13\n42\n72\n162\n441\n30\n30\n10\n\n\n108\nGTM\nGuatemala\n115\n219\n1\n30\n44\n98\n1140\n30\n28\n8\n\n\n109\nLBR\nLiberia\n113\n148\n15\n34\n58\n114\n612\n30\n30\n9\n\n\n110\nRWA\nRwanda\n112\n243\n0\n21\n48\n76\n1308\n28\n27\n6\n\n\n111\nBGR\nBulgaria\n110\n88\n6\n52\n84\n129\n371\n30\n29\n11\n\n\n112\nTCD\nChad\n104\n165\n6\n22\n43\n111\n774\n30\n25\n9\n\n\n113\nPRY\nParaguay\n101\n235\n1\n19\n31\n50\n1136\n30\n26\n4\n\n\n114\nCIV\nCôte d’Ivoire\n100\n138\n0\n32\n50\n74\n540\n29\n26\n6\n\n\n115\nHTI\nHaiti\n97\n105\n0\n21\n62\n104\n382\n29\n26\n8\n\n\n116\nMLT\nMalta\n95\n108\n18\n41\n72\n89\n598\n30\n30\n7\n\n\n117\nNIC\nNicaragua\n95\n174\n4\n10\n25\n62\n748\n30\n22\n6\n\n\n118\nMAC\nMacau\n92\n307\n0\n5\n16\n33\n1675\n29\n20\n4\n\n\n119\nCAF\nCentral African Republic\n91\n140\n0\n18\n41\n92\n583\n27\n23\n6\n\n\n120\nARM\nArmenia\n90\n140\n0\n22\n40\n64\n659\n29\n25\n7\n\n\n121\nBFA\nBurkina Faso\n87\n116\n0\n24\n54\n78\n460\n27\n26\n5\n\n\n122\nHND\nHonduras\n87\n136\n10\n17\n42\n81\n602\n30\n29\n6\n\n\n123\nJAM\nJamaica\n86\n132\n0\n15\n44\n100\n706\n28\n25\n8\n\n\n124\nSLE\nSierra Leone\n85\n96\n0\n17\n54\n105\n428\n28\n26\n9\n\n\n125\nLTU\nLithuania\n80\n132\n0\n15\n33\n66\n616\n27\n26\n7\n\n\n126\nLUX\nLuxembourg\n79\n111\n3\n25\n36\n61\n523\n30\n28\n5\n\n\n127\nMOZ\nMozambique\n78\n144\n2\n23\n45\n71\n766\n30\n26\n3\n\n\n128\nBIH\nBosnia and Herzegovina\n76\n82\n13\n30\n55\n87\n450\n30\n30\n5\n\n\n129\nGRD\nGrenada\n76\n282\n0\n0\n4\n26\n1544\n20\n10\n3\n\n\n130\nGIN\nGuinea\n72\n98\n0\n21\n40\n68\n425\n26\n24\n5\n\n\n131\nZMB\nZambia\n70\n137\n1\n12\n18\n36\n476\n30\n24\n4\n\n\n132\nOMN\nOman\n69\n80\n0\n21\n42\n80\n370\n28\n26\n6\n\n\n133\nGMB\nGambia\n68\n121\n0\n10\n23\n51\n566\n28\n22\n6\n\n\n134\nSLV\nEl Salvador\n62\n91\n0\n15\n24\n62\n390\n29\n26\n7\n\n\n135\nMDV\nMaldives\n60\n75\n2\n25\n35\n69\n412\n30\n29\n4\n\n\n136\nMDG\nMadagascar\n58\n80\n5\n16\n33\n48\n354\n30\n26\n4\n\n\n137\nMDA\nMoldova\n56\n126\n0\n4\n12\n24\n528\n28\n18\n4\n\n\n138\nSVN\nSlovenia\n54\n46\n0\n21\n37\n78\n175\n28\n28\n4\n\n\n139\nLVA\nLatvia\n54\n81\n3\n16\n24\n45\n359\n30\n26\n3\n\n\n140\nMNE\nMontenegro\n54\n69\n0\n10\n26\n68\n260\n29\n21\n7\n\n\n141\nUZB\nUzbekistan\n53\n59\n4\n17\n35\n58\n270\n30\n27\n4\n\n\n142\nKOS\nKosovo\n53\n52\n2\n20\n36\n74\n246\n30\n27\n3\n\n\n143\nALB\nAlbania\n53\n60\n0\n24\n40\n56\n304\n29\n28\n2\n\n\n144\nMWI\nMalawi\n52\n110\n0\n7\n17\n32\n530\n26\n19\n3\n\n\n145\nGAB\nGabon\n51\n81\n0\n6\n16\n40\n326\n28\n19\n5\n\n\n146\nEST\nEstonia\n50\n55\n5\n21\n28\n52\n258\n30\n28\n4\n\n\n147\nFJI\nFiji\n50\n78\n0\n11\n35\n46\n420\n29\n23\n3\n\n\n148\nMKD\nNorth Macedonia\n49\n46\n0\n21\n35\n72\n221\n28\n25\n3\n\n\n149\nBHS\nBahamas\n47\n46\n0\n20\n34\n54\n195\n28\n25\n4\n\n\n150\nAGO\nAngola\n47\n63\n0\n12\n24\n46\n242\n28\n23\n5\n\n\n151\nPNG\nPapua New Guinea\n45\n59\n0\n12\n30\n52\n315\n27\n24\n3\n\n\n152\nTGO\nTogo\n44\n115\n0\n2\n6\n18\n546\n24\n11\n2\n\n\n153\nBWA\nBotswana\n42\n94\n0\n7\n12\n27\n484\n26\n17\n3\n\n\n154\nMNG\nMongolia\n39\n51\n0\n14\n22\n40\n236\n29\n24\n3\n\n\n155\nPLW\nPalau\n37\n160\n0\n0\n3\n9\n877\n18\n7\n2\n\n\n156\nNAM\nNamibia\n37\n62\n0\n6\n18\n42\n311\n28\n18\n3\n\n\n157\nBRN\nBrunei\n37\n86\n0\n8\n14\n24\n465\n28\n20\n2\n\n\n158\nMUS\nMauritius\n37\n61\n0\n0\n14\n34\n238\n20\n17\n4\n\n\n159\nLAO\nLaos\n35\n44\n1\n9\n20\n52\n218\n30\n22\n1\n\n\n160\nGRL\nGreenland\n35\n32\n0\n9\n21\n56\n133\n27\n22\n1\n\n\n161\nKGZ\nKyrgyzstan\n35\n54\n0\n8\n19\n37\n284\n27\n18\n2\n\n\n162\nLSO\nLesotho\n34\n109\n0\n2\n6\n12\n594\n26\n12\n3\n\n\n163\nDOM\nDominican Republic\n32\n41\n0\n3\n10\n44\n130\n25\n15\n3\n\n\n164\nTJK\nTajikistan\n31\n50\n0\n8\n14\n31\n251\n27\n20\n2\n\n\n165\nMRT\nMauritania\n30\n53\n0\n2\n8\n19\n212\n25\n14\n4\n\n\n166\nGNQ\nEquatorial Guinea\n25\n37\n0\n3\n6\n32\n146\n26\n11\n2\n\n\n167\nTON\nTonga\n25\n34\n0\n4\n14\n29\n146\n25\n16\n2\n\n\n168\nAND\nAndorra\n21\n58\n0\n1\n4\n14\n316\n23\n8\n1\n\n\n168\nSYC\nSeychelles\n21\n35\n0\n6\n8\n18\n151\n26\n13\n2\n\n\n170\nTKM\nTurkmenistan\n21\n34\n0\n7\n10\n17\n184\n29\n14\n1\n\n\n171\nNRU\nNauru\n21\n84\n0\n0\n4\n10\n462\n22\n7\n1\n\n\n172\nJEY\nJersey\n21\n58\n0\n0\n0\n2\n247\n9\n4\n2\n\n\n173\nWSM\nSamoa\n20\n34\n0\n0\n8\n21\n146\n21\n11\n2\n\n\n174\nTLS\nTimor-Leste\n19\n51\n0\n0\n3\n7\n228\n19\n7\n2\n\n\n175\nBTN\nBhutan\n18\n41\n0\n3\n7\n19\n228\n26\n12\n1\n\n\n176\nSMR\nSan Marino\n18\n57\n0\n0\n5\n13\n317\n21\n9\n1\n\n\n177\nERI\nEritrea\n16\n24\n0\n2\n6\n21\n110\n26\n12\n1\n\n\n178\nTTO\nTrinidad and Tobago\n16\n19\n0\n4\n10\n18\n84\n25\n13\n0\n\n\n179\nESH\nWestern Sahara\n15\n51\n0\n0\n3\n8\n280\n19\n6\n1\n\n\n180\nNCL\nNew Caledonia\n15\n56\n0\n0\n3\n8\n309\n19\n4\n1\n\n\n181\nVUT\nVanuatu\n15\n16\n0\n3\n11\n22\n74\n26\n15\n0\n\n\n182\nBRB\nBarbados\n14\n15\n0\n2\n10\n24\n57\n23\n15\n0\n\n\n183\nCPV\nCabo Verde\n14\n21\n0\n0\n4\n14\n73\n22\n10\n0\n\n\n184\nDJI\nDjibouti\n13\n17\n0\n3\n7\n17\n80\n29\n10\n0\n\n\n185\nSWZ\nEswatini\n13\n39\n0\n0\n3\n5\n208\n19\n4\n1\n\n\n186\nGNB\nGuinea-Bissau\n12\n22\n0\n1\n4\n10\n99\n24\n7\n0\n\n\n187\nBLZ\nBelize\n10\n18\n0\n0\n5\n10\n78\n20\n7\n0\n\n\n188\nGUY\nGuyana\n10\n12\n0\n0\n6\n17\n37\n20\n9\n0\n\n\n189\nCOM\nComoros\n10\n13\n0\n0\n4\n15\n45\n18\n10\n0\n\n\n190\nSLB\nSolomon Islands\n8\n9\n0\n2\n6\n10\n43\n24\n8\n0\n\n\n191\nLIE\nLiechtenstein\n8\n13\n0\n0\n3\n8\n53\n21\n5\n0\n\n\n192\nCOG\nCongo\n7\n10\n0\n0\n2\n8\n36\n19\n7\n0\n\n\n192\nFLK\nFalkland Islands\n7\n29\n0\n0\n0\n2\n160\n12\n3\n1\n\n\n194\nGGY\nGuernsey\n5\n11\n0\n0\n2\n4\n51\n17\n4\n0\n\n\n195\nMHL\nMarshall Islands\n4\n5\n0\n0\n2\n7\n19\n17\n3\n0\n\n\n196\nKIR\nKiribati\n3\n4\n0\n0\n2\n6\n17\n18\n1\n0\n\n\n197\nFRO\nFaroe Islands\n3\n9\n0\n0\n0\n3\n45\n10\n2\n0\n\n\n198\nSUR\nSuriname\n3\n4\n0\n0\n2\n5\n17\n20\n1\n0\n\n\n199\nATG\nAntigua and Barbuda\n3\n6\n0\n0\n0\n3\n33\n10\n1\n0\n\n\n200\nLCA\nSaint Lucia\n2\n9\n0\n0\n0\n0\n51\n3\n1\n0\n\n\n201\nFSM\nMicronesia (Federated States of)\n2\n3\n0\n0\n0\n4\n9\n14\n0\n0\n\n\n202\nTUV\nTuvalu\n2\n3\n0\n0\n0\n3\n9\n12\n0\n0\n\n\n203\nKNA\nSaint Kitts and Nevis\n2\n4\n0\n0\n0\n2\n22\n8\n1\n0\n\n\n204\nSTP\nSao Tome and Principe\n1\n2\n0\n0\n0\n2\n9\n8\n0\n0\n\n\n205\nDMA\nDominica\n1\n3\n0\n0\n0\n0\n12\n3\n2\n0\n\n\n206\nVCT\nSaint Vincent and the Grenadines\n1\n2\n0\n0\n0\n0\n6\n5\n0\n0\n\n\n\n\n\n\n\nMap of average salience\n\n\nCoordinate Reference System:\n  User input: North_Pole_Azimuthal_Equidistant \n  wkt:\nPROJCRS[\"North_Pole_Azimuthal_Equidistant\",\n    BASEGEOGCRS[\"WGS 84\",\n        DATUM[\"World Geodetic System 1984\",\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433]]],\n    CONVERSION[\"North_Pole_Azimuthal_Equidistant\",\n        METHOD[\"Azimuthal Equidistant\",\n            ID[\"EPSG\",1125]],\n        PARAMETER[\"Latitude of natural origin\",90,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"False easting\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Not known.\"],\n        AREA[\"Northern hemisphere.\"],\n        BBOX[0,-180,90,180]],\n    ID[\"ESRI\",102016]]\n\n\n\n\n\n\n\n\n\n\n\nDorling cartogram"
+    "text": "Data preparation\n\nLoad media\nWe load the hypercube of each of the media of the database. Then we keep only the countries or territories that fit with the map.\n\n\n[1] \"data.table\" \"data.frame\"\n\n\n\n\nMatrix of salience by host countries\nFinally we standardize in order to obtain a salience of frequency per 10,000 news.\n\n\n\nSalience of countries by media (p. 100,000)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nISO3\nNAMEen\nARG_nacion\nAUS_sydmor\nBRA_oglobo\nCAN_tostar\nCHN_mopost\nDEU_frankf\nDZA_alnaha\nEGY_alwafd\nESP_abc\nFRA_lmonde\nGBR_indept\nIDN_republ\nIND_tindia\nIRN_hamsha\nISR_jerpos\nITA_repubb\nJPN_asahis\nKEN_standa\nKOR_kyungh\nMEX_inform\nMYS_strait\nNGA_vangua\nPAK_thenew\nRUS_isvest\nSGP_today\nTUR_sabah\nUKR_fakty\nUSA_nytime\nZAF_times\n\n\n\n\nAFG\nAfghanistan\n183\n502\n536\n832\n395\n1100\n860\n773\n665\n950\n678\n77\n1049\n1554\n481\n601\n89\n385\n99\n630\n163\n231\n2470\n554\n401\n954\n250\n1398\n334\n\n\nAGO\nAngola\n43\n9\n134\n12\n16\n20\n34\n0\n25\n101\n32\n22\n14\n16\n10\n57\n0\n148\n25\n32\n3\n242\n24\n26\n14\n24\n6\n34\n240\n\n\nALB\nAlbania\n27\n11\n23\n58\n14\n97\n19\n44\n53\n67\n34\n73\n30\n45\n41\n304\n0\n12\n5\n43\n16\n30\n51\n38\n26\n196\n70\n43\n23\n\n\nAND\nAndorra\n41\n1\n5\n0\n3\n15\n4\n4\n30\n5\n7\n17\n0\n1\n8\n75\n0\n0\n7\n36\n0\n4\n3\n0\n3\n52\n6\n4\n0\n\n\nARE\nUnited Arab Emirates\n95\n168\n63\n133\n152\n35\n1131\n2026\n38\n114\n161\n395\n578\n160\n335\n96\n0\n248\n7\n37\n338\n324\n869\n194\n181\n230\n176\n90\n133\n\n\nARG\nArgentina\nNA\n452\n3891\n275\n284\n633\n741\n796\n2455\n863\n554\n770\n331\n394\n222\n1801\n364\n324\n316\n2653\n189\n788\n454\n403\n315\n419\n386\n494\n648\n\n\nARM\nArmenia\n49\n7\n50\n22\n9\n101\n51\n58\n34\n110\n49\n38\n41\n249\n35\n57\n24\n8\n0\n40\n8\n11\n20\n659\n32\n240\n388\n43\n22\n\n\nATG\nAntigua and Barbuda\n9\n0\n6\n6\n5\n0\n0\n0\n6\n3\n0\n0\n5\n0\n0\n0\n0\n0\n0\n3\n0\n0\n33\n2\n0\n0\n0\n6\n0\n\n\nAUS\nAustralia\n1534\nNA\n1192\n1170\n2811\n1361\n240\n563\n1130\n1478\n2716\n4941\n3166\n1174\n481\n1715\n827\n732\n1240\n1168\n2995\n576\n4112\n521\n1153\n952\n608\n1766\n2713\n\n\nAUT\nAustria\n227\n117\n251\n192\n95\n2097\n249\n544\n253\n524\n271\n238\n117\n362\n182\n928\n165\n110\n316\n235\n37\n144\n250\n488\n203\n709\n501\n241\n196\n\n\nAZE\nAzerbaijan\n34\n24\n50\n23\n21\n154\n57\n50\n56\n72\n74\n93\n33\n2516\n127\n119\n5\n44\n43\n71\n23\n39\n121\n281\n36\n730\n179\n60\n82\n\n\nBDI\nBurundi\n24\n30\n23\n75\n32\n42\n57\n78\n42\n274\n45\n43\n30\n0\n22\n103\n43\n1442\n14\n41\n6\n386\n47\n0\n171\n10\n2\n94\n735\n\n\nBEL\nBelgium\n338\n195\n397\n269\n185\n608\n479\n325\n513\n1111\n536\n9\n239\n411\n261\n931\n596\n333\n373\n509\n106\n396\n305\n443\n165\n809\n537\n281\n444\n\n\nBEN\nBenin\n4\n9\n3\n3\n1\n14\n22\n82\n6\n3\n1\n1\n5\n8\n0\n19\n4\n59\n4\n6\n0\n6561\n7\n9\n15\n27\n2\n12\n54\n\n\nBFA\nBurkina Faso\n24\n55\n0\n68\n11\n54\n81\n83\n79\n452\n54\n33\n24\n0\n46\n123\n25\n347\n0\n76\n22\n355\n60\n28\n71\n39\n17\n78\n283\n\n\nBGD\nBangladesh\n64\n358\n218\n465\n499\n0\n66\n17\n151\n282\n322\n482\n1943\n142\n148\n335\n68\n236\n87\n157\n1093\n167\n1726\n47\n404\n201\n40\n363\n504\n\n\nBGR\nBulgaria\n41\n38\n81\n54\n19\n145\n80\n68\n52\n135\n118\n106\n52\n133\n105\n258\n62\n46\n33\n78\n6\n64\n99\n234\n89\n326\n371\n79\n39\n\n\nBHR\nBahrain\n15\n53\n55\n41\n38\n16\n469\n654\n60\n112\n124\n166\n125\n426\n228\n240\n19\n43\n67\n75\n51\n53\n274\n27\n158\n78\n9\n126\n96\n\n\nBHS\nBahamas\n29\n46\n53\n195\n29\n37\n0\n0\n137\n71\n101\n9\n33\n13\n9\n59\n34\n34\n40\n158\n25\n19\n46\n7\n12\n28\n21\n125\n47\n\n\nBIH\nBosnia and Herzegovina\n40\n16\n7\n51\n32\n86\n183\n54\n34\n144\n87\n130\n15\n95\n39\n124\n30\n21\n26\n52\n56\n59\n68\n42\n86\n450\n47\n71\n21\n\n\nBLR\nBelarus\n35\n19\n33\n70\n13\n140\n3\n90\n43\n68\n33\n19\n15\n77\n41\n75\n30\n20\n47\n42\n8\n61\n76\n1367\n16\n104\n1395\n70\n21\n\n\nBLZ\nBelize\n43\n0\n1\n78\n6\n6\n9\n6\n36\n4\n4\n12\n0\n6\n0\n10\n9\n0\n0\n30\n0\n0\n0\n0\n6\n0\n4\n14\n16\n\n\nBOL\nBolivia\n1319\n40\n848\n76\n19\n62\n43\n15\n791\n193\n59\n102\n31\n87\n20\n127\n83\n42\n63\n755\n25\n73\n30\n78\n79\n49\n19\n142\n31\n\n\nBRA\nBrazil\n6297\n862\nNA\n1146\n745\n1743\n1278\n942\n3002\n2357\n1120\n145\n818\n899\n422\n2473\n1600\n905\n621\n3037\n680\n1683\n1001\n801\n1409\n1083\n815\n1656\n1031\n\n\nBRB\nBarbados\n30\n20\n26\n41\n3\n6\n0\n0\n25\n0\n57\n16\n11\n0\n0\n16\n0\n18\n0\n25\n25\n9\n45\n2\n3\n3\n4\n14\n16\n\n\nBRN\nBrunei\n8\n22\n14\n4\n36\n0\n17\n20\n9\n16\n52\n159\n25\n14\n9\n15\n32\n11\n34\n10\n465\n8\n11\n0\n68\n6\n1\n22\n11\n\n\nBTN\nBhutan\n1\n1\n13\n20\n46\n0\n33\n7\n0\n8\n4\n4\n228\n12\n2\n18\n0\n10\n36\n0\n0\n4\n19\n3\n6\n3\n7\n30\n22\n\n\nBWA\nBotswana\n8\n17\n10\n28\n12\n31\n206\n10\n12\n24\n41\n7\n15\n9\n12\n22\n0\n147\n0\n12\n0\n56\n7\n9\n20\n0\n7\n33\n484\n\n\nCAF\nCentral African Republic\n6\n29\n73\n145\n47\n0\n16\n26\n36\n587\n72\n27\n30\n39\n48\n193\n0\n467\n0\n41\n6\n87\n44\n28\n93\n41\n2\n127\n360\n\n\nCAN\nCanada\n484\n656\n784\nNA\n1082\n785\n508\n463\n1281\n1084\n877\n608\n1052\n735\n479\n868\n991\n471\n984\n1243\n321\n529\n621\n851\n686\n655\n959\n1512\n469\n\n\nCHE\nSwitzerland\n726\n151\n856\n259\n179\n1107\n280\n286\n412\n1543\n323\n424\n262\n543\n108\n2001\n534\n140\n623\n401\n527\n285\n488\n522\n136\n695\n707\n253\n202\n\n\nCHL\nChile\n3850\n175\n1290\n239\n146\n291\n60\n89\n1756\n471\n198\n27\n105\n175\n83\n373\n319\n121\n115\n1672\n163\n200\n119\n128\n214\n170\n90\n398\n162\n\n\nCHN\nChina\n4619\n10635\n4866\n6053\nNA\n6531\n2184\n2904\n3350\n3882\n5381\n5890\n10434\n3990\n2262\n4701\n16077\n8185\n9428\n3373\n18885\n5019\n8254\n3117\n13655\n3314\n1429\n11103\n4462\n\n\nCIV\nCôte d’Ivoire\n33\n21\n50\n36\n31\n49\n192\n73\n34\n531\n73\n88\n30\n72\n57\n102\n0\n305\n22\n39\n3\n454\n72\n41\n75\n46\n7\n51\n394\n\n\nCMR\nCameroon\n29\n40\n84\n85\n44\n82\n378\n206\n127\n587\n91\n101\n37\n137\n79\n124\n80\n430\n29\n141\n19\n1656\n53\n43\n113\n92\n19\n60\n396\n\n\nCOD\nDemocratic Republic of the Congo\n5\n122\n149\n353\n89\n136\n76\n17\n13\n941\n200\n90\n102\n124\n134\n413\n96\n1856\n25\n6\n53\n1036\n396\n71\n372\n145\n40\n356\n1679\n\n\nCOG\nCongo\n6\n0\n1\n0\n2\n10\n35\n23\n0\n32\n0\n1\n2\n6\n3\n15\n0\n21\n0\n0\n0\n4\n3\n0\n6\n24\n0\n0\n11\n\n\nCOL\nColombia\n2028\n131\n1433\n323\n105\n318\n266\n156\n2326\n622\n198\n10\n126\n234\n104\n470\n345\n164\n172\n2313\n80\n145\n96\n156\n317\n284\n193\n466\n119\n\n\nCOM\nComoros\n0\n0\n3\n0\n5\n0\n25\n10\n0\n50\n0\n12\n2\n4\n2\n4\n0\n37\n0\n0\n0\n16\n15\n8\n14\n0\n44\n0\n16\n\n\nCPV\nCabo Verde\n0\n0\n27\n7\n0\n3\n63\n5\n4\n29\n25\n0\n3\n3\n11\n15\n0\n3\n0\n9\n0\n27\n1\n2\n11\n6\n0\n10\n73\n\n\nCRI\nCosta Rica\n6540\n0\n158\n0\n0\n61\n29\n29\n474\n75\n0\n50\n0\n37\n0\n110\n0\n0\n60\n505\n0\n0\n0\n26\n0\n40\n22\n0\n0\n\n\nCUB\nCuba\n1534\n141\n1026\n675\n137\n346\n187\n109\n1154\n440\n268\n168\n162\n189\n198\n245\n532\n240\n106\n1240\n4912\n102\n152\n2379\n275\n166\n1747\n743\n269\n\n\nCYP\nCyprus\n68\n34\n38\n112\n25\n116\n61\n167\n50\n79\n96\n36\n35\n50\n213\n106\n27\n44\n4\n60\n85\n54\n71\n198\n89\n1300\n142\n57\n104\n\n\nCZE\nCzechia\n66\n33\n51\n124\n36\n114\n93\n205\n62\n100\n123\n13\n59\n103\n40\n217\n82\n33\n7\n60\n9\n47\n115\n596\n12\n111\n579\n60\n46\n\n\nDEU\nGermany\n2553\n881\n2395\n1348\n820\nNA\n1366\n2990\n2512\n3500\n1948\n2198\n950\n3002\n1387\n4859\n1512\n875\n2319\n2618\n322\n1560\n1503\n3102\n1361\n4598\n3640\n1849\n1136\n\n\nDJI\nDjibouti\n2\n3\n5\n10\n23\n3\n26\n37\n1\n48\n6\n5\n7\n6\n5\n2\n21\n80\n0\n1\n2\n18\n11\n3\n10\n26\n4\n7\n15\n\n\nDMA\nDominica\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n12\n0\n0\n11\n0\n0\n\n\nDNK\nDenmark\n217\n337\n176\n440\n162\n442\n155\n216\n202\n290\n549\n291\n356\n196\n248\n396\n200\n244\n252\n200\n125\n222\n362\n63\n153\n406\n127\n494\n332\n\n\nDOM\nDominican Republic\n142\n8\n66\n75\n15\n6\n3\n1\n138\n90\n43\n14\n20\n4\n6\n45\n0\n1\n29\n118\n0\n5\n4\n0\n12\n24\n0\n95\n6\n\n\nDZA\nAlgeria\n54\n29\n124\n44\n28\n125\nNA\n1945\n85\n0\n52\n133\n38\n174\n83\n147\n84\n272\n46\n67\n46\n524\n105\n83\n85\n171\n57\n97\n175\n\n\nECU\nEcuador\n893\n102\n640\n151\n80\n159\n18\n3\n756\n255\n96\n112\n40\n77\n77\n191\n140\n62\n36\n755\n32\n18\n54\n129\n108\n70\n66\n147\n73\n\n\nEGY\nEgypt\n516\n690\n917\n1293\n517\n926\n3811\nNA\n979\n1505\n968\n1806\n797\n1646\n3230\n866\n1001\n1633\n181\n986\n342\n1456\n625\n933\n841\n1759\n428\n1185\n1894\n\n\nERI\nEritrea\n4\n4\n9\n26\n0\n45\n6\n27\n1\n0\n11\n18\n1\n4\n13\n110\n7\n75\n4\n1\n3\n5\n7\n0\n22\n6\n2\n34\n25\n\n\nESH\nWestern Sahara\n0\n0\n1\n4\n0\n4\n280\n46\n0\n22\n0\n3\n3\n0\n5\n5\n0\n8\n0\n0\n0\n10\n2\n3\n20\n2\n0\n6\n17\n\n\nESP\nSpain\n3578\n1073\n2323\n1397\n990\n2231\n1132\n704\nNA\n2157\n2804\n1998\n949\n1179\n716\n4589\n742\n1204\n1715\n2568\n188\n1984\n1349\n1152\n853\n3112\n1629\n1767\n1435\n\n\nEST\nEstonia\n50\n15\n16\n45\n17\n100\n5\n14\n21\n48\n53\n32\n24\n30\n21\n58\n44\n8\n22\n21\n47\n12\n22\n258\n25\n91\n182\n26\n27\n\n\nETH\nEthiopia\n42\n45\n77\n170\n62\n125\n156\n405\n104\n279\n72\n16\n82\n62\n142\n277\n85\n1424\n101\n109\n51\n505\n99\n45\n139\n106\n39\n155\n322\n\n\nFIN\nFinland\n154\n164\n102\n352\n102\n254\n61\n78\n208\n259\n228\n101\n131\n1432\n104\n251\n64\n181\n247\n169\n47\n126\n101\n580\n186\n122\n263\n208\n104\n\n\nFJI\nFiji\n69\n420\n26\n42\n161\n0\n8\n11\n24\n43\n78\n41\n40\n11\n9\n2\n68\n60\n42\n38\n32\n4\n39\n14\n25\n24\n4\n39\n111\n\n\nFLK\nFalkland Islands\n148\n2\n0\n0\n0\n1\n0\n0\n1\n0\n11\n1\n0\n0\n0\n9\n0\n0\n0\n5\n0\n0\n0\n1\n0\n3\n0\n1\n5\n\n\nFRA\nFrance\n4178\n1802\n3547\n1994\n1518\n4830\n5557\n2582\n3607\nNA\n3298\n170\n1302\n3465\n1566\n5097\n925\n1391\n2266\n3541\n691\n2069\n1809\n3327\n1508\n3552\n3170\n2738\n2024\n\n\nFRO\nFaroe Islands\n0\n0\n0\n0\n0\n46\n0\n0\n0\n19\n0\n0\n1\n3\n0\n4\n0\n0\n0\n0\n0\n0\n0\n6\n0\n0\n5\n0\n0\n\n\nFSM\nMicronesia (Federated States of)\n0\n2\n0\n4\n3\n6\n0\n0\n1\n0\n0\n3\n0\n2\n9\n4\n4\n0\n7\n1\n6\n0\n2\n0\n0\n0\n0\n0\n0\n\n\nGAB\nGabon\n10\n3\n11\n9\n12\n21\n166\n0\n1\n230\n61\n30\n6\n14\n12\n19\n4\n154\n32\n6\n0\n326\n48\n2\n30\n43\n7\n30\n216\n\n\nGBR\nUnited Kingdom\n2498\n6801\n2283\n5727\n6679\n3423\n2216\n3182\n2250\n2720\nNA\n6538\n7439\n2087\n4522\n2319\n1408\n6270\n5265\n2214\n4774\n7420\n5953\n4105\n5849\n2437\n4980\n6592\n6740\n\n\nGEO\nGeorgia\n0\n240\n0\n644\n59\n152\n56\n115\n0\n22\n391\n0\n146\n163\n107\n0\n9\n69\n0\n0\n15\n67\n115\n1173\n60\n213\n948\n1168\n142\n\n\nGGY\nGuernsey\n16\n29\n7\n3\n2\n0\n0\n0\n0\n9\n14\n0\n3\n0\n0\n4\n0\n8\n51\n0\n0\n2\n2\n0\n0\n0\n0\n3\n2\n\n\nGHA\nGhana\n39\n12\n52\n72\n37\n87\n228\n250\n49\n135\n63\n144\n30\n18\n14\n84\n115\n561\n225\n48\n32\n1819\n50\n244\n60\n78\n499\n79\n397\n\n\nGIN\nGuinea\n0\n76\n6\n69\n46\n28\n43\n14\n0\n276\n104\n65\n38\n31\n26\n96\n48\n265\n4\n0\n22\n425\n21\n45\n62\n0\n37\n65\n205\n\n\nGMB\nGambia\n12\n23\n24\n41\n34\n42\n352\n6\n7\n145\n52\n29\n13\n9\n31\n119\n11\n170\n0\n7\n22\n566\n3\n14\n47\n18\n2\n52\n167\n\n\nGNB\nGuinea-Bissau\n0\n3\n0\n3\n8\n0\n18\n15\n0\n32\n1\n1\n0\n1\n0\n9\n0\n59\n0\n4\n0\n99\n7\n2\n14\n3\n1\n6\n56\n\n\nGNQ\nEquatorial Guinea\n26\n6\n36\n0\n2\n0\n56\n32\n3\n77\n4\n0\n3\n0\n3\n26\n4\n80\n0\n3\n6\n146\n31\n2\n5\n7\n7\n6\n116\n\n\nGRC\nGreece\n682\n497\n1071\n551\n331\n3094\n686\n874\n666\n1879\n829\n356\n333\n466\n269\n1857\n809\n237\n265\n634\n112\n165\n503\n473\n937\n2433\n863\n846\n597\n\n\nGRD\nGrenada\n117\n17\n97\n23\n2\n3\n0\n0\n245\n0\n49\n4\n6\n8\n6\n7\n0\n27\n0\n236\n0\n2\n34\n5\n0\n0\n0\n4\n75\n\n\nGRL\nGreenland\n22\n56\n11\n68\n56\n54\n0\n7\n34\n80\n70\n0\n26\n32\n6\n133\n0\n8\n13\n37\n42\n51\n20\n18\n18\n16\n8\n68\n19\n\n\nGTM\nGuatemala\n437\n26\n190\n159\n23\n47\n40\n3\n1166\n139\n51\n36\n31\n31\n88\n77\n69\n24\n30\n1140\n16\n34\n30\n47\n102\n59\n17\n228\n37\n\n\nGUY\nGuyana\n36\n7\n17\n28\n0\n10\n0\n0\n19\n6\n7\n18\n15\n2\n0\n2\n0\n7\n0\n27\n6\n9\n34\n3\n18\n0\n0\n33\n4\n\n\nHKG\nHong Kong\n211\n1109\n824\n822\n4731\n30\n44\n9\n351\n25\n648\n152\n708\n129\n308\n743\n2277\n519\n1256\n337\n1757\n292\n852\n198\n2078\n137\n118\n1584\n689\n\n\nHND\nHonduras\n515\n75\n134\n83\n22\n29\n10\n44\n641\n110\n54\n46\n15\n15\n29\n90\n23\n44\n24\n602\n12\n40\n14\n11\n69\n36\n14\n171\n27\n\n\nHRV\nCroatia\n190\n112\n176\n176\n53\n299\n158\n161\n207\n239\n198\n213\n107\n151\n75\n400\n105\n134\n105\n213\n41\n239\n125\n188\n81\n214\n333\n87\n113\n\n\nHTI\nHaiti\n207\n33\n216\n256\n58\n84\n25\n19\n295\n260\n91\n382\n66\n20\n45\n82\n0\n97\n4\n286\n27\n32\n17\n21\n87\n22\n7\n309\n86\n\n\nHUN\nHungary\n90\n108\n221\n189\n72\n796\n80\n140\n157\n496\n207\n127\n107\n204\n223\n558\n144\n53\n471\n150\n40\n71\n133\n251\n286\n254\n595\n364\n104\n\n\nIDN\nIndonesia\n162\n1536\n546\n438\n1630\n408\n151\n272\n549\n0\n476\nNA\n651\n488\n284\n323\n955\n421\n1416\n657\n6026\n497\n533\n276\n1789\n545\n173\n524\n584\n\n\nIND\nIndia\n718\n1900\n1063\n2166\n2873\n1110\n1207\n1139\n1260\n1303\n1991\n1991\nNA\n1673\n576\n1249\n1493\n1655\n891\n1253\n4659\n1441\n8569\n1307\n2464\n1055\n798\n2836\n2394\n\n\nIRL\nIreland\n400\n1298\n241\n890\n636\n476\n20\n84\n226\n630\n3440\n219\n382\n200\n248\n5\n146\n326\n606\n225\n463\n231\n473\n233\n573\n283\n216\n1294\n610\n\n\nIRN\nIran\n837\n927\n1967\n1673\n864\n2161\n1359\n2128\n1234\n1966\n1589\n2020\n1755\nNA\n11170\n1191\n2363\n895\n1454\n1204\n955\n1030\n2036\n1204\n2270\n2385\n322\n3322\n1128\n\n\nIRQ\nIraq\n500\n903\n1001\n1297\n483\n1072\n4028\n4179\n849\n1442\n1540\n1111\n1073\n4662\n2050\n712\n1160\n539\n202\n904\n303\n445\n736\n644\n1088\n3826\n184\n1262\n718\n\n\nISL\nIceland\n123\n104\n110\n235\n111\n314\n3\n14\n118\n219\n403\n106\n34\n51\n42\n239\n82\n40\n58\n91\n68\n149\n48\n73\n53\n229\n103\n233\n109\n\n\nISR\nIsrael\n1190\n1515\n1573\n1298\n598\n2157\n1091\n3042\n1185\n1945\n1736\n3017\n921\n2024\nNA\n982\n1219\n755\n243\n1190\n1886\n1000\n815\n942\n867\n2914\n822\n2435\n1021\n\n\nITA\nItaly\n2613\n807\n2183\n1215\n750\n3369\n1178\n1123\n1635\n2434\n1628\n2976\n790\n1806\n393\nNA\n1117\n884\n1397\n1715\n155\n1108\n860\n1650\n1034\n2314\n1750\n1678\n1135\n\n\nJAM\nJamaica\n154\n67\n68\n218\n44\n644\n0\n11\n117\n42\n114\n44\n46\n12\n22\n7\n71\n90\n7\n144\n0\n103\n230\n35\n34\n9\n32\n130\n70\n\n\nJEY\nJersey\n105\n0\n0\n3\n0\n1\n0\n0\n239\n72\n3\n0\n0\n0\n0\n0\n0\n0\n0\n247\n0\n0\n0\n0\n0\n0\n0\n3\n4\n\n\nJOR\nJordan\n72\n1100\n114\n933\n284\n115\n632\n1478\n115\n157\n742\n218\n200\n264\n1122\n0\n193\n151\n159\n111\n98\n195\n316\n82\n174\n184\n43\n1299\n328\n\n\nJPN\nJapan\n1505\n2654\n1629\n2165\n7619\n1897\n632\n1704\n1783\n1775\n2395\n2782\n2624\n2468\n1058\n1671\nNA\n1721\n12769\n1799\n1587\n1122\n2673\n2021\n3707\n1065\n884\n2894\n3130\n\n\nKAZ\nKazakhstan\n42\n28\n39\n59\n57\n92\n39\n87\n45\n78\n79\n54\n71\n272\n44\n121\n63\n34\n154\n66\n131\n60\n122\n633\n64\n294\n354\n68\n42\n\n\nKEN\nKenya\n189\n211\n179\n441\n202\n315\n368\n287\n318\n548\n466\n242\n251\n137\n216\n368\n251\nNA\n110\n343\n75\n1062\n268\n59\n265\n175\n30\n396\n1463\n\n\nKGZ\nKyrgyzstan\n0\n29\n14\n6\n22\n0\n0\n6\n1\n0\n16\n20\n49\n84\n9\n10\n27\n10\n58\n9\n20\n22\n68\n284\n25\n103\n75\n18\n7\n\n\nKHM\nCambodia\n29\n301\n38\n101\n441\n54\n13\n34\n49\n157\n96\n290\n53\n83\n19\n99\n331\n41\n148\n57\n232\n40\n38\n91\n235\n53\n37\n166\n90\n\n\nKIR\nKiribati\n8\n17\n6\n7\n10\n3\n0\n0\n1\n11\n6\n6\n0\n0\n0\n0\n0\n0\n0\n3\n0\n2\n2\n2\n1\n3\n0\n10\n4\n\n\nKNA\nSaint Kitts and Nevis\n0\n0\n0\n0\n3\n0\n0\n0\n0\n0\n0\n0\n2\n0\n2\n0\n0\n0\n0\n0\n22\n0\n8\n3\n0\n0\n2\n0\n0\n\n\nKOR\nSouth Korea\n454\n656\n736\n995\n3219\n857\n270\n623\n521\n580\n834\n1367\n801\n785\n401\n306\n8792\n688\nNA\n564\n672\n514\n1211\n777\n1655\n525\n243\n1633\n770\n\n\nKOS\nKosovo\n12\n20\n20\n45\n12\n160\n23\n30\n14\n72\n83\n43\n9\n35\n47\n115\n27\n22\n13\n20\n2\n14\n37\n90\n82\n246\n76\n83\n16\n\n\nKWT\nKuwait\n26\n63\n29\n49\n47\n33\n545\n1578\n30\n65\n33\n161\n168\n358\n154\n34\n21\n38\n47\n46\n34\n70\n171\n23\n105\n130\n17\n58\n41\n\n\nLAO\nLaos\n1\n59\n13\n31\n89\n17\n8\n7\n13\n41\n14\n58\n31\n8\n11\n36\n94\n8\n218\n17\n86\n13\n4\n22\n54\n11\n3\n54\n28\n\n\nLBN\nLebanon\n36\n292\n255\n309\n142\n205\n855\n1264\n132\n587\n325\n19\n110\n1151\n2081\n320\n143\n145\n51\n121\n154\n296\n165\n217\n495\n403\n38\n375\n133\n\n\nLBR\nLiberia\n616\n36\n89\n119\n38\n56\n78\n28\n103\n171\n69\n57\n51\n29\n32\n57\n71\n332\n36\n115\n15\n579\n34\n24\n71\n50\n34\n175\n233\n\n\nLBY\nLibya\n120\n139\n0\n321\n189\n497\n2984\n2098\n361\n1254\n325\n356\n239\n343\n544\n2213\n248\n679\n50\n317\n130\n1048\n291\n355\n647\n856\n119\n361\n780\n\n\nLCA\nSaint Lucia\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n10\n0\n0\n0\n51\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n\n\nLIE\nLiechtenstein\n2\n0\n0\n9\n3\n40\n0\n3\n4\n5\n6\n2\n11\n0\n0\n53\n0\n0\n7\n4\n0\n4\n2\n25\n0\n2\n7\n9\n0\n\n\nLKA\nSri Lanka\n165\n583\n87\n366\n433\n158\n63\n86\n104\n161\n376\n5\n1686\n115\n126\n98\n203\n198\n154\n111\n747\n166\n1883\n68\n326\n81\n57\n337\n639\n\n\nLSO\nLesotho\n6\n0\n20\n10\n6\n11\n17\n11\n6\n23\n12\n4\n3\n5\n0\n9\n4\n111\n0\n12\n0\n113\n1\n3\n12\n1\n3\n12\n594\n\n\nLTU\nLithuania\n15\n15\n27\n47\n13\n122\n7\n34\n26\n0\n62\n20\n39\n40\n107\n118\n16\n15\n0\n30\n0\n24\n34\n326\n32\n130\n616\n61\n11\n\n\nLUX\nLuxembourg\n21\n18\n507\n15\n25\n247\n23\n3\n22\n254\n90\n31\n28\n39\n29\n245\n25\n11\n4\n28\n55\n51\n44\n52\n34\n58\n75\n62\n18\n\n\nLVA\nLatvia\n41\n17\n18\n58\n16\n77\n3\n25\n39\n30\n37\n21\n16\n35\n19\n46\n11\n11\n22\n37\n6\n6\n13\n359\n17\n56\n283\n37\n7\n\n\nMAC\nMacau\n12\n120\n15\n14\n1675\n13\n2\n1\n16\n11\n24\n9\n44\n16\n0\n28\n65\n6\n85\n15\n375\n5\n33\n3\n104\n2\n1\n33\n24\n\n\nMAR\nMorocco\n223\n53\n131\n92\n49\n155\n4870\n1433\n185\n1056\n107\n274\n110\n103\n161\n376\n30\n269\n66\n216\n25\n549\n144\n66\n76\n224\n81\n135\n269\n\n\nMCO\nMonaco\n264\n134\n124\n73\n75\n0\n440\n111\n307\n1523\n345\n250\n62\n19\n9\n1537\n28\n123\n22\n290\n6\n324\n255\n113\n18\n32\n205\n94\n265\n\n\nMDA\nMoldova\n10\n13\n0\n10\n15\n1\n3\n14\n2\n41\n19\n16\n16\n6\n25\n14\n11\n11\n4\n2\n3\n2\n8\n402\n41\n108\n528\n37\n7\n\n\nMDG\nMadagascar\n26\n22\n17\n47\n18\n37\n40\n49\n25\n360\n46\n36\n23\n9\n11\n88\n16\n205\n25\n33\n66\n163\n14\n14\n29\n33\n5\n42\n243\n\n\nMDV\nMaldives\n22\n33\n24\n25\n129\n34\n11\n27\n17\n44\n84\n69\n412\n31\n17\n68\n70\n29\n29\n15\n120\n2\n126\n17\n77\n65\n59\n49\n60\n\n\nMEX\nMexico\n2933\n513\n2034\n2252\n535\n1166\n363\n463\n3374\n1190\n1196\n539\n542\n351\n529\n1182\n757\n500\n454\nNA\n434\n468\n514\n540\n1052\n482\n466\n2369\n597\n\n\nMHL\nMarshall Islands\n0\n7\n6\n9\n19\n3\n0\n9\n4\n3\n2\n0\n16\n0\n8\n4\n0\n0\n0\n9\n0\n0\n5\n0\n6\n0\n0\n14\n7\n\n\nMKD\nNorth Macedonia\n15\n20\n2\n93\n30\n110\n24\n47\n26\n0\n37\n27\n34\n38\n35\n84\n43\n15\n0\n34\n3\n3\n23\n72\n75\n221\n111\n72\n35\n\n\nMLI\nMali\n18\n54\n66\n216\n66\n269\n1593\n351\n15\n1214\n93\n153\n128\n3965\n149\n148\n1102\n794\n14\n22\n70\n539\n109\n154\n252\n833\n272\n150\n530\n\n\nMLT\nMalta\n67\n71\n154\n81\n27\n155\n42\n79\n27\n240\n137\n22\n53\n71\n31\n598\n41\n40\n18\n27\n82\n146\n41\n41\n83\n73\n79\n84\n48\n\n\nMMR\nMyanmar\n119\n361\n20\n485\n1193\n185\n89\n231\n143\n436\n413\n1155\n617\n232\n196\n283\n780\n172\n216\n137\n2448\n167\n673\n230\n1074\n289\n57\n663\n280\n\n\nMNE\nMontenegro\n261\n1\n201\n19\n6\n58\n15\n10\n58\n0\n117\n24\n5\n11\n40\n108\n0\n25\n7\n31\n28\n13\n10\n211\n32\n134\n114\n35\n5\n\n\nMNG\nMongolia\n9\n23\n19\n36\n151\n17\n10\n14\n21\n33\n15\n20\n50\n45\n2\n51\n236\n4\n0\n6\n145\n13\n39\n51\n36\n41\n17\n38\n14\n\n\nMOZ\nMozambique\n22\n50\n75\n36\n25\n14\n23\n55\n41\n170\n45\n45\n74\n12\n26\n93\n12\n330\n2\n45\n78\n94\n34\n9\n62\n28\n7\n58\n766\n\n\nMRT\nMauritania\n12\n8\n7\n7\n2\n4\n212\n156\n10\n114\n3\n15\n2\n12\n6\n34\n0\n19\n0\n11\n0\n36\n3\n3\n12\n18\n0\n2\n74\n\n\nMUS\nMauritius\n0\n22\n0\n1\n24\n17\n0\n15\n0\n225\n37\n14\n143\n34\n3\n31\n0\n194\n0\n0\n53\n52\n33\n0\n14\n5\n0\n17\n143\n\n\nMWI\nMalawi\n8\n34\n9\n31\n14\n22\n41\n31\n18\n63\n31\n63\n13\n9\n0\n30\n0\n270\n0\n12\n6\n241\n20\n0\n26\n3\n9\n6\n530\n\n\nMYS\nMalaysia\n210\n990\n258\n433\n2228\n338\n161\n179\n349\n193\n645\n3648\n778\n601\n272\n357\n752\n645\n307\n373\nNA\n387\n691\n306\n2368\n400\n179\n433\n607\n\n\nNAM\nNamibia\n42\n28\n9\n30\n15\n40\n10\n10\n6\n48\n45\n37\n11\n16\n3\n52\n0\n150\n0\n4\n8\n121\n19\n2\n8\n6\n6\n21\n311\n\n\nNCL\nNew Caledonia\n0\n29\n11\n1\n0\n0\n10\n3\n11\n330\n0\n6\n2\n3\n8\n7\n0\n0\n0\n8\n0\n0\n7\n3\n14\n9\n2\n0\n7\n\n\nNER\nNiger\n5\n11\n18\n38\n15\n48\n360\n109\n54\n306\n17\n26\n21\n23\n55\n130\n23\n334\n4\n51\n6\n5170\n41\n2\n78\n32\n2\n93\n206\n\n\nNGA\nNigeria\n317\n258\n894\n610\n225\n436\n1227\n642\n642\n956\n448\n703\n409\n288\n328\n481\n305\n3263\n66\n639\n252\nNA\n483\n203\n634\n400\n150\n449\n3196\n\n\nNIC\nNicaragua\n758\n25\n346\n76\n51\n60\n10\n9\n649\n172\n29\n10\n10\n12\n48\n63\n20\n12\n25\n595\n8\n5\n25\n14\n47\n30\n10\n132\n25\n\n\nNLD\nNetherlands\n670\n758\n563\n834\n439\n718\n256\n285\n499\n629\n1301\n1075\n571\n553\n467\n1102\n571\n627\n397\n564\n501\n733\n669\n620\n435\n1383\n742\n998\n810\n\n\nNOR\nNorway\n192\n116\n287\n357\n132\n497\n95\n173\n130\n309\n390\n4\n188\n230\n138\n445\n118\n121\n232\n127\n111\n120\n176\n399\n184\n303\n306\n286\n140\n\n\nNPL\nNepal\n128\n269\n191\n342\n455\n209\n35\n96\n251\n196\n299\n173\n1800\n120\n254\n168\n265\n201\n152\n272\n484\n143\n398\n85\n214\n129\n88\n299\n291\n\n\nNRU\nNauru\n0\n462\n1\n1\n19\n7\n0\n2\n1\n5\n10\n17\n2\n3\n0\n13\n4\n4\n4\n0\n4\n4\n8\n3\n13\n0\n0\n13\n21\n\n\nNZL\nNew Zealand\n485\n4827\n279\n678\n1198\n439\n133\n147\n364\n372\n1341\n462\n1350\n79\n272\n335\n92\n358\n371\n354\n1449\n197\n1807\n114\n409\n305\n149\n582\n1411\n\n\nOMN\nOman\n3\n17\n27\n18\n23\n53\n197\n370\n13\n60\n27\n209\n144\n21\n98\n157\n61\n57\n87\n8\n50\n22\n129\n20\n48\n37\n0\n27\n30\n\n\nPAK\nPakistan\n135\n824\n457\n927\n1053\n457\n718\n604\n467\n660\n1242\n911\n9072\n1238\n611\n404\n645\n623\n114\n442\n830\n488\nNA\n304\n846\n746\n149\n1005\n1037\n\n\nPAN\nPanama\n796\n111\n193\n323\n153\n198\n53\n81\n678\n519\n243\n120\n155\n54\n55\n221\n255\n112\n36\n723\n228\n87\n1191\n57\n109\n59\n84\n209\n147\n\n\nPER\nPeru\n1615\n125\n926\n224\n88\n200\n39\n63\n1388\n3\n220\n203\n83\n266\n84\n231\n262\n88\n147\n1373\n149\n74\n107\n117\n258\n148\n65\n224\n104\n\n\nPHL\nPhilippines\n244\n681\n315\n889\n2676\n361\n244\n322\n571\n517\n454\n1205\n466\n280\n434\n351\n899\n452\n772\n630\n1261\n368\n503\n221\n1566\n295\n171\n916\n702\n\n\nPLW\nPalau\n12\n0\n7\n1\n17\n0\n0\n0\n4\n9\n6\n13\n0\n3\n0\n22\n108\n4\n7\n3\n8\n2\n0\n0\n3\n0\n0\n17\n0\n\n\nPNG\nPapua New Guinea\n10\n315\n19\n26\n105\n0\n15\n9\n44\n36\n86\n113\n34\n11\n36\n34\n25\n64\n0\n53\n68\n29\n25\n9\n69\n37\n11\n40\n47\n\n\nPOL\nPoland\n217\n279\n411\n672\n196\n1397\n87\n209\n213\n682\n662\n187\n343\n382\n973\n731\n166\n292\n360\n262\n105\n292\n323\n790\n400\n293\n1623\n684\n266\n\n\nPRK\nNorth Korea\n604\n1031\n1080\n1157\n2110\n1667\n411\n631\n938\n1065\n1608\n771\n885\n779\n1134\n569\n8409\n483\n8168\n990\n1379\n484\n533\n411\n1792\n526\n135\n2178\n523\n\n\nPRT\nPortugal\n517\n208\n1358\n379\n236\n600\n2019\n936\n625\n482\n848\n509\n386\n210\n125\n597\n148\n389\n234\n661\n123\n481\n247\n336\n178\n590\n516\n277\n391\n\n\nPRY\nParaguay\n1139\n7\n633\n27\n14\n73\n13\n1\n306\n50\n18\n31\n29\n31\n22\n54\n46\n34\n29\n310\n5\n32\n27\n44\n11\n45\n25\n38\n52\n\n\nPSE\nPalestinian Territories\n432\n369\n1200\n580\n263\n235\n4631\n3551\n615\n1143\n800\n3439\n411\n1561\n10464\n520\n430\n350\n373\n579\n788\n218\n586\n1428\n527\n1294\n1142\n803\n572\n\n\nQAT\nQatar\n429\n207\n432\n204\n230\n721\n1215\n1057\n332\n480\n362\n507\n369\n1108\n659\n815\n177\n450\n342\n378\n353\n566\n825\n155\n296\n771\n112\n302\n310\n\n\nROM\nRomania\n83\n50\n92\n130\n55\n333\n111\n130\n40\n287\n135\n54\n79\n183\n113\n354\n66\n22\n7\n55\n25\n63\n126\n196\n125\n284\n537\n142\n54\n\n\nRUS\nRussia\n2266\n2034\n3066\n2974\n1824\n5796\n2957\n3429\n2953\n3116\n4122\n2416\n1916\n4870\n3621\n2740\n5103\n1616\n2906\n2983\n1195\n2283\n1810\nNA\n2837\n4879\n31217\n4514\n1915\n\n\nRWA\nRwanda\n24\n26\n33\n105\n34\n80\n61\n53\n22\n324\n50\n17\n25\n11\n54\n53\n73\n1308\n54\n13\n4\n303\n21\n12\n45\n44\n0\n102\n341\n\n\nSAU\nSaudi Arabia\n275\n421\n738\n541\n364\n942\n5449\n5129\n216\n867\n1308\n2980\n906\n859\n997\n480\n0\n536\n7\n236\n516\n1070\n1255\n529\n533\n1286\n258\n859\n391\n\n\nSDN\nSudan\n9\n157\n149\n249\n92\n94\n608\n1074\n79\n399\n209\n283\n89\n167\n319\n193\n792\n1680\n222\n61\n69\n588\n244\n57\n270\n275\n17\n260\n955\n\n\nSEN\nSenegal\n39\n56\n46\n141\n25\n60\n374\n222\n59\n3\n109\n98\n27\n45\n21\n145\n82\n367\n27\n71\n28\n532\n62\n56\n35\n393\n25\n110\n344\n\n\nSGP\nSingapore\n181\n604\n356\n217\n3180\n432\n50\n162\n276\n206\n283\n1508\n991\n212\n112\n407\n601\n263\n660\n272\n3089\n236\n2408\n98\nNA\n115\n82\n343\n437\n\n\nSLB\nSolomon Islands\n3\n43\n15\n15\n20\n2\n3\n3\n14\n20\n13\n0\n9\n0\n6\n6\n0\n0\n0\n18\n7\n0\n2\n18\n7\n4\n6\n7\n9\n\n\nSLE\nSierra Leone\n74\n53\n73\n162\n47\n54\n61\n44\n145\n107\n100\n74\n54\n48\n16\n129\n0\n271\n0\n127\n3\n428\n20\n14\n38\n14\n16\n103\n289\n\n\nSLV\nEl Salvador\n327\n17\n122\n102\n27\n22\n15\n5\n414\n115\n60\n22\n14\n55\n24\n34\n0\n13\n11\n390\n25\n4\n16\n20\n62\n29\n23\n124\n19\n\n\nSMR\nSan Marino\n0\n3\n7\n0\n7\n39\n3\n3\n0\n7\n28\n17\n3\n0\n0\n317\n0\n4\n0\n0\n6\n8\n15\n2\n0\n9\n19\n0\n16\n\n\nSOM\nSomalia\n31\n131\n122\n320\n76\n143\n440\n430\n181\n301\n129\n236\n101\n84\n185\n247\n136\n2655\n54\n205\n81\n290\n96\n76\n210\n205\n75\n277\n591\n\n\nSRB\nSerbia\n181\n56\n80\n129\n48\n259\n94\n110\n147\n179\n122\n125\n106\n142\n33\n368\n83\n29\n204\n146\n22\n83\n110\n475\n108\n313\n304\n121\n68\n\n\nSSD\nSouth Sudan\n33\n123\n96\n292\n104\n124\n335\n348\n201\n346\n102\n93\n89\n81\n151\n370\n0\n2708\n0\n198\n11\n320\n49\n36\n242\n50\n15\n244\n890\n\n\nSTP\nSao Tome and Principe\n0\n0\n0\n0\n3\n0\n7\n0\n0\n6\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n9\n0\n0\n0\n0\n0\n0\n4\n\n\nSUR\nSuriname\n5\n4\n7\n6\n3\n6\n0\n1\n10\n4\n0\n0\n1\n0\n0\n0\n0\n0\n0\n8\n3\n4\n5\n1\n5\n6\n2\n17\n0\n\n\nSVK\nSlovakia\n24\n24\n33\n92\n17\n162\n12\n53\n39\n136\n112\n0\n30\n41\n19\n205\n11\n29\n25\n25\n22\n38\n40\n2795\n53\n135\n5194\n51\n27\n\n\nSVN\nSlovenia\n28\n26\n22\n62\n15\n139\n41\n68\n33\n92\n97\n0\n22\n54\n25\n175\n23\n15\n18\n33\n0\n19\n26\n52\n43\n107\n157\n63\n20\n\n\nSWE\nSweden\n245\n498\n432\n916\n408\n779\n382\n609\n239\n660\n1091\n350\n485\n484\n467\n840\n273\n440\n564\n248\n322\n358\n305\n608\n335\n735\n603\n740\n550\n\n\nSWZ\nEswatini\n4\n3\n0\n26\n5\n6\n0\n0\n3\n4\n5\n7\n0\n0\n3\n0\n4\n29\n2\n0\n0\n72\n5\n0\n3\n1\n0\n1\n208\n\n\nSYC\nSeychelles\n27\n6\n6\n12\n8\n8\n5\n11\n0\n11\n19\n13\n40\n6\n2\n24\n0\n151\n0\n0\n35\n78\n6\n17\n3\n16\n9\n0\n115\n\n\nSYR\nSyria\n1692\n1420\n2365\n2120\n953\n3079\n4026\n4215\n2881\n4853\n3022\n2311\n1378\n3409\n7576\n1870\n2736\n1172\n264\n2933\n1225\n806\n1284\n4521\n2744\n6378\n968\n2880\n2006\n\n\nTCD\nChad\n23\n111\n22\n294\n112\n19\n110\n87\n47\n226\n41\n23\n43\n6\n59\n39\n14\n203\n7\n29\n8\n774\n44\n45\n63\n43\n9\n132\n497\n\n\nTGO\nTogo\n0\n3\n4\n2\n2\n20\n5\n0\n12\n88\n6\n30\n18\n3\n11\n7\n0\n84\n7\n6\n16\n340\n11\n1\n6\n546\n0\n10\n83\n\n\nTHA\nThailand\n224\n1246\n447\n824\n2681\n474\n81\n281\n381\n503\n804\n1363\n873\n635\n362\n445\n5430\n441\n1034\n327\n4956\n366\n624\n419\n2110\n342\n369\n828\n1038\n\n\nTJK\nTajikistan\n2\n17\n0\n9\n13\n15\n8\n31\n3\n0\n5\n32\n30\n127\n12\n18\n30\n14\n0\n0\n1\n11\n78\n251\n8\n54\n65\n17\n11\n\n\nTKM\nTurkmenistan\n8\n5\n14\n6\n15\n14\n4\n10\n3\n14\n14\n22\n33\n184\n9\n7\n5\n0\n53\n7\n4\n9\n60\n27\n12\n52\n15\n9\n9\n\n\nTLS\nTimor-Leste\n3\n175\n3\n7\n28\n0\n0\n3\n3\n0\n1\n228\n3\n0\n3\n0\n28\n4\n0\n3\n34\n0\n7\n0\n17\n3\n0\n14\n0\n\n\nTON\nTonga\n105\n146\n0\n6\n27\n25\n3\n0\n10\n49\n55\n13\n21\n3\n15\n30\n76\n17\n43\n19\n6\n0\n10\n3\n9\n6\n0\n14\n43\n\n\nTTO\nTrinidad and Tobago\n102\n10\n7\n64\n11\n17\n3\n0\n51\n0\n29\n25\n26\n9\n0\n7\n0\n13\n4\n46\n9\n19\n13\n0\n2\n4\n9\n34\n15\n\n\nTUN\nTunisia\n37\n52\n203\n113\n73\n237\n4525\n1516\n140\n1017\n217\n218\n82\n264\n233\n431\n0\n353\n7\n161\n72\n334\n132\n123\n162\n237\n75\n170\n349\n\n\nTUR\nTurkey\n647\n685\n1138\n1315\n593\n4171\n4219\n2743\n987\n2563\n1558\n2457\n771\n3444\n3968\n1636\n1816\n605\n429\n1027\n619\n939\n1544\n3300\n2105\nNA\n1633\n1740\n832\n\n\nTUV\nTuvalu\n0\n1\n0\n1\n1\n0\n0\n0\n0\n0\n0\n3\n0\n0\n0\n4\n5\n8\n7\n3\n0\n0\n0\n0\n3\n0\n0\n0\n0\n\n\nTWN\nTaiwan\n64\n300\n153\n219\n3121\n224\n83\n122\n185\n221\n206\n481\n410\n153\n149\n125\n2386\n174\n980\n210\n763\n158\n315\n110\n747\n96\n96\n477\n339\n\n\nTZA\nTanzania\n33\n26\n43\n79\n38\n69\n202\n97\n54\n87\n81\n36\n56\n36\n29\n64\n36\n3304\n22\n59\n52\n467\n38\n33\n88\n73\n19\n39\n373\n\n\nUGA\nUganda\n58\n66\n53\n119\n29\n57\n64\n156\n57\n173\n122\n52\n64\n35\n44\n97\n28\n3527\n38\n56\n11\n401\n62\n20\n94\n56\n7\n102\n627\n\n\nUKR\nUkraine\n745\n896\n940\n1481\n652\n2984\n716\n990\n1061\n1494\n1694\n629\n878\n975\n1223\n710\n1336\n619\n156\n1120\n675\n640\n428\n14521\n1734\n1188\nNA\n1937\n951\n\n\nURY\nUruguay\n2176\n70\n786\n75\n75\n142\n15\n7\n505\n118\n159\n170\n53\n28\n35\n175\n164\n100\n69\n499\n40\n116\n110\n39\n79\n69\n56\n75\n101\n\n\nUSA\nUnited States of America\n12601\n27246\n21143\n25324\n21331\n12738\n9208\n14240\n23107\n9306\n19200\n16063\n18611\n20349\n18200\n16939\n6958\n13923\n26071\n23174\n11440\n13629\n14303\n19433\n13620\n17246\n12602\nNA\n13233\n\n\nUZB\nUzbekistan\n2\n54\n17\n40\n26\n49\n11\n33\n22\n39\n13\n88\n54\n191\n34\n39\n27\n4\n59\n22\n10\n20\n70\n270\n22\n132\n131\n38\n12\n\n\nVAT\nVatican City\n1086\n257\n1205\n353\n238\n392\n49\n354\n758\n320\n285\n144\n173\n77\n238\n866\n159\n201\n0\n706\n236\n274\n180\n78\n217\n132\n67\n382\n321\n\n\nVCT\nSaint Vincent and the Grenadines\n4\n0\n0\n0\n0\n0\n0\n0\n1\n0\n6\n6\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n2\n0\n0\n0\n0\n0\n0\n\n\nVEN\nVenezuela\n4233\n297\n4707\n605\n262\n906\n187\n322\n3451\n1300\n379\n441\n243\n507\n347\n640\n507\n188\n154\n3420\n207\n179\n210\n840\n691\n339\n149\n1146\n199\n\n\nVNM\nVietnam\n93\n480\n149\n291\n1089\n204\n0\n0\n132\n167\n281\n558\n316\n166\n120\n163\n1189\n151\n2042\n131\n987\n160\n180\n152\n556\n80\n89\n887\n277\n\n\nVUT\nVanuatu\n0\n74\n4\n23\n19\n3\n7\n3\n28\n31\n12\n36\n17\n0\n32\n1\n27\n0\n7\n22\n8\n4\n7\n10\n22\n16\n2\n4\n35\n\n\nWSM\nSamoa\n26\n146\n3\n10\n28\n0\n0\n0\n4\n18\n84\n9\n0\n0\n9\n25\n101\n21\n0\n3\n32\n6\n5\n1\n11\n0\n0\n10\n52\n\n\nYEM\nYemen\n150\n224\n384\n518\n210\n406\n2184\n2507\n593\n1072\n557\n846\n571\n1598\n1419\n546\n274\n369\n167\n583\n170\n185\n785\n276\n949\n436\n63\n797\n413\n\n\nZAF\nSouth Africa\n546\n2571\n441\n1267\n792\n486\n47\n195\n228\n865\n1574\n225\n2811\n420\n538\n402\n101\n3804\n0\n214\n1712\n5419\n2864\n10\n548\n226\n0\n1042\nNA\n\n\nZMB\nZambia\n11\n9\n20\n13\n6\n27\n154\n85\n16\n43\n35\n9\n18\n14\n11\n31\n20\n455\n2\n23\n16\n476\n36\n17\n43\n19\n2\n14\n464\n\n\nZWE\nZimbabwe\n60\n245\n194\n320\n178\n30\n134\n150\n115\n289\n255\n91\n280\n100\n70\n106\n87\n1629\n87\n108\n269\n911\n589\n48\n277\n58\n29\n245\n4773\n\n\n\n\n\n\n\nCompute parameters\n\n\n\nSalience of countries (p. 100,000)\n\n\n\n\n\n\n\n\n\n\n\n\n\nrnk\nISO3\nNAMEen\nmin\nQ1\nQ2\nQ3\nmean\nsd\n\n\n\n\n1\nUSA\nUnited States of America\n6958\n13109\n16501\n20548\n16830\n5319\n\n\n2\nCHN\nChina\n1429\n3367\n4942\n8548\n6571\n4353\n\n\n3\nGBR\nUnited Kingdom\n1408\n2408\n4648\n6337\n4453\n1974\n\n\n4\nRUS\nRussia\n1195\n2208\n2955\n3746\n4048\n5449\n\n\n6\nFRA\nFrance\n170\n1554\n2424\n3542\n2626\n1354\n\n\n5\nSYR\nSyria\n264\n1378\n2365\n3079\n2658\n1673\n\n\n8\nDEU\nGermany\n322\n1358\n1898\n2711\n2111\n1136\n\n\n7\nJPN\nJapan\n632\n1618\n1848\n2659\n2562\n2377\n\n\n11\nTUR\nTurkey\n429\n817\n1551\n2484\n1767\n1165\n\n\n9\nIRN\nIran\n322\n1104\n1522\n2059\n1907\n1926\n\n\n12\nESP\nSpain\n188\n1052\n1416\n2176\n1697\n975\n\n\n10\nIND\nIndia\n576\n1132\n1374\n2035\n1894\n1557\n\n\n15\nITA\nItaly\n155\n996\n1306\n1764\n1489\n759\n\n\n18\nISR\nIsrael\n243\n937\n1190\n1901\n1442\n741\n\n\n13\nAUS\nAustralia\n240\n803\n1183\n2003\n1608\n1160\n\n\n17\nBRA\nBrazil\n145\n817\n1057\n1663\n1449\n1190\n\n\n20\nIRQ\nIraq\n184\n644\n1001\n1297\n1342\n1229\n\n\n21\nEGY\nEgypt\n181\n770\n974\n1537\n1205\n802\n\n\n14\nUKR\nUkraine\n156\n701\n963\n1372\n1549\n2602\n\n\n16\nPRK\nNorth Korea\n135\n533\n938\n1379\n1464\n1960\n\n\n33\nCAN\nCanada\n321\n524\n760\n986\n787\n293\n\n\n22\nKOR\nSouth Korea\n243\n524\n712\n892\n1123\n1614\n\n\n27\nPAK\nPakistan\n114\n457\n652\n915\n965\n1618\n\n\n29\nGRC\nGreece\n112\n356\n634\n863\n804\n689\n\n\n36\nNLD\nNetherlands\n256\n501\n627\n758\n682\n273\n\n\n19\nPSE\nPalestinian Territories\n218\n430\n586\n1200\n1355\n2049\n\n\n40\nAFG\nAfghanistan\n77\n334\n554\n860\n662\n515\n\n\n24\nSAU\nSaudi Arabia\n0\n391\n541\n997\n1033\n1307\n\n\n26\nMEX\nMexico\n351\n478\n540\n1184\n993\n830\n\n\n32\nHKG\nHong Kong\n9\n152\n519\n852\n791\n982\n\n\n39\nYEM\nYemen\n63\n274\n518\n797\n664\n595\n\n\n23\nZAF\nSouth Africa\n0\n222\n512\n1344\n1048\n1322\n\n\n30\nIDN\nIndonesia\n0\n313\n510\n652\n797\n1122\n\n\n25\nTHA\nThailand\n81\n369\n503\n1034\n1031\n1283\n\n\n46\nSWE\nSweden\n239\n350\n484\n609\n516\n216\n\n\n41\nPHL\nPhilippines\n171\n322\n466\n772\n647\n518\n\n\n31\nARG\nArgentina\n189\n329\n453\n774\n793\n864\n\n\n38\nNGA\nNigeria\n66\n301\n448\n642\n675\n766\n\n\n45\nCHE\nSwitzerland\n108\n259\n412\n623\n516\n426\n\n\n55\nBEL\nBelgium\n9\n269\n396\n513\n417\n238\n\n\n37\nMYS\nMalaysia\n161\n298\n394\n656\n682\n787\n\n\n47\nPRT\nPortugal\n123\n236\n391\n597\n504\n398\n\n\n28\nVEN\nVenezuela\n149\n210\n379\n840\n933\n1280\n\n\n48\nQAT\nQatar\n112\n302\n378\n659\n488\n294\n\n\n34\nNZL\nNew Zealand\n79\n272\n371\n678\n702\n929\n\n\n43\nLBY\nLibya\n0\n239\n355\n679\n616\n704\n\n\n44\nIRL\nIreland\n5\n225\n326\n606\n520\n646\n\n\n50\nPOL\nPoland\n87\n217\n323\n672\n465\n368\n\n\n51\nMMR\nMyanmar\n20\n172\n280\n617\n460\n501\n\n\n42\nSGP\nSingapore\n50\n200\n280\n602\n635\n860\n\n\n35\nCUB\nCuba\n102\n166\n268\n743\n684\n996\n\n\n67\nKEN\nKenya\n30\n186\n258\n368\n330\n296\n\n\n75\nDNK\nDenmark\n63\n196\n244\n356\n271\n121\n\n\n63\nAUT\nAustria\n37\n182\n241\n362\n353\n389\n\n\n64\nVAT\nVatican City\n0\n159\n238\n354\n336\n302\n\n\n65\nSDN\nSudan\n9\n92\n222\n319\n333\n375\n\n\n62\nBGD\nBangladesh\n0\n87\n218\n404\n365\n465\n\n\n61\nLBN\nLebanon\n19\n133\n217\n375\n373\n449\n\n\n54\nTWN\nTaiwan\n64\n149\n210\n410\n451\n682\n\n\n74\nNPL\nNepal\n35\n143\n209\n291\n276\n312\n\n\n49\nCOL\nColombia\n10\n131\n198\n345\n472\n660\n\n\n60\nJOR\nJordan\n0\n115\n193\n328\n375\n415\n\n\n83\nNOR\nNorway\n4\n127\n184\n303\n217\n119\n\n\n73\nSOM\nSomalia\n31\n96\n181\n277\n280\n475\n\n\n53\nCHL\nChile\n27\n119\n175\n319\n455\n791\n\n\n57\nTUN\nTunisia\n0\n82\n170\n264\n398\n852\n\n\n59\nVNM\nVietnam\n0\n132\n167\n480\n382\n455\n\n\n82\nFIN\nFinland\n47\n102\n164\n247\n220\n257\n\n\n71\nARE\nUnited Arab Emirates\n0\n95\n161\n324\n293\n417\n\n\n95\nHRV\nCroatia\n41\n107\n161\n213\n169\n83\n\n\n66\nLKA\nSri Lanka\n5\n98\n161\n366\n330\n444\n\n\n81\nHUN\nHungary\n40\n107\n157\n254\n231\n186\n\n\n52\nMLI\nMali\n14\n70\n153\n530\n460\n785\n\n\n78\nPAN\nPanama\n36\n84\n153\n243\n250\n274\n\n\n56\nZWE\nZimbabwe\n29\n87\n150\n277\n404\n900\n\n\n70\nPER\nPeru\n3\n88\n148\n231\n306\n431\n\n\n58\nMAR\nMorocco\n25\n81\n144\n269\n398\n913\n\n\n69\nCOD\nDemocratic Republic of the Congo\n5\n71\n124\n356\n314\n474\n\n\n79\nMCO\nMonaco\n0\n32\n123\n265\n243\n377\n\n\n76\nSSD\nSouth Sudan\n0\n50\n123\n292\n264\n503\n\n\n97\nSRB\nSerbia\n22\n83\n121\n179\n146\n106\n\n\n100\nROM\nRomania\n7\n55\n111\n142\n136\n120\n\n\n92\nETH\nEthiopia\n16\n62\n104\n156\n183\n265\n\n\n104\nISL\nIceland\n3\n53\n104\n149\n123\n95\n\n\n90\nECU\nEcuador\n3\n62\n96\n151\n184\n244\n\n\n89\nCMR\nCameroon\n19\n44\n85\n137\n185\n315\n\n\n94\nDZA\nAlgeria\n0\n50\n84\n136\n174\n361\n\n\n106\nKHM\nCambodia\n13\n40\n83\n157\n118\n110\n\n\n115\nBGR\nBulgaria\n6\n52\n79\n118\n104\n88\n\n\n85\nURY\nUruguay\n7\n56\n79\n159\n211\n415\n\n\n88\nGHA\nGhana\n12\n48\n78\n225\n190\n344\n\n\n102\nBHR\nBahrain\n9\n43\n75\n158\n134\n152\n\n\n120\nMLT\nMalta\n18\n41\n71\n83\n92\n110\n\n\n86\nGEO\nGeorgia\n0\n9\n69\n163\n209\n337\n\n\n105\nCYP\nCyprus\n4\n44\n68\n106\n121\n232\n\n\n113\nHTI\nHaiti\n0\n22\n66\n207\n108\n113\n\n\n108\nKAZ\nKazakhstan\n28\n45\n66\n121\n114\n128\n\n\n91\nBOL\nBolivia\n15\n31\n63\n102\n183\n318\n\n\n111\nCZE\nCzechia\n7\n40\n62\n114\n110\n142\n\n\n103\nSEN\nSenegal\n3\n35\n60\n141\n124\n140\n\n\n84\nUGA\nUganda\n7\n44\n58\n102\n216\n649\n\n\n93\nAZE\nAzerbaijan\n5\n36\n57\n119\n180\n469\n\n\n107\nLBR\nLiberia\n15\n36\n57\n115\n117\n150\n\n\n121\nBFA\nBurkina Faso\n0\n24\n54\n79\n89\n116\n\n\n123\nSLE\nSierra Leone\n0\n20\n54\n107\n88\n97\n\n\n87\nTZA\nTanzania\n19\n36\n54\n81\n194\n606\n\n\n126\nBIH\nBosnia and Herzegovina\n7\n32\n52\n86\n75\n84\n\n\n117\nCIV\nCôte d’Ivoire\n0\n33\n50\n75\n103\n138\n\n\n96\nGTM\nGuatemala\n3\n30\n47\n102\n151\n291\n\n\n98\nKWT\nKuwait\n17\n33\n47\n130\n144\n298\n\n\n122\nJAM\nJamaica\n0\n22\n46\n114\n88\n123\n\n\n125\nMOZ\nMozambique\n2\n23\n45\n74\n80\n146\n\n\n108\nRWA\nRwanda\n0\n22\n45\n73\n114\n247\n\n\n114\nTCD\nChad\n6\n23\n44\n111\n108\n166\n\n\n127\nGIN\nGuinea\n0\n21\n43\n69\n73\n99\n\n\n101\nBDI\nBurundi\n0\n23\n42\n78\n135\n293\n\n\n99\nBLR\nBelarus\n3\n20\n42\n75\n139\n346\n\n\n119\nCAF\nCentral African Republic\n0\n26\n41\n87\n92\n142\n\n\n124\nARM\nArmenia\n0\n22\n40\n57\n85\n140\n\n\n116\nHND\nHonduras\n10\n22\n40\n83\n103\n172\n\n\n140\nALB\nAlbania\n0\n23\n38\n53\n51\n61\n\n\n141\nFJI\nFiji\n0\n11\n38\n43\n51\n79\n\n\n77\nNER\nNiger\n2\n17\n38\n93\n251\n951\n\n\n68\nSVK\nSlovakia\n0\n24\n38\n92\n326\n1067\n\n\n132\nOMN\nOman\n0\n21\n37\n87\n69\n81\n\n\n144\nBHS\nBahamas\n0\n19\n34\n53\n49\n49\n\n\n134\nMDV\nMaldives\n2\n24\n34\n69\n61\n76\n\n\n150\nMKD\nNorth Macedonia\n0\n20\n34\n72\n46\n46\n\n\n145\nPNG\nPapua New Guinea\n0\n15\n34\n53\n47\n59\n\n\n138\nUZB\nUzbekistan\n2\n20\n34\n54\n53\n60\n\n\n135\nMDG\nMadagascar\n5\n18\n33\n47\n60\n81\n\n\n142\nSVN\nSlovenia\n0\n22\n33\n63\n51\n46\n\n\n128\nLUX\nLuxembourg\n3\n22\n31\n58\n73\n108\n\n\n112\nPRY\nParaguay\n1\n22\n31\n50\n108\n237\n\n\n143\nKOS\nKosovo\n2\n16\n30\n76\n51\n53\n\n\n133\nLTU\nLithuania\n0\n15\n30\n61\n69\n124\n\n\n149\nEST\nEstonia\n5\n21\n26\n48\n46\n54\n\n\n136\nMNE\nMontenegro\n0\n10\n25\n58\n54\n70\n\n\n110\nNIC\nNicaragua\n5\n12\n25\n63\n113\n205\n\n\n148\nAGO\nAngola\n0\n14\n24\n34\n47\n65\n\n\n131\nGMB\nGambia\n0\n11\n24\n52\n70\n121\n\n\n129\nSLV\nEl Salvador\n0\n16\n24\n62\n73\n112\n\n\n72\nCRI\nCosta Rica\n0\n0\n22\n60\n283\n1210\n\n\n160\nGRL\nGreenland\n0\n11\n22\n54\n34\n30\n\n\n148\nLVA\nLatvia\n3\n16\n22\n39\n47\n79\n\n\n153\nMNG\nMongolia\n0\n14\n21\n41\n40\n52\n\n\n130\nZMB\nZambia\n2\n13\n19\n36\n72\n139\n\n\n159\nKGZ\nKyrgyzstan\n0\n7\n18\n29\n34\n55\n\n\n137\nMWI\nMalawi\n0\n8\n18\n31\n53\n111\n\n\n157\nLAO\nLaos\n1\n11\n17\n54\n36\n44\n\n\n118\nMAC\nMacau\n0\n6\n15\n33\n95\n312\n\n\n155\nMUS\nMauritius\n0\n0\n15\n34\n37\n60\n\n\n156\nNAM\nNamibia\n0\n6\n15\n40\n36\n63\n\n\n154\nBRN\nBrunei\n0\n9\n14\n25\n38\n88\n\n\n139\nGAB\nGabon\n0\n6\n14\n43\n52\n83\n\n\n165\nTON\nTonga\n0\n6\n14\n30\n26\n34\n\n\n163\nTJK\nTajikistan\n0\n5\n13\n30\n30\n51\n\n\n152\nBWA\nBotswana\n0\n8\n12\n28\n43\n96\n\n\n161\nDOM\nDominican Republic\n0\n4\n12\n45\n33\n44\n\n\n180\nBRB\nBarbados\n0\n2\n11\n25\n14\n15\n\n\n146\nMDA\nMoldova\n0\n4\n11\n19\n47\n119\n\n\n169\nTKM\nTurkmenistan\n0\n7\n10\n15\n22\n35\n\n\n174\nTTO\nTrinidad and Tobago\n0\n4\n10\n25\n18\n23\n\n\n178\nVUT\nVanuatu\n0\n4\n10\n23\n16\n16\n\n\n168\nSYC\nSeychelles\n0\n5\n9\n19\n22\n35\n\n\n171\nWSM\nSamoa\n0\n0\n9\n25\n21\n34\n\n\n164\nMRT\nMauritania\n0\n3\n8\n18\n27\n50\n\n\n173\nBTN\nBhutan\n0\n2\n7\n19\n19\n42\n\n\n186\nGUY\nGuyana\n0\n0\n7\n18\n11\n12\n\n\n151\nTGO\nTogo\n0\n3\n7\n18\n46\n116\n\n\n80\nBEN\nBenin\n0\n3\n6\n15\n239\n1216\n\n\n187\nBLZ\nBelize\n0\n0\n6\n10\n10\n17\n\n\n182\nDJI\nDjibouti\n0\n3\n6\n18\n13\n17\n\n\n177\nERI\nEritrea\n0\n3\n6\n22\n16\n24\n\n\n166\nGNQ\nEquatorial Guinea\n0\n3\n6\n31\n24\n37\n\n\n158\nLSO\nLesotho\n0\n3\n6\n12\n35\n111\n\n\n189\nSLB\nSolomon Islands\n0\n2\n6\n14\n9\n9\n\n\n162\nGRD\nGrenada\n0\n0\n5\n27\n33\n65\n\n\n185\nAND\nAndorra\n0\n1\n4\n8\n11\n18\n\n\n184\nCPV\nCabo Verde\n0\n0\n4\n11\n12\n18\n\n\n170\nNRU\nNauru\n0\n1\n4\n10\n21\n85\n\n\n188\nCOM\nComoros\n0\n0\n3\n14\n9\n14\n\n\n179\nESH\nWestern Sahara\n0\n0\n3\n6\n15\n52\n\n\n183\nGNB\nGuinea-Bissau\n0\n0\n3\n9\n12\n23\n\n\n192\nLIE\nLiechtenstein\n0\n0\n3\n7\n7\n12\n\n\n195\nMHL\nMarshall Islands\n0\n0\n3\n7\n5\n5\n\n\n176\nNCL\nNew Caledonia\n0\n0\n3\n8\n16\n61\n\n\n190\nPLW\nPalau\n0\n0\n3\n8\n8\n20\n\n\n175\nSMR\nSan Marino\n0\n0\n3\n9\n18\n58\n\n\n197\nSUR\nSuriname\n0\n0\n3\n5\n3\n4\n\n\n181\nSWZ\nEswatini\n0\n0\n3\n5\n13\n40\n\n\n172\nTLS\nTimor-Leste\n0\n0\n3\n7\n20\n52\n\n\n191\nCOG\nCongo\n0\n0\n2\n10\n7\n10\n\n\n194\nGGY\nGuernsey\n0\n0\n2\n4\n5\n11\n\n\n196\nKIR\nKiribati\n0\n0\n2\n6\n4\n4\n\n\n198\nATG\nAntigua and Barbuda\n0\n0\n0\n5\n3\n6\n\n\n205\nDMA\nDominica\n0\n0\n0\n0\n1\n3\n\n\n193\nFLK\nFalkland Islands\n0\n0\n0\n1\n6\n27\n\n\n198\nFRO\nFaroe Islands\n0\n0\n0\n0\n3\n9\n\n\n201\nFSM\nMicronesia (Federated States of)\n0\n0\n0\n3\n2\n3\n\n\n167\nJEY\nJersey\n0\n0\n0\n3\n23\n65\n\n\n202\nKNA\nSaint Kitts and Nevis\n0\n0\n0\n0\n1\n4\n\n\n200\nLCA\nSaint Lucia\n0\n0\n0\n0\n2\n10\n\n\n204\nSTP\nSao Tome and Principe\n0\n0\n0\n0\n1\n2\n\n\n203\nTUV\nTuvalu\n0\n0\n0\n1\n1\n2\n\n\n206\nVCT\nSaint Vincent and the Grenadines\n0\n0\n0\n0\n1\n2\n\n\n\n\n\n\n\nMap of average salience\n\n\nCoordinate Reference System:\n  User input: North_Pole_Azimuthal_Equidistant \n  wkt:\nPROJCRS[\"North_Pole_Azimuthal_Equidistant\",\n    BASEGEOGCRS[\"WGS 84\",\n        DATUM[\"World Geodetic System 1984\",\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433]]],\n    CONVERSION[\"North_Pole_Azimuthal_Equidistant\",\n        METHOD[\"Azimuthal Equidistant\",\n            ID[\"EPSG\",1125]],\n        PARAMETER[\"Latitude of natural origin\",90,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"False easting\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Not known.\"],\n        AREA[\"Northern hemisphere.\"],\n        BBOX[0,-180,90,180]],\n    ID[\"ESRI\",102016]]\n\n\n\n\n\n\n\n\n\n\n\nDorling cartogram"
   },
   {
     "objectID": "Sirius001-top-countries.html#typology-of-media-profiles",
     "href": "Sirius001-top-countries.html#typology-of-media-profiles",
     "title": "Top countries",
     "section": "Typology of media profiles",
-    "text": "Typology of media profiles\n\nCorrelation matrix\nWe establish a correlation matrix based on the Spearman correlation coefficient based on rank. The rank correlation has been chosen against the classical Pearson coefficient because it is less influenced by the weight of top countries (USA, China, Russia, …) and is more likely to reval regional organisation of news at world scale.\nThe correlation are based after exclusion of the host countries (where media are located) . For example, the correlation between Le Monde and Times of India will exclude the salience of France and India from the vectors of values used for the measure of correlation.\n\n\n\nSpearman correlation coefficient between median values\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nARG_nacion\nAUS_sydmor\nBLR_telegr\nBRA_oglobo\nCAN_tostar\nCHN_mopost\nDEU_frankf\nDZA_alnaha\nEGY_alwafd\nESP_abc\nFRA_lmonde\nGBR_indept\nIDN_republ\nIND_tindia\nIRN_hamsha\nISR_jerpos\nITA_repubb\nJPN_asahis\nKEN_standa\nKOR_kyungh\nMEX_inform\nMYS_strait\nNGA_vangua\nPAK_thenew\nRUS_isvest\nSGP_today\nTUR_sabah\nUKR_fakty\nUSA_nytime\nZAF_times\n\n\n\n\nARG_nacion\n1.00\n0.62\n0.61\n0.86\n0.74\n0.63\n0.73\n0.47\n0.50\n0.85\n0.63\n0.73\n0.62\n0.63\n0.63\n0.64\n0.69\n0.64\n0.47\n0.67\n0.92\n0.60\n0.45\n0.65\n0.60\n0.65\n0.62\n0.60\n0.74\n0.49\n\n\nAUS_sydmor\n0.62\n1.00\n0.58\n0.70\n0.85\n0.92\n0.70\n0.55\n0.64\n0.65\n0.67\n0.87\n0.75\n0.85\n0.73\n0.80\n0.67\n0.79\n0.65\n0.72\n0.71\n0.83\n0.59\n0.82\n0.63\n0.85\n0.66\n0.56\n0.86\n0.72\n\n\nBLR_telegr\n0.61\n0.58\n1.00\n0.65\n0.70\n0.60\n0.80\n0.56\n0.65\n0.65\n0.60\n0.75\n0.58\n0.67\n0.79\n0.70\n0.72\n0.64\n0.43\n0.65\n0.63\n0.57\n0.45\n0.70\n0.93\n0.66\n0.82\n0.99\n0.70\n0.46\n\n\nBRA_oglobo\n0.86\n0.70\n0.65\n1.00\n0.80\n0.72\n0.79\n0.61\n0.62\n0.87\n0.73\n0.81\n0.70\n0.74\n0.75\n0.77\n0.80\n0.71\n0.60\n0.73\n0.90\n0.69\n0.58\n0.76\n0.67\n0.78\n0.70\n0.64\n0.83\n0.62\n\n\nCAN_tostar\n0.74\n0.85\n0.70\n0.80\n1.00\n0.86\n0.84\n0.66\n0.72\n0.78\n0.78\n0.92\n0.72\n0.86\n0.80\n0.88\n0.77\n0.77\n0.73\n0.71\n0.82\n0.77\n0.68\n0.84\n0.73\n0.89\n0.77\n0.69\n0.96\n0.76\n\n\nCHN_mopost\n0.63\n0.92\n0.60\n0.72\n0.86\n1.00\n0.71\n0.57\n0.64\n0.67\n0.70\n0.86\n0.76\n0.90\n0.76\n0.80\n0.70\n0.83\n0.65\n0.77\n0.71\n0.88\n0.59\n0.84\n0.64\n0.89\n0.68\n0.58\n0.88\n0.71\n\n\nDEU_frankf\n0.73\n0.70\n0.80\n0.79\n0.84\n0.71\n1.00\n0.65\n0.74\n0.77\n0.75\n0.85\n0.69\n0.76\n0.83\n0.84\n0.83\n0.75\n0.60\n0.72\n0.77\n0.68\n0.62\n0.78\n0.81\n0.81\n0.85\n0.80\n0.84\n0.61\n\n\nDZA_alnaha\n0.47\n0.55\n0.56\n0.61\n0.66\n0.57\n0.65\n1.00\n0.89\n0.61\n0.77\n0.68\n0.64\n0.66\n0.72\n0.77\n0.71\n0.54\n0.74\n0.54\n0.60\n0.52\n0.77\n0.69\n0.58\n0.73\n0.71\n0.54\n0.67\n0.74\n\n\nEGY_alwafd\n0.50\n0.64\n0.65\n0.62\n0.72\n0.64\n0.74\n0.89\n1.00\n0.62\n0.72\n0.72\n0.68\n0.74\n0.80\n0.83\n0.74\n0.61\n0.71\n0.59\n0.62\n0.62\n0.72\n0.77\n0.69\n0.77\n0.79\n0.64\n0.72\n0.69\n\n\nESP_abc\n0.85\n0.65\n0.65\n0.87\n0.78\n0.67\n0.77\n0.61\n0.62\n1.00\n0.72\n0.77\n0.64\n0.67\n0.72\n0.74\n0.80\n0.72\n0.54\n0.71\n0.89\n0.63\n0.53\n0.70\n0.64\n0.73\n0.70\n0.63\n0.79\n0.58\n\n\nFRA_lmonde\n0.63\n0.67\n0.60\n0.73\n0.78\n0.70\n0.75\n0.77\n0.72\n0.72\n1.00\n0.78\n0.69\n0.71\n0.72\n0.78\n0.80\n0.64\n0.74\n0.62\n0.71\n0.63\n0.73\n0.73\n0.61\n0.78\n0.70\n0.57\n0.80\n0.75\n\n\nGBR_indept\n0.73\n0.87\n0.75\n0.81\n0.92\n0.86\n0.85\n0.68\n0.72\n0.77\n0.78\n1.00\n0.76\n0.87\n0.83\n0.88\n0.82\n0.77\n0.70\n0.74\n0.79\n0.81\n0.67\n0.88\n0.76\n0.88\n0.81\n0.73\n0.92\n0.75\n\n\nIDN_republ\n0.62\n0.75\n0.58\n0.70\n0.72\n0.76\n0.69\n0.64\n0.68\n0.64\n0.69\n0.76\n1.00\n0.77\n0.74\n0.77\n0.70\n0.70\n0.63\n0.70\n0.70\n0.75\n0.61\n0.77\n0.61\n0.80\n0.71\n0.57\n0.75\n0.65\n\n\nIND_tindia\n0.63\n0.85\n0.67\n0.74\n0.86\n0.90\n0.76\n0.66\n0.74\n0.67\n0.71\n0.87\n0.77\n1.00\n0.84\n0.85\n0.74\n0.76\n0.68\n0.75\n0.71\n0.85\n0.63\n0.92\n0.71\n0.88\n0.77\n0.66\n0.87\n0.72\n\n\nIRN_hamsha\n0.63\n0.73\n0.79\n0.75\n0.80\n0.76\n0.83\n0.72\n0.80\n0.72\n0.72\n0.83\n0.74\n0.84\n1.00\n0.87\n0.78\n0.73\n0.59\n0.75\n0.73\n0.73\n0.60\n0.86\n0.84\n0.84\n0.89\n0.78\n0.83\n0.61\n\n\nISR_jerpos\n0.64\n0.80\n0.70\n0.77\n0.88\n0.80\n0.84\n0.77\n0.83\n0.74\n0.78\n0.88\n0.77\n0.85\n0.87\n1.00\n0.80\n0.74\n0.71\n0.71\n0.76\n0.75\n0.67\n0.87\n0.78\n0.91\n0.87\n0.70\n0.90\n0.72\n\n\nITA_repubb\n0.69\n0.67\n0.72\n0.80\n0.77\n0.70\n0.83\n0.71\n0.74\n0.80\n0.80\n0.82\n0.70\n0.74\n0.78\n0.80\n1.00\n0.69\n0.64\n0.68\n0.77\n0.68\n0.65\n0.77\n0.71\n0.79\n0.79\n0.71\n0.79\n0.64\n\n\nJPN_asahis\n0.64\n0.79\n0.64\n0.71\n0.77\n0.83\n0.75\n0.54\n0.61\n0.72\n0.64\n0.77\n0.70\n0.76\n0.73\n0.74\n0.69\n1.00\n0.58\n0.82\n0.70\n0.79\n0.55\n0.76\n0.68\n0.82\n0.70\n0.63\n0.80\n0.63\n\n\nKEN_standa\n0.47\n0.65\n0.43\n0.60\n0.73\n0.65\n0.60\n0.74\n0.71\n0.54\n0.74\n0.70\n0.63\n0.68\n0.59\n0.71\n0.64\n0.58\n1.00\n0.51\n0.57\n0.59\n0.90\n0.69\n0.46\n0.75\n0.58\n0.40\n0.71\n0.94\n\n\nKOR_kyungh\n0.67\n0.72\n0.65\n0.73\n0.71\n0.77\n0.72\n0.54\n0.59\n0.71\n0.62\n0.74\n0.70\n0.75\n0.75\n0.71\n0.68\n0.82\n0.51\n1.00\n0.73\n0.73\n0.51\n0.75\n0.68\n0.77\n0.71\n0.65\n0.76\n0.57\n\n\nMEX_inform\n0.92\n0.71\n0.63\n0.90\n0.82\n0.71\n0.77\n0.60\n0.62\n0.89\n0.71\n0.79\n0.70\n0.71\n0.73\n0.76\n0.77\n0.70\n0.57\n0.73\n1.00\n0.66\n0.54\n0.73\n0.66\n0.77\n0.70\n0.62\n0.83\n0.60\n\n\nMYS_strait\n0.60\n0.83\n0.57\n0.69\n0.77\n0.88\n0.68\n0.52\n0.62\n0.63\n0.63\n0.81\n0.75\n0.85\n0.73\n0.75\n0.68\n0.79\n0.59\n0.73\n0.66\n1.00\n0.55\n0.80\n0.62\n0.85\n0.69\n0.56\n0.78\n0.64\n\n\nNGA_vangua\n0.45\n0.59\n0.45\n0.58\n0.68\n0.59\n0.62\n0.77\n0.72\n0.53\n0.73\n0.67\n0.61\n0.63\n0.60\n0.67\n0.65\n0.55\n0.90\n0.51\n0.54\n0.55\n1.00\n0.67\n0.48\n0.70\n0.60\n0.43\n0.68\n0.87\n\n\nPAK_thenew\n0.65\n0.82\n0.70\n0.76\n0.84\n0.84\n0.78\n0.69\n0.77\n0.70\n0.73\n0.88\n0.77\n0.92\n0.86\n0.87\n0.77\n0.76\n0.69\n0.75\n0.73\n0.80\n0.67\n1.00\n0.74\n0.86\n0.81\n0.70\n0.86\n0.72\n\n\nRUS_isvest\n0.60\n0.63\n0.93\n0.67\n0.73\n0.64\n0.81\n0.58\n0.69\n0.64\n0.61\n0.76\n0.61\n0.71\n0.84\n0.78\n0.71\n0.68\n0.46\n0.68\n0.66\n0.62\n0.48\n0.74\n1.00\n0.72\n0.86\n0.94\n0.74\n0.48\n\n\nSGP_today\n0.65\n0.85\n0.66\n0.78\n0.89\n0.89\n0.81\n0.73\n0.77\n0.73\n0.78\n0.88\n0.80\n0.88\n0.84\n0.91\n0.79\n0.82\n0.75\n0.77\n0.77\n0.85\n0.70\n0.86\n0.72\n1.00\n0.79\n0.65\n0.92\n0.77\n\n\nTUR_sabah\n0.62\n0.66\n0.82\n0.70\n0.77\n0.68\n0.85\n0.71\n0.79\n0.70\n0.70\n0.81\n0.71\n0.77\n0.89\n0.87\n0.79\n0.70\n0.58\n0.71\n0.70\n0.69\n0.60\n0.81\n0.86\n0.79\n1.00\n0.82\n0.79\n0.58\n\n\nUKR_fakty\n0.60\n0.56\n0.99\n0.64\n0.69\n0.58\n0.80\n0.54\n0.64\n0.63\n0.57\n0.73\n0.57\n0.66\n0.78\n0.70\n0.71\n0.63\n0.40\n0.65\n0.62\n0.56\n0.43\n0.70\n0.94\n0.65\n0.82\n1.00\n0.69\n0.43\n\n\nUSA_nytime\n0.74\n0.86\n0.70\n0.83\n0.96\n0.88\n0.84\n0.67\n0.72\n0.79\n0.80\n0.92\n0.75\n0.87\n0.83\n0.90\n0.79\n0.80\n0.71\n0.76\n0.83\n0.78\n0.68\n0.86\n0.74\n0.92\n0.79\n0.69\n1.00\n0.74\n\n\nZAF_times\n0.49\n0.72\n0.46\n0.62\n0.76\n0.71\n0.61\n0.74\n0.69\n0.58\n0.75\n0.75\n0.65\n0.72\n0.61\n0.72\n0.64\n0.63\n0.94\n0.57\n0.60\n0.64\n0.87\n0.72\n0.48\n0.77\n0.58\n0.43\n0.74\n1.00\n\n\n\n\n\n\n\nPrincipal Component Analysis\nThe PCA provide a first viusalization of the proximity between media and some clustrs can be easily observed on the plan defined by the two first component. It is a simple approximation and better results could be obtained with Multi Dimensional Scaling (MDS) or Network Analysis (it will be done later).\n\n\n\n\n\n\n\nComment : The figure reveals immediately a clustering of media based on geographical or language proximity. Notice the specific situation of the french media Le Monde in an intermediate position between media from Western Europe and media from Northern Africa.\n\n\n\nHierarchical Cluster Analysis\nThe hierarchical cluster analysis is realized on the matrix of dissimilarity between \\(D\\) defined as the difference between 1 and the Spearman correlation coefficient :\n\\(D_{ij} = 1 - \\rho_{ij}\\)\nWe can then apply different clustering methods. We have chosen here the classical method of Ward.\n\n\n\n\n\n\n\n\n\n\nComment :  The tree reveals a first partition in three main groups A, B and C, followed by a subdivision in 7 subgroups. The group A characterized media from Subsaharan Africa (A.1) and North Africa & Arabia (A.2). The group B is associated only to coutries located in Latin America . Finally, the group C is divided in four subgroups corresponding to Black Sea region (B.1), Asia-Pacifica (B.2), Northern America and the U.K (B.3) and Western Europe (B.4)."
+    "text": "Typology of media profiles\n\nCorrelation matrix\nWe establish a correlation matrix based on the Spearman correlation coefficient based on rank. The rank correlation has been chosen against the classical Pearson coefficient because it is less influenced by the weight of top countries (USA, China, Russia, …) and is more likely to reval regional organisation of news at world scale.\nThe correlation are based after exclusion of the host countries (where media are located) . For example, the correlation between Le Monde and Times of India will exclude the salience of France and India from the vectors of values used for the measure of correlation.\n\n\n\nSpearman correlation coefficient between median values\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nARG_nacion\nAUS_sydmor\nBRA_oglobo\nCAN_tostar\nCHN_mopost\nDEU_frankf\nDZA_alnaha\nEGY_alwafd\nESP_abc\nFRA_lmonde\nGBR_indept\nIDN_republ\nIND_tindia\nIRN_hamsha\nISR_jerpos\nITA_repubb\nJPN_asahis\nKEN_standa\nKOR_kyungh\nMEX_inform\nMYS_strait\nNGA_vangua\nPAK_thenew\nRUS_isvest\nSGP_today\nTUR_sabah\nUKR_fakty\nUSA_nytime\nZAF_times\n\n\n\n\nARG_nacion\n1.00\n0.59\n0.86\n0.68\n0.57\n0.70\n0.42\n0.45\n0.91\n0.58\n0.67\n0.56\n0.56\n0.56\n0.57\n0.65\n0.61\n0.36\n0.62\n0.91\n0.53\n0.38\n0.57\n0.52\n0.59\n0.57\n0.53\n0.69\n0.41\n\n\nAUS_sydmor\n0.59\n1.00\n0.68\n0.87\n0.92\n0.68\n0.55\n0.63\n0.68\n0.64\n0.88\n0.72\n0.88\n0.71\n0.78\n0.66\n0.79\n0.62\n0.71\n0.68\n0.81\n0.58\n0.82\n0.54\n0.86\n0.64\n0.48\n0.87\n0.72\n\n\nBRA_oglobo\n0.86\n0.68\n1.00\n0.76\n0.67\n0.76\n0.56\n0.57\n0.90\n0.69\n0.77\n0.66\n0.69\n0.70\n0.72\n0.77\n0.69\n0.52\n0.68\n0.89\n0.65\n0.51\n0.69\n0.58\n0.74\n0.66\n0.56\n0.80\n0.56\n\n\nCAN_tostar\n0.68\n0.87\n0.76\n1.00\n0.84\n0.80\n0.63\n0.69\n0.78\n0.75\n0.91\n0.68\n0.84\n0.75\n0.85\n0.74\n0.76\n0.68\n0.67\n0.77\n0.73\n0.65\n0.82\n0.65\n0.87\n0.74\n0.60\n0.96\n0.74\n\n\nCHN_mopost\n0.57\n0.92\n0.67\n0.84\n1.00\n0.66\n0.52\n0.59\n0.66\n0.63\n0.83\n0.73\n0.89\n0.70\n0.75\n0.65\n0.81\n0.58\n0.74\n0.66\n0.88\n0.55\n0.82\n0.52\n0.88\n0.61\n0.46\n0.84\n0.68\n\n\nDEU_frankf\n0.70\n0.68\n0.76\n0.80\n0.66\n1.00\n0.62\n0.71\n0.73\n0.72\n0.83\n0.64\n0.72\n0.80\n0.80\n0.81\n0.73\n0.51\n0.67\n0.73\n0.61\n0.55\n0.74\n0.76\n0.75\n0.84\n0.75\n0.80\n0.55\n\n\nDZA_alnaha\n0.42\n0.55\n0.56\n0.63\n0.52\n0.62\n1.00\n0.89\n0.55\n0.75\n0.66\n0.64\n0.63\n0.70\n0.76\n0.70\n0.52\n0.72\n0.49\n0.56\n0.48\n0.78\n0.67\n0.51\n0.69\n0.71\n0.46\n0.63\n0.71\n\n\nEGY_alwafd\n0.45\n0.63\n0.57\n0.69\n0.59\n0.71\n0.89\n1.00\n0.57\n0.69\n0.70\n0.68\n0.72\n0.78\n0.83\n0.71\n0.58\n0.67\n0.54\n0.58\n0.57\n0.69\n0.75\n0.62\n0.72\n0.78\n0.57\n0.68\n0.65\n\n\nESP_abc\n0.91\n0.68\n0.90\n0.78\n0.66\n0.73\n0.55\n0.57\n1.00\n0.67\n0.73\n0.65\n0.65\n0.65\n0.69\n0.75\n0.68\n0.49\n0.67\n0.99\n0.60\n0.48\n0.65\n0.56\n0.73\n0.62\n0.52\n0.80\n0.53\n\n\nFRA_lmonde\n0.58\n0.64\n0.69\n0.75\n0.63\n0.72\n0.75\n0.69\n0.67\n1.00\n0.74\n0.65\n0.66\n0.67\n0.73\n0.79\n0.60\n0.69\n0.54\n0.67\n0.55\n0.71\n0.67\n0.52\n0.74\n0.64\n0.48\n0.76\n0.72\n\n\nGBR_indept\n0.67\n0.88\n0.77\n0.91\n0.83\n0.83\n0.66\n0.70\n0.73\n0.74\n1.00\n0.73\n0.85\n0.79\n0.84\n0.79\n0.75\n0.63\n0.69\n0.73\n0.76\n0.62\n0.86\n0.67\n0.85\n0.79\n0.65\n0.90\n0.71\n\n\nIDN_republ\n0.56\n0.72\n0.66\n0.68\n0.73\n0.64\n0.64\n0.68\n0.65\n0.65\n0.73\n1.00\n0.75\n0.70\n0.73\n0.67\n0.68\n0.59\n0.66\n0.66\n0.71\n0.58\n0.75\n0.53\n0.77\n0.66\n0.48\n0.71\n0.64\n\n\nIND_tindia\n0.56\n0.88\n0.69\n0.84\n0.89\n0.72\n0.63\n0.72\n0.65\n0.66\n0.85\n0.75\n1.00\n0.80\n0.83\n0.71\n0.76\n0.62\n0.70\n0.66\n0.84\n0.58\n0.91\n0.61\n0.86\n0.72\n0.56\n0.83\n0.70\n\n\nIRN_hamsha\n0.56\n0.71\n0.70\n0.75\n0.70\n0.80\n0.70\n0.78\n0.65\n0.67\n0.79\n0.70\n0.80\n1.00\n0.85\n0.75\n0.70\n0.51\n0.68\n0.67\n0.68\n0.53\n0.81\n0.79\n0.80\n0.88\n0.71\n0.77\n0.54\n\n\nISR_jerpos\n0.57\n0.78\n0.72\n0.85\n0.75\n0.80\n0.76\n0.83\n0.69\n0.73\n0.84\n0.73\n0.83\n0.85\n1.00\n0.76\n0.70\n0.66\n0.65\n0.70\n0.70\n0.63\n0.85\n0.68\n0.89\n0.85\n0.60\n0.87\n0.68\n\n\nITA_repubb\n0.65\n0.66\n0.77\n0.74\n0.65\n0.81\n0.70\n0.71\n0.75\n0.79\n0.79\n0.67\n0.71\n0.75\n0.76\n1.00\n0.67\n0.57\n0.63\n0.74\n0.62\n0.62\n0.74\n0.65\n0.76\n0.77\n0.64\n0.75\n0.60\n\n\nJPN_asahis\n0.61\n0.79\n0.69\n0.76\n0.81\n0.73\n0.52\n0.58\n0.68\n0.60\n0.75\n0.68\n0.76\n0.70\n0.70\n0.67\n1.00\n0.54\n0.83\n0.69\n0.77\n0.53\n0.74\n0.62\n0.82\n0.68\n0.56\n0.78\n0.61\n\n\nKEN_standa\n0.36\n0.62\n0.52\n0.68\n0.58\n0.51\n0.72\n0.67\n0.49\n0.69\n0.63\n0.59\n0.62\n0.51\n0.66\n0.57\n0.54\n1.00\n0.44\n0.49\n0.51\n0.90\n0.63\n0.31\n0.71\n0.49\n0.26\n0.65\n0.94\n\n\nKOR_kyungh\n0.62\n0.71\n0.68\n0.67\n0.74\n0.67\n0.49\n0.54\n0.67\n0.54\n0.69\n0.66\n0.70\n0.68\n0.65\n0.63\n0.83\n0.44\n1.00\n0.68\n0.70\n0.45\n0.71\n0.61\n0.73\n0.65\n0.57\n0.71\n0.54\n\n\nMEX_inform\n0.91\n0.68\n0.89\n0.77\n0.66\n0.73\n0.56\n0.58\n0.99\n0.67\n0.73\n0.66\n0.66\n0.67\n0.70\n0.74\n0.69\n0.49\n0.68\n1.00\n0.60\n0.48\n0.66\n0.55\n0.73\n0.63\n0.53\n0.80\n0.53\n\n\nMYS_strait\n0.53\n0.81\n0.65\n0.73\n0.88\n0.61\n0.48\n0.57\n0.60\n0.55\n0.76\n0.71\n0.84\n0.68\n0.70\n0.62\n0.77\n0.51\n0.70\n0.60\n1.00\n0.47\n0.78\n0.51\n0.83\n0.62\n0.45\n0.74\n0.59\n\n\nNGA_vangua\n0.38\n0.58\n0.51\n0.65\n0.55\n0.55\n0.78\n0.69\n0.48\n0.71\n0.62\n0.58\n0.58\n0.53\n0.63\n0.62\n0.53\n0.90\n0.45\n0.48\n0.47\n1.00\n0.63\n0.36\n0.66\n0.52\n0.31\n0.63\n0.86\n\n\nPAK_thenew\n0.57\n0.82\n0.69\n0.82\n0.82\n0.74\n0.67\n0.75\n0.65\n0.67\n0.86\n0.75\n0.91\n0.81\n0.85\n0.74\n0.74\n0.63\n0.71\n0.66\n0.78\n0.63\n1.00\n0.64\n0.84\n0.77\n0.60\n0.81\n0.69\n\n\nRUS_isvest\n0.52\n0.54\n0.58\n0.65\n0.52\n0.76\n0.51\n0.62\n0.56\n0.52\n0.67\n0.53\n0.61\n0.79\n0.68\n0.65\n0.62\n0.31\n0.61\n0.55\n0.51\n0.36\n0.64\n1.00\n0.60\n0.83\n0.93\n0.64\n0.37\n\n\nSGP_today\n0.59\n0.86\n0.74\n0.87\n0.88\n0.75\n0.69\n0.72\n0.73\n0.74\n0.85\n0.77\n0.86\n0.80\n0.89\n0.76\n0.82\n0.71\n0.73\n0.73\n0.83\n0.66\n0.84\n0.60\n1.00\n0.75\n0.53\n0.90\n0.75\n\n\nTUR_sabah\n0.57\n0.64\n0.66\n0.74\n0.61\n0.84\n0.71\n0.78\n0.62\n0.64\n0.79\n0.66\n0.72\n0.88\n0.85\n0.77\n0.68\n0.49\n0.65\n0.63\n0.62\n0.52\n0.77\n0.83\n0.75\n1.00\n0.80\n0.74\n0.52\n\n\nUKR_fakty\n0.53\n0.48\n0.56\n0.60\n0.46\n0.75\n0.46\n0.57\n0.52\n0.48\n0.65\n0.48\n0.56\n0.71\n0.60\n0.64\n0.56\n0.26\n0.57\n0.53\n0.45\n0.31\n0.60\n0.93\n0.53\n0.80\n1.00\n0.58\n0.32\n\n\nUSA_nytime\n0.69\n0.87\n0.80\n0.96\n0.84\n0.80\n0.63\n0.68\n0.80\n0.76\n0.90\n0.71\n0.83\n0.77\n0.87\n0.75\n0.78\n0.65\n0.71\n0.80\n0.74\n0.63\n0.81\n0.64\n0.90\n0.74\n0.58\n1.00\n0.71\n\n\nZAF_times\n0.41\n0.72\n0.56\n0.74\n0.68\n0.55\n0.71\n0.65\n0.53\n0.72\n0.71\n0.64\n0.70\n0.54\n0.68\n0.60\n0.61\n0.94\n0.54\n0.53\n0.59\n0.86\n0.69\n0.37\n0.75\n0.52\n0.32\n0.71\n1.00\n\n\n\n\n\n\n\nPrincipal Component Analysis\nThe PCA provide a first viusalization of the proximity between media and some clustrs can be easily observed on the plan defined by the two first component. It is a simple approximation and better results could be obtained with Multi Dimensional Scaling (MDS) or Network Analysis (it will be done later).\n\n\n\n\n\n\n\nComment : The figure reveals immediately a clustering of media based on geographical or language proximity. Notice the specific situation of the french media Le Monde in an intermediate position between media from Western Europe and media from Northern Africa.\n\n\n\nHierarchical Cluster Analysis\nThe hierarchical cluster analysis is realized on the matrix of dissimilarity between \\(D\\) defined as the difference between 1 and the Spearman correlation coefficient :\n\\(D_{ij} = 1 - \\rho_{ij}\\)\nWe can then apply different clustering methods. We have chosen here the classical method of Ward.\n\n\n\n\n\n\n\n\n\n\nComment :  The tree reveals a first partition in three main groups A, B and C, followed by a subdivision in 7 subgroups. The group A characterized media from Subsaharan Africa (A.1) and North Africa & Arabia (A.2). The group B is associated only to coutries located in Latin America . Finally, the group C is divided in four subgroups corresponding to Black Sea region (B.1), Asia-Pacifica (B.2), Northern America and the U.K (B.3) and Western Europe (B.4)."
   },
   {
     "objectID": "Sirius001-top-countries.html#network-analysis",
@@ -378,277 +35,32 @@
     "text": "Network analysis\nWe start by computing for each media what are the three media with highest correlation that we consider as the most similar in terms of mdia coverage. We use the 4 main correlations between one media and the other to elaborate the network\n\n\n\nNetwork of top correlations between media coverage\n\n\n\nComment : The network analysis provide a more complete view of the proximity between newspapers than the clustering method. We recognize some strong clusters previously identified between arab countries, subsaharan Africa, eastern Europe and Middle East and the largest one between english speaking newspaer from northern America, Europe and Asia. But we can also better appreciate the specific situation of some media that appears isolated (specific) because they are never present in the list of top correlations of the other newspapers. It is the case for Le Monde (France),la Repubblica (Italy), Republica (Indonesia) or Asahi Shimbum (Japan). This media plays an interesting role of bridge between clusters that would be otherwise not connected. This function of betweeness is also insure by other media that are strongly associated to their cluster but related to the rest by weak ties. For example the Spanish newspaper ABC is connected to the english grouo vie The NYT. The algerian newspaper Alnahar is connected with the nigerian newspaper Vanguardia, etc…"
   },
   {
-    "objectID": "media/FRA_lmonde.html#scale",
-    "href": "media/FRA_lmonde.html#scale",
-    "title": "Le Monde",
+    "objectID": "media.html",
+    "href": "media.html",
+    "title": "Media",
+    "section": "",
+    "text": "Here is the list of media collected for the Sirius project.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Code\n      \n      \n        Name\n      \n      \n        Country\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nCode\n\n\nName\n\n\nCountry\n\n\n\n\n\n\n\n\n\nESP_abc\n\n\nABC\n\n\nSpain\n\n\n\n\n\n\n\nDZA_alnaha\n\n\nAl Nahar\n\n\nAlgeria\n\n\n\n\n\n\n\nEGY_alwafd\n\n\nAl Wafd\n\n\nEgypt\n\n\n\n\n\n\n\nJPN_asahis\n\n\nAsahi Shimbum\n\n\nJapan\n\n\n\n\n\n\n\nMEX_inform\n\n\nEl Informador\n\n\nMexico\n\n\n\n\n\n\n\nDEU_frankf\n\n\nFAZ\n\n\nGermany\n\n\n\n\n\n\n\nUKR_fakty\n\n\nFakty i Kommentarii\n\n\nUkraine\n\n\n\n\n\n\n\nIRN_hamsha\n\n\nHamshari\n\n\nIran\n\n\n\n\n\n\n\nRUS_isvest\n\n\nIsvestia\n\n\nRussia\n\n\n\n\n\n\n\nISR_jerpos\n\n\nJerusalem Post\n\n\nIsrael\n\n\n\n\n\n\n\nKOR_kyungh\n\n\nKyunghyang Shinmun\n\n\nSouth Korea\n\n\n\n\n\n\n\nARG_nacion\n\n\nLa Nacion\n\n\nArgentina\n\n\n\n\n\n\n\nFRA_lmonde\n\n\nLe Monde\n\n\nFrance\n\n\n\n\n\n\n\nMYS_kini\n\n\nMalaysiakini\n\n\nMalaysia\n\n\n\n\n\n\n\nBRA_oglobo\n\n\nO Globo\n\n\nBrazil\n\n\n\n\n\n\n\nITA_repubb\n\n\nRepubblica\n\n\nItaly\n\n\n\n\n\n\n\nIDN_republ\n\n\nRepublika\n\n\nIndonesia\n\n\n\n\n\n\n\nTUR_sabah\n\n\nSabah\n\n\nTurkey\n\n\n\n\n\n\n\nCHN_mopost\n\n\nSouth China Morning Post\n\n\nChina - Hong Kong\n\n\n\n\n\n\n\nAUS_sydmor\n\n\nSydney Morning Herald\n\n\nAustralia\n\n\n\n\n\n\n\nBLR_telegr\n\n\nTelegraph News (Belarus)\n\n\nBelarus\n\n\n\n\n\n\n\nGBR_indept\n\n\nThe Independent\n\n\nUnited Kingdom\n\n\n\n\n\n\n\nUSA_nytime\n\n\nThe New York Times\n\n\nUSA\n\n\n\n\n\n\n\nPAK_thenew\n\n\nThe News (Pakistan)\n\n\nPakistan\n\n\n\n\n\n\n\nKEN_standa\n\n\nThe Standard (Kenya)\n\n\nKenya\n\n\n\n\n\n\n\nZAF_times\n\n\nThe Sunday Times (Timeslive)\n\n\nSouth Africa\n\n\n\n\n\n\n\nIND_tindia\n\n\nTime of India\n\n\nIndia\n\n\n\n\n\n\n\nSGP_today\n\n\nToday (Singapore)\n\n\nSingapore\n\n\n\n\n\n\n\nCAN_tostar\n\n\nToronto Star\n\n\nCanada\n\n\n\n\n\n\n\nNGA_vangua\n\n\nVanguard\n\n\nNigeria\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "media/TUR_sabah.html#scale",
+    "href": "media/TUR_sabah.html#scale",
+    "title": "Sabah",
     "section": " Scale",
     "text": "Scale\n\n\nGlobal\nNational"
   },
   {
-    "objectID": "media/FRA_lmonde.html#topics",
-    "href": "media/FRA_lmonde.html#topics",
-    "title": "Le Monde",
+    "objectID": "media/TUR_sabah.html#topics",
+    "href": "media/TUR_sabah.html#topics",
+    "title": "Sabah",
     "section": " Topics",
     "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
   },
   {
-    "objectID": "media/FRA_lmonde.html#publications",
-    "href": "media/FRA_lmonde.html#publications",
-    "title": "Le Monde",
+    "objectID": "media/TUR_sabah.html#publications",
+    "href": "media/TUR_sabah.html#publications",
+    "title": "Sabah",
     "section": " Publications",
-    "text": "Publications\n\n\nVan Leuven S, Berglez P. 2016. Global journalism between dream and reality: A comparative study of the times, le monde and de standaard. Journalism Studies 17: 667–683"
-  },
-  {
-    "objectID": "media/PAK_thenew.html#scale",
-    "href": "media/PAK_thenew.html#scale",
-    "title": "The News (Pakistan)",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/PAK_thenew.html#topics",
-    "href": "media/PAK_thenew.html#topics",
-    "title": "The News (Pakistan)",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/PAK_thenew.html#publications",
-    "href": "media/PAK_thenew.html#publications",
-    "title": "The News (Pakistan)",
-    "section": " Publications",
-    "text": "Publications\n\n\nIttefaq M, Ejaz W, Fahmy SS, Sheikh AM. 2021. Converged journalism: Practices and influences in pakistan. Media International Australia 181: 167–182"
-  },
-  {
-    "objectID": "media/IND_tindia.html#scale",
-    "href": "media/IND_tindia.html#scale",
-    "title": "Times of India",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/IND_tindia.html#topics",
-    "href": "media/IND_tindia.html#topics",
-    "title": "Times of India",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/IND_tindia.html#publications",
-    "href": "media/IND_tindia.html#publications",
-    "title": "Times of India",
-    "section": " Publications",
-    "text": "Publications\n\n\nHussain I. 2015. News framing on indo-pak conflicts in the news (pakistan) and times of india: War and peace journalism perspective. Journal of Mass Communication & Journalism 5: 1–6"
-  },
-  {
-    "objectID": "media/MYS_kini.html#scale",
-    "href": "media/MYS_kini.html#scale",
-    "title": "Malaysiakini",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/MYS_kini.html#topics",
-    "href": "media/MYS_kini.html#topics",
-    "title": "Malaysiakini",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/MYS_kini.html#publications",
-    "href": "media/MYS_kini.html#publications",
-    "title": "Malaysiakini",
-    "section": " Publications",
-    "text": "Publications\n\n\nChin J. 2003. Malaysiakini. Com and its impact on journalism and politics in malaysia. In Asia. ComRoutledge; 147–160."
-  },
-  {
-    "objectID": "media/EGY_alwafd.html#scale",
-    "href": "media/EGY_alwafd.html#scale",
-    "title": "Al Wafd",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/EGY_alwafd.html#topics",
-    "href": "media/EGY_alwafd.html#topics",
-    "title": "Al Wafd",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/EGY_alwafd.html#publications",
-    "href": "media/EGY_alwafd.html#publications",
-    "title": "Al Wafd",
-    "section": " Publications",
-    "text": "Publications\n\n\nAyyad K, Lugo-Ocando J. 2023. Reporters’ agency and (de) escalation during the 2011 uprising in egypt: Re-writing the historical role of the news media during the arab spring. Online Journal of Communication and Media Technologies 13: e202330"
-  },
-  {
-    "objectID": "media/ARG_nacion.html#scale",
-    "href": "media/ARG_nacion.html#scale",
-    "title": "La Nacion",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/ARG_nacion.html#topics",
-    "href": "media/ARG_nacion.html#topics",
-    "title": "La Nacion",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/ARG_nacion.html#publications",
-    "href": "media/ARG_nacion.html#publications",
-    "title": "La Nacion",
-    "section": " Publications",
-    "text": "Publications\n\n\nPalomo B, Teruel L, Blanco-Castilla E. 2019. Data journalism projects based on user-generated content. How la nacion data transforms active audience into staff. Digital Journalism 7: 1270–1288"
-  },
-  {
-    "objectID": "media/NGA_vangua.html#scale",
-    "href": "media/NGA_vangua.html#scale",
-    "title": "Vanguard",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/NGA_vangua.html#topics",
-    "href": "media/NGA_vangua.html#topics",
-    "title": "Vanguard",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/NGA_vangua.html#publications",
-    "href": "media/NGA_vangua.html#publications",
-    "title": "Vanguard",
-    "section": " Publications",
-    "text": "Publications\n\n\nBrown NJ, Udomisor IW. 2015. Evaluation of political news reportage in nigeria’s vanguard and the guardian newspapers. Advances in journalism and communication 3: 10–18"
-  },
-  {
-    "objectID": "media/ESP_abc.html#scale",
-    "href": "media/ESP_abc.html#scale",
-    "title": "ABC",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/ESP_abc.html#topics",
-    "href": "media/ESP_abc.html#topics",
-    "title": "ABC",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/ESP_abc.html#publications",
-    "href": "media/ESP_abc.html#publications",
-    "title": "ABC",
-    "section": " Publications",
-    "text": "Publications\n\n\nLirola MM. 2017. Discursive legitimization of criminalization and victimization of sub-saharan immigrants in spanish el paı́s and ABC newspapers. Representing the Other in European Media Discourses. Amsterdam/Philadelphia: John Benjamins: 135–154"
-  },
-  {
-    "objectID": "media/MEX_inform.html#scale",
-    "href": "media/MEX_inform.html#scale",
-    "title": "El Informador",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/MEX_inform.html#topics",
-    "href": "media/MEX_inform.html#topics",
-    "title": "El Informador",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/MEX_inform.html#publications",
-    "href": "media/MEX_inform.html#publications",
-    "title": "El Informador",
-    "section": " Publications",
-    "text": "Publications\n\n\nGonzalez RA. 2021. Mexican journalism under siege. The impact of anti-press violence on reporters, newsrooms, and society. Journalism Practice 15: 308–328"
-  },
-  {
-    "objectID": "media/IDN_republ.html#scale",
-    "href": "media/IDN_republ.html#scale",
-    "title": "Republika",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/IDN_republ.html#topics",
-    "href": "media/IDN_republ.html#topics",
-    "title": "Republika",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/IDN_republ.html#publications",
-    "href": "media/IDN_republ.html#publications",
-    "title": "Republika",
-    "section": " Publications",
-    "text": "Publications\n\n\nWidyadhana RD, Sandy F, Susanti D. 2025. Framing analysis of republika and BBC news indonesia on the conflict of palestine-israel. BIS Humanities and Social Science 2: V225053–V225053"
-  },
-  {
-    "objectID": "media/ISR_jerpos.html#scale",
-    "href": "media/ISR_jerpos.html#scale",
-    "title": "Jerusalem Post",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/ISR_jerpos.html#topics",
-    "href": "media/ISR_jerpos.html#topics",
-    "title": "Jerusalem Post",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/ISR_jerpos.html#publications",
-    "href": "media/ISR_jerpos.html#publications",
-    "title": "Jerusalem Post",
-    "section": " Publications",
-    "text": "Publications\n\n\nFrenkel E. 2023. The press and politics in israel: The jerusalem post from 1932 to the present. Plunkett Lake Press."
-  },
-  {
-    "objectID": "media/DEU_frankf.html#scale",
-    "href": "media/DEU_frankf.html#scale",
-    "title": "Frankfurter Allgemeine Zeitung",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/DEU_frankf.html#topics",
-    "href": "media/DEU_frankf.html#topics",
-    "title": "Frankfurter Allgemeine Zeitung",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/DEU_frankf.html#publications",
-    "href": "media/DEU_frankf.html#publications",
-    "title": "Frankfurter Allgemeine Zeitung",
-    "section": " Publications",
-    "text": "Publications\n\n\nCazzamatta R. 2018. The determinants of latin america’s news coverage in the german press. The Journal of International Communication 24: 283–304"
-  },
-  {
-    "objectID": "media/IRN_hamsha.html#scale",
-    "href": "media/IRN_hamsha.html#scale",
-    "title": "Hamshari",
-    "section": " Scale",
-    "text": "Scale\n\n\nGlobal\nNational"
-  },
-  {
-    "objectID": "media/IRN_hamsha.html#topics",
-    "href": "media/IRN_hamsha.html#topics",
-    "title": "Hamshari",
-    "section": " Topics",
-    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
-  },
-  {
-    "objectID": "media/IRN_hamsha.html#publications",
-    "href": "media/IRN_hamsha.html#publications",
-    "title": "Hamshari",
-    "section": " Publications",
-    "text": "Publications\n\n\nAlimardani M, Elswah M. 2020. Trust, religion, and politics: Coronavirus misinformation in iran"
+    "text": "Publications\n\n\nPanayırcı UC, İşeri E, Şekercioğlu E. 2016. Political agency of news outlets in a polarized media system: Framing the corruption probe in turkey. European Journal of Communication 31: 551–567"
   },
   {
     "objectID": "media/KOR_kyungh.html#scale",
@@ -672,24 +84,605 @@
     "text": "Publications\n\n\nMoon M. 2019. International news coverage of the korean conflict. In International News Coverage and the Korean Conflict: The Challenges of Reporting PracticesSpringer; 111–127."
   },
   {
-    "objectID": "media/TUR_sabah.html#scale",
-    "href": "media/TUR_sabah.html#scale",
-    "title": "Sabah",
+    "objectID": "media/IRN_hamsha.html#scale",
+    "href": "media/IRN_hamsha.html#scale",
+    "title": "Hamshari",
     "section": " Scale",
     "text": "Scale\n\n\nGlobal\nNational"
   },
   {
-    "objectID": "media/TUR_sabah.html#topics",
-    "href": "media/TUR_sabah.html#topics",
-    "title": "Sabah",
+    "objectID": "media/IRN_hamsha.html#topics",
+    "href": "media/IRN_hamsha.html#topics",
+    "title": "Hamshari",
     "section": " Topics",
     "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
   },
   {
-    "objectID": "media/TUR_sabah.html#publications",
-    "href": "media/TUR_sabah.html#publications",
-    "title": "Sabah",
+    "objectID": "media/IRN_hamsha.html#publications",
+    "href": "media/IRN_hamsha.html#publications",
+    "title": "Hamshari",
     "section": " Publications",
-    "text": "Publications\n\n\nPanayırcı UC, İşeri E, Şekercioğlu E. 2016. Political agency of news outlets in a polarized media system: Framing the corruption probe in turkey. European Journal of Communication 31: 551–567"
+    "text": "Publications\n\n\nAlimardani M, Elswah M. 2020. Trust, religion, and politics: Coronavirus misinformation in iran"
+  },
+  {
+    "objectID": "media/DEU_frankf.html#scale",
+    "href": "media/DEU_frankf.html#scale",
+    "title": "Frankfurter Allgemeine Zeitung",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/DEU_frankf.html#topics",
+    "href": "media/DEU_frankf.html#topics",
+    "title": "Frankfurter Allgemeine Zeitung",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/DEU_frankf.html#publications",
+    "href": "media/DEU_frankf.html#publications",
+    "title": "Frankfurter Allgemeine Zeitung",
+    "section": " Publications",
+    "text": "Publications\n\n\nCazzamatta R. 2018. The determinants of latin america’s news coverage in the german press. The Journal of International Communication 24: 283–304"
+  },
+  {
+    "objectID": "media/ISR_jerpos.html#scale",
+    "href": "media/ISR_jerpos.html#scale",
+    "title": "Jerusalem Post",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/ISR_jerpos.html#topics",
+    "href": "media/ISR_jerpos.html#topics",
+    "title": "Jerusalem Post",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/ISR_jerpos.html#publications",
+    "href": "media/ISR_jerpos.html#publications",
+    "title": "Jerusalem Post",
+    "section": " Publications",
+    "text": "Publications\n\n\nFrenkel E. 2023. The press and politics in israel: The jerusalem post from 1932 to the present. Plunkett Lake Press."
+  },
+  {
+    "objectID": "media/IDN_republ.html#scale",
+    "href": "media/IDN_republ.html#scale",
+    "title": "Republika",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/IDN_republ.html#topics",
+    "href": "media/IDN_republ.html#topics",
+    "title": "Republika",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/IDN_republ.html#publications",
+    "href": "media/IDN_republ.html#publications",
+    "title": "Republika",
+    "section": " Publications",
+    "text": "Publications\n\n\nWidyadhana RD, Sandy F, Susanti D. 2025. Framing analysis of republika and BBC news indonesia on the conflict of palestine-israel. BIS Humanities and Social Science 2: V225053–V225053"
+  },
+  {
+    "objectID": "media/MEX_inform.html#scale",
+    "href": "media/MEX_inform.html#scale",
+    "title": "El Informador",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/MEX_inform.html#topics",
+    "href": "media/MEX_inform.html#topics",
+    "title": "El Informador",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/MEX_inform.html#publications",
+    "href": "media/MEX_inform.html#publications",
+    "title": "El Informador",
+    "section": " Publications",
+    "text": "Publications\n\n\nGonzalez RA. 2021. Mexican journalism under siege. The impact of anti-press violence on reporters, newsrooms, and society. Journalism Practice 15: 308–328"
+  },
+  {
+    "objectID": "media/ESP_abc.html#scale",
+    "href": "media/ESP_abc.html#scale",
+    "title": "ABC",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/ESP_abc.html#topics",
+    "href": "media/ESP_abc.html#topics",
+    "title": "ABC",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/ESP_abc.html#publications",
+    "href": "media/ESP_abc.html#publications",
+    "title": "ABC",
+    "section": " Publications",
+    "text": "Publications\n\n\nLirola MM. 2017. Discursive legitimization of criminalization and victimization of sub-saharan immigrants in spanish el paı́s and ABC newspapers. Representing the Other in European Media Discourses. Amsterdam/Philadelphia: John Benjamins: 135–154"
+  },
+  {
+    "objectID": "media/NGA_vangua.html#scale",
+    "href": "media/NGA_vangua.html#scale",
+    "title": "Vanguard",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/NGA_vangua.html#topics",
+    "href": "media/NGA_vangua.html#topics",
+    "title": "Vanguard",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/NGA_vangua.html#publications",
+    "href": "media/NGA_vangua.html#publications",
+    "title": "Vanguard",
+    "section": " Publications",
+    "text": "Publications\n\n\nBrown NJ, Udomisor IW. 2015. Evaluation of political news reportage in nigeria’s vanguard and the guardian newspapers. Advances in journalism and communication 3: 10–18"
+  },
+  {
+    "objectID": "media/ARG_nacion.html#scale",
+    "href": "media/ARG_nacion.html#scale",
+    "title": "La Nacion",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/ARG_nacion.html#topics",
+    "href": "media/ARG_nacion.html#topics",
+    "title": "La Nacion",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/ARG_nacion.html#publications",
+    "href": "media/ARG_nacion.html#publications",
+    "title": "La Nacion",
+    "section": " Publications",
+    "text": "Publications\n\n\nPalomo B, Teruel L, Blanco-Castilla E. 2019. Data journalism projects based on user-generated content. How la nacion data transforms active audience into staff. Digital Journalism 7: 1270–1288"
+  },
+  {
+    "objectID": "media/EGY_alwafd.html#scale",
+    "href": "media/EGY_alwafd.html#scale",
+    "title": "Al Wafd",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/EGY_alwafd.html#topics",
+    "href": "media/EGY_alwafd.html#topics",
+    "title": "Al Wafd",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/EGY_alwafd.html#publications",
+    "href": "media/EGY_alwafd.html#publications",
+    "title": "Al Wafd",
+    "section": " Publications",
+    "text": "Publications\n\n\nAyyad K, Lugo-Ocando J. 2023. Reporters’ agency and (de) escalation during the 2011 uprising in egypt: Re-writing the historical role of the news media during the arab spring. Online Journal of Communication and Media Technologies 13: e202330"
+  },
+  {
+    "objectID": "media/MYS_kini.html#scale",
+    "href": "media/MYS_kini.html#scale",
+    "title": "Malaysiakini",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/MYS_kini.html#topics",
+    "href": "media/MYS_kini.html#topics",
+    "title": "Malaysiakini",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/MYS_kini.html#publications",
+    "href": "media/MYS_kini.html#publications",
+    "title": "Malaysiakini",
+    "section": " Publications",
+    "text": "Publications\n\n\nChin J. 2003. Malaysiakini. Com and its impact on journalism and politics in malaysia. In Asia. ComRoutledge; 147–160."
+  },
+  {
+    "objectID": "media/IND_tindia.html#scale",
+    "href": "media/IND_tindia.html#scale",
+    "title": "Times of India",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/IND_tindia.html#topics",
+    "href": "media/IND_tindia.html#topics",
+    "title": "Times of India",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/IND_tindia.html#publications",
+    "href": "media/IND_tindia.html#publications",
+    "title": "Times of India",
+    "section": " Publications",
+    "text": "Publications\n\n\nHussain I. 2015. News framing on indo-pak conflicts in the news (pakistan) and times of india: War and peace journalism perspective. Journal of Mass Communication & Journalism 5: 1–6"
+  },
+  {
+    "objectID": "media/PAK_thenew.html#scale",
+    "href": "media/PAK_thenew.html#scale",
+    "title": "The News (Pakistan)",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/PAK_thenew.html#topics",
+    "href": "media/PAK_thenew.html#topics",
+    "title": "The News (Pakistan)",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/PAK_thenew.html#publications",
+    "href": "media/PAK_thenew.html#publications",
+    "title": "The News (Pakistan)",
+    "section": " Publications",
+    "text": "Publications\n\n\nIttefaq M, Ejaz W, Fahmy SS, Sheikh AM. 2021. Converged journalism: Practices and influences in pakistan. Media International Australia 181: 167–182"
+  },
+  {
+    "objectID": "media/FRA_lmonde.html#scale",
+    "href": "media/FRA_lmonde.html#scale",
+    "title": "Le Monde",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/FRA_lmonde.html#topics",
+    "href": "media/FRA_lmonde.html#topics",
+    "title": "Le Monde",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/FRA_lmonde.html#publications",
+    "href": "media/FRA_lmonde.html#publications",
+    "title": "Le Monde",
+    "section": " Publications",
+    "text": "Publications\n\n\nVan Leuven S, Berglez P. 2016. Global journalism between dream and reality: A comparative study of the times, le monde and de standaard. Journalism Studies 17: 667–683"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Blog",
+    "section": "",
+    "text": "The world seen from Sirius\n\n\n\nWorld\n\nnews\n\nTobler\n\n\n\nA tribute to Waldo Tobler\n\n\n\n\n\nFeb 23, 2026\n\n\nClaude Grasland\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "media/DZA_alnaha.html#scale",
+    "href": "media/DZA_alnaha.html#scale",
+    "title": "Al Nahar",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/DZA_alnaha.html#topics",
+    "href": "media/DZA_alnaha.html#topics",
+    "title": "Al Nahar",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/DZA_alnaha.html#publications",
+    "href": "media/DZA_alnaha.html#publications",
+    "title": "Al Nahar",
+    "section": " Publications",
+    "text": "Publications\n\n\nBenammar SK. 2020. Mass media in algeria. In Routledge Handbook on Arab MediaRoutledge; 11–21."
+  },
+  {
+    "objectID": "media/USA_nytime.html#scale",
+    "href": "media/USA_nytime.html#scale",
+    "title": "The New York Times",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/USA_nytime.html#topics",
+    "href": "media/USA_nytime.html#topics",
+    "title": "The New York Times",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/USA_nytime.html#publications",
+    "href": "media/USA_nytime.html#publications",
+    "title": "The New York Times",
+    "section": " Publications",
+    "text": "Publications\n\n\nHamilton JM, Tworek HJ. 2023. Not all the news that’s fit to print: The new york times as a research tool. Political Communication 40: 660–669"
+  },
+  {
+    "objectID": "media/ZAF_times.html#scale",
+    "href": "media/ZAF_times.html#scale",
+    "title": "The Sunday Times (Timeslive)",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/ZAF_times.html#topics",
+    "href": "media/ZAF_times.html#topics",
+    "title": "The Sunday Times (Timeslive)",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/ZAF_times.html#publications",
+    "href": "media/ZAF_times.html#publications",
+    "title": "The Sunday Times (Timeslive)",
+    "section": " Publications",
+    "text": "Publications\n\n\nRadebe M. 2022. New features of media imperialism: The south african online media and the coverage of the ukrainian war. Communicare: Journal for Communication Sciences in Southern Africa 41: 75–89"
+  },
+  {
+    "objectID": "media/CAN_tostar.html#scale",
+    "href": "media/CAN_tostar.html#scale",
+    "title": "Toronto Star",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/CAN_tostar.html#topics",
+    "href": "media/CAN_tostar.html#topics",
+    "title": "Toronto Star",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/CAN_tostar.html#publications",
+    "href": "media/CAN_tostar.html#publications",
+    "title": "Toronto Star",
+    "section": " Publications",
+    "text": "Publications\n\n\nStoddart MC, Haluza-DeLay R, Tindall DB. 2016. Canadian news media coverage of climate change: Historical trajectories, dominant frames, and international comparisons. Society & Natural Resources 29: 218–232"
+  },
+  {
+    "objectID": "media/BRA_oglobo.html#scale",
+    "href": "media/BRA_oglobo.html#scale",
+    "title": "O Globo",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/BRA_oglobo.html#topics",
+    "href": "media/BRA_oglobo.html#topics",
+    "title": "O Globo",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/BRA_oglobo.html#publications",
+    "href": "media/BRA_oglobo.html#publications",
+    "title": "O Globo",
+    "section": " Publications",
+    "text": "Publications\n\n\nCHEN X. 2025. News framings of o globo regarding chinese society during the covid-19 pandemic. Brazilian Journalism Research 21: E1716"
+  },
+  {
+    "objectID": "media/RUS_isvest.html#scale",
+    "href": "media/RUS_isvest.html#scale",
+    "title": "Isvestia",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/RUS_isvest.html#topics",
+    "href": "media/RUS_isvest.html#topics",
+    "title": "Isvestia",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/RUS_isvest.html#publications",
+    "href": "media/RUS_isvest.html#publications",
+    "title": "Isvestia",
+    "section": " Publications",
+    "text": "Publications\n\n\nKoleva K. 2016. Comrades to the rescue: Czechoslovakia in 1968 and ukraine in 2014 through the lens of izvestia. In Media in ProcessRoutledge; 76–98."
+  },
+  {
+    "objectID": "media/KEN_standa.html#scale",
+    "href": "media/KEN_standa.html#scale",
+    "title": "The Standard (Kenya)",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/KEN_standa.html#topics",
+    "href": "media/KEN_standa.html#topics",
+    "title": "The Standard (Kenya)",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/KEN_standa.html#publications",
+    "href": "media/KEN_standa.html#publications",
+    "title": "The Standard (Kenya)",
+    "section": " Publications",
+    "text": "Publications\n\n\nEkdale B, Tully M. 2019. African elections as a testing ground: Comparing coverage of cambridge analytica in nigerian and kenyan newspapers. African Journalism Studies 40: 27–43"
+  },
+  {
+    "objectID": "media/ITA_repubb.html#scale",
+    "href": "media/ITA_repubb.html#scale",
+    "title": "Repubblica",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/ITA_repubb.html#topics",
+    "href": "media/ITA_repubb.html#topics",
+    "title": "Repubblica",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/ITA_repubb.html#publications",
+    "href": "media/ITA_repubb.html#publications",
+    "title": "Repubblica",
+    "section": " Publications",
+    "text": "Publications\n\n\nBentivegna S, Marchetti R. 2019. News users on facebook: Interaction strategies on the pages of el paı̀s, la repubblica, le monde, and the guardian. Journalism Studies 20: 2182–2199"
+  },
+  {
+    "objectID": "media/SGP_today.html#scale",
+    "href": "media/SGP_today.html#scale",
+    "title": "Today (Singapore)",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/SGP_today.html#topics",
+    "href": "media/SGP_today.html#topics",
+    "title": "Today (Singapore)",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/SGP_today.html#publications",
+    "href": "media/SGP_today.html#publications",
+    "title": "Today (Singapore)",
+    "section": " Publications",
+    "text": "Publications\n\n\nGeorge C. 2012. Freedom from the press: Journalism and state power in singapore. NUS Press."
+  },
+  {
+    "objectID": "media/CHN_mopost.html#scale",
+    "href": "media/CHN_mopost.html#scale",
+    "title": "South China Morning Post",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/CHN_mopost.html#topics",
+    "href": "media/CHN_mopost.html#topics",
+    "title": "South China Morning Post",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/CHN_mopost.html#publications",
+    "href": "media/CHN_mopost.html#publications",
+    "title": "South China Morning Post",
+    "section": " Publications",
+    "text": "Publications\n\n\nWu S. 2023. Evaluating “exemplary data journalism” from asia: An exploration into south china morning post’s data stories on china and the world. Journalism 24: 2042–2058"
+  },
+  {
+    "objectID": "media/AUS_sydmor.html#scale",
+    "href": "media/AUS_sydmor.html#scale",
+    "title": "Sydney Morning Herald",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/AUS_sydmor.html#topics",
+    "href": "media/AUS_sydmor.html#topics",
+    "title": "Sydney Morning Herald",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/AUS_sydmor.html#publications",
+    "href": "media/AUS_sydmor.html#publications",
+    "title": "Sydney Morning Herald",
+    "section": " Publications",
+    "text": "Publications\n\n\nZion L, Sherwood M, O’Donnell P, Marjoribanks T, Ricketson M, Dodd A, Deuze M, Buller B. 2023. Media in the news: How australia’s media beat covered two major journalism change events. Journalism Practice 17: 264–282"
+  },
+  {
+    "objectID": "media/GBR_indept.html#scale",
+    "href": "media/GBR_indept.html#scale",
+    "title": "The Independent",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/GBR_indept.html#topics",
+    "href": "media/GBR_indept.html#topics",
+    "title": "The Independent",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/GBR_indept.html#publications",
+    "href": "media/GBR_indept.html#publications",
+    "title": "The Independent",
+    "section": " Publications",
+    "text": "Publications\n\n\nKnight M. 2015. Data journalism in the UK: A preliminary analysis of form and content. Journal of Media practice 16: 55–72"
+  },
+  {
+    "objectID": "media/BLR_telegr.html#scale",
+    "href": "media/BLR_telegr.html#scale",
+    "title": "Telegraph News (Belarus)",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/BLR_telegr.html#topics",
+    "href": "media/BLR_telegr.html#topics",
+    "title": "Telegraph News (Belarus)",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/BLR_telegr.html#publications",
+    "href": "media/BLR_telegr.html#publications",
+    "title": "Telegraph News (Belarus)",
+    "section": " Publications",
+    "text": "Publications\n\n\nYeliseyeu A, Laputska V. 2016. Anti-belarus disinformation in russian media: Trends, features, countermeasures. EAST Media Review 1"
+  },
+  {
+    "objectID": "media/UKR_fakty.html#scale",
+    "href": "media/UKR_fakty.html#scale",
+    "title": "Fakty i Kommentarii",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/UKR_fakty.html#topics",
+    "href": "media/UKR_fakty.html#topics",
+    "title": "Fakty i Kommentarii",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/UKR_fakty.html#publications",
+    "href": "media/UKR_fakty.html#publications",
+    "title": "Fakty i Kommentarii",
+    "section": " Publications",
+    "text": "Publications\n\n\nSzostek J. 2014. Russia and the news media in ukraine: A case of “soft power”? East European Politics and Societies 28: 463–486"
+  },
+  {
+    "objectID": "media/JPN_asahis.html#scale",
+    "href": "media/JPN_asahis.html#scale",
+    "title": "Asahi Shimbum",
+    "section": " Scale",
+    "text": "Scale\n\n\nGlobal\nNational"
+  },
+  {
+    "objectID": "media/JPN_asahis.html#topics",
+    "href": "media/JPN_asahis.html#topics",
+    "title": "Asahi Shimbum",
+    "section": " Topics",
+    "text": "Topics\n\n\nGeneral news\nPolitical news\nEconomic news"
+  },
+  {
+    "objectID": "media/JPN_asahis.html#publications",
+    "href": "media/JPN_asahis.html#publications",
+    "title": "Asahi Shimbum",
+    "section": " Publications",
+    "text": "Publications\n\n\nMcNeill D. 2019. Japan’s contemporary media. In Critical Issues in Contemporary JapanRoutledge; 59–72."
+  },
+  {
+    "objectID": "Sirius001-top-countries.html#country-clusters",
+    "href": "Sirius001-top-countries.html#country-clusters",
+    "title": "Top countries",
+    "section": "Country clusters",
+    "text": "Country clusters\n\n\n           AFG AGO ALB\nARG_nacion 183  43  27\nAUS_sydmor 502   9  11\nBRA_oglobo 536 134  23\n\n\n           AFG         AGO         ALB\nAFG 1.00000000 0.040182438 0.491560955\nAGO 0.04018244 1.000000000 0.003329224\nALB 0.49156096 0.003329224 1.000000000\n\n\n\nHierarchical Cluster Analysis\nThe hierarchical cluster analysis is realized on the matrix of dissimilarity between \\(D\\) defined as the difference between 1 and the Spearman correlation coefficient :\n\\(D_{ij} = 1 - \\rho_{ij}\\)\nWe can then apply different clustering methods. We have chosen here the classical method of Ward."
   }
 ]

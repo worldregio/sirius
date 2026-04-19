@@ -145,6 +145,7 @@ for (i in 1:n) {
 
 # Transform in dataframe
 tab<-as.data.frame(mat)
+nc<-dim(tab)[2]
 tab$ISO3 <- substr(rownames(mat),1,3)
 
 
@@ -152,7 +153,7 @@ tab$ISO3 <- substr(rownames(mat),1,3)
 
 
 tab <- tab %>% left_join(codename)
-tab<-tab[,c(31,32,1:30)]
+tab<-tab[,c(nc+1,nc+2,1:nc)]
 
 
 kable(tab,caption = "Salience of countries by media (p. 100,000)")
@@ -174,7 +175,8 @@ tab$nbsup0 <- apply(mat>0,1,sum,na.rm=T)
 tab$nbsup10 <- apply(mat>10,1,sum,na.rm=T)
 tab$nbsup100 <- apply(mat>100,1,sum,na.rm=T)
 
-param<-tab[,c(34, 1,2,33,35:43)] %>% arrange(-mean)
+
+param<-tab %>% arrange(-Q2) %>% select(rnk,ISO3,NAMEen,min,Q1,Q2,Q3,mean,sd)
 
 
 kable(param, digits = 0,row.names = F, caption = "Salience of countries (p. 100,000)")
@@ -247,18 +249,25 @@ We establish a correlation matrix based on the Spearman correlation coefficient 
 The correlation are based after exclusion of the host countries (where media are located) . For example, the correlation between *Le Monde* and *Times of India* will exclude the salience of France and India from the vectors of values used for the measure of correlation. 
 
 ```{r}
-
-mat2 <- tab[tab$nbsup10>5,3:32]
+ncx<-nc+2
+#mat2 <- tab[tab$nbsup10>5,3:ncx]
+mat2 <- tab[tab$Q2>10,3:ncx]
 
 # Correlation matrix (pearson)
 #cor1 <- cor(mat2,use = "pairwise.complete.obs")
+```
 
 
+```{r}
 # Correlation matrux (Spearman)
 cor2 <- cor(mat2,use = "pairwise.complete.obs", method="spearman")
 
 
 kable(cor2, digits=2, caption = "Spearman correlation coefficient between median values")
+```
+
+
+```{r}
 ```
 
 
@@ -381,3 +390,61 @@ net
 
 
 - **Comment** : The network analysis provide a more complete view of the proximity between newspapers than the clustering method. We recognize some strong clusters previously identified between arab countries, subsaharan Africa, eastern Europe and Middle East and the largest one between english speaking newspaer from northern America, Europe  and Asia. But we can also better appreciate the specific situation of some media that appears isolated (specific) because they are never present in the list of top correlations of the other newspapers. It is the case for Le Monde (France),la Repubblica (Italy), Republica (Indonesia) or Asahi Shimbum (Japan). This media plays an interesting role of bridge between clusters that would be otherwise not connected. This function of betweeness is also insure by other media that are strongly associated to their cluster but related to the rest by weak ties. For example the Spanish newspaper ABC is connected to the english grouo vie The NYT. The algerian newspaper Alnahar is connected with the nigerian newspaper Vanguardia, etc... 
+
+
+## Country clusters
+
+```{r}
+ncx<-nc+2
+#mat2 <- tab[tab$nbsup10>5,3:ncx]
+mat3 <- tab[tab$Q2>1,3:ncx]
+rownames(mat3)<-tab[tab$Q2>1,1]
+
+# Correlation matrux (Spearman)
+mat3<-t(mat3)
+mat3[1:3,1:3]
+cor3 <- cor(mat3,use = "pairwise.complete.obs", method="spearman",)
+cor3[1:3,1:3]
+
+#kable(cor3, digits=2, caption = "Spearman correlation coefficient between median values")
+```
+
+
+
+```{r}
+
+#library(explor)
+acp2<-PCA(cor3, graph=F)
+#explor(acp2)
+#res <- explor::prepare_results(acp2)
+
+
+```
+
+
+### Hierarchical Cluster Analysis
+
+The hierarchical cluster analysis is realized on the matrix of dissimilarity between $D$ defined as the difference between 1 and the Spearman correlation coefficient : 
+
+$D_{ij} = 1 - \rho_{ij}$
+
+We can then apply different clustering methods. We have chosen here the classical method of Ward. 
+
+```{r}
+mydis2<-1-cor3
+
+cah_euc2 <- HCPC(acp2,nb.clust = 6,method = "ward",graph = F)
+
+plot(cah_euc2,choice = "tree",title = "Hierarchical clustering of media")
+
+
+```
+
+
+```{r}
+x<-cah_euc2$data.clust
+clas <-data.frame(ISO3=rownames(x), clus11=x$clust )
+wld2<-left_join(wld,clas)
+mf_map(wld2, type="typo", var="clus11", pal=rainbow(9))
+```
+
