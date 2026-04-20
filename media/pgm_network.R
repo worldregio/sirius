@@ -182,7 +182,6 @@ geo_network<- function(don = don,
                #               manipulation = TRUE,
                nodesIdSelection = TRUE) %>%
     visInteraction(navigationButtons = TRUE) %>% 
-    visSetTitle(main = "Most frequent associations of countries") %>%
     visLegend() %>%
     visIgraphLayout(layout ="layout.fruchterman.reingold",smooth = TRUE) 
   

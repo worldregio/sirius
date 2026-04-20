@@ -119,7 +119,7 @@ saveRDS(network, myfile)
 
 
 
-```{r}
+```{r, echo=F}
 media<-"ARG_nacion"
 myfile<-paste0("networks/",media,"_network.html")
 x<-readRDS(myfile)
