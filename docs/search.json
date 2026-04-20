@@ -698,5 +698,12 @@
     "title": "Sabah",
     "section": " Publications",
     "text": "Publications\n\n\nPanayırcı UC, İşeri E, Şekercioğlu E. 2016. Political agency of news outlets in a polarized media system: Framing the corruption probe in turkey. European Journal of Communication 31: 551–567"
+  },
+  {
+    "objectID": "media/ARG_nacion.html",
+    "href": "media/ARG_nacion.html",
+    "title": "La Nacion",
+    "section": "",
+    "text": "media&lt;-\"ARG_nacion\"\nmyfile&lt;-paste0(\"networks/\",media,\"_network.html\")\nx&lt;-readRDS(myfile)\nx"
   }
 ]
