@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>China Post (TWN) – SIRIUS</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-17fde6cfb900e8764fa9825ecbca7ec4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-63a6ca0b8caf00f377ffaa3df5c5fd0e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-17fde6cfb900e8764fa9825ecbca7ec4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="../site_libs/vis-9.1.0/vis-network.min.css" rel="stylesheet">
+<script src="../site_libs/vis-9.1.0/vis-network.min.js"></script>
+<script src="../site_libs/visNetwork-binding-2.1.2/visNetwork.js"></script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles_bis.css">
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">SIRIUS</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../media.html"> 
+<span class="menu-text">Media</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-working-papers" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Working Papers</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-working-papers">    
+        <li>
+    <a class="dropdown-item" href="../Sirius001-top-countries.html">
+ <span class="dropdown-text">WP1. Top countries by media</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../posts.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/worldregio/sirius/" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+  <ul>
+  <li><a href="#scale" id="toc-scale" class="nav-link active" data-scroll-target="#scale"><i class="bi bi-ui-checks-grid"></i> Scale</a></li>
+  <li><a href="#topics" id="toc-topics" class="nav-link" data-scroll-target="#topics"><i class="bi bi-person-video3"></i> Topics</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications"><i class="bi bi-file-earmark-text"></i> Publications</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<div class="quarto-about-marquee">
+  <div class="about-image-container">
+    <img src="img/TWN_chipos.jpg" class="about-image
+  rounded " style="width: 18em;">
+  </div>
+  <div class="about-contents">
+    <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">China Post (TWN)</h1>
+  </div>
+<div class="quarto-title-meta">
+  </div>
+</header> <main class="content" id="quarto-document-content">
+
+
+<p><img src="img/TWN_chipos_salience.png" class="img-fluid"></p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-d25a6a8d87625b35c3f4" style="width:100%;height:1000px;" class="visNetwork html-widget"></div>
+<script type="application/json" data-for="htmlwidget-d25a6a8d87625b35c3f4">{"x":{"nodes":{"code":["PAK","USA","SAU","BRA","CHE","IDN","IND","KHM","MYS","NRU","NZL","VAT","ZAF","GBR","MMR","SRB","RUS","ARG","DEU","VEN","CHN","FIN","MEX","AUS","FRA","CAN","HKG","JPN","KOR","MAC","NPL","PAN","PHL","SGP","VNM","TUR","DNK","GRC","ITA","POL","SWE","ISR","PSE","MAR","EGY","ESP","MCO","BEL","IRL","NLD","MKD","BGD","LKA","IRQ","SYR","IRN","JOR","LBN","LBY","PRK","SOM","HND","THA","AFG","BLR","UKR","ARE","YEM","SSD","KEN","BIH","KOS","SDN","CYP","CUB","GEO","GTM","GUM","LBR","COL","NGA"],"id":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81],"label":["PAK","USA","SAU","BRA","CHE","IDN","IND","KHM","MYS","NRU","NZL","VAT","ZAF","GBR","MMR","SRB","RUS","ARG","DEU","VEN","CHN","FIN","MEX","AUS","FRA","CAN","HKG","JPN","KOR","MAC","NPL","PAN","PHL","SGP","VNM","TUR","DNK","GRC","ITA","POL","SWE","ISR","PSE","MAR","EGY","ESP","MCO","BEL","IRL","NLD","MKD","BGD","LKA","IRQ","SYR","IRN","JOR","LBN","LBY","PRK","SOM","HND","THA","AFG","BLR","UKR","ARE","YEM","SSD","KEN","BIH","KOS","SDN","CYP","CUB","GEO","GTM","GUM","LBR","COL","NGA"],"color":["red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red"],"size":[62,1251,81,19,16,63,146,13,48,7,40,6,19,81,31,22,246,7,93,88,987,5,99,115,106,77,125,359,239,10,20,8,89,31,37,177,13,41,43,13,8,215,173,6,30,42,8,5,14,5,6,18,12,96,241,181,17,25,7,246,23,12,7,68,6,121,13,34,12,9,9,13,12,12,49,9,13,5,5,24,6],"value":[2.113107718491624,6,2.272283394519956,1.616194971584153,1.565459286453314,2.122048486365627,2.708117638602844,1.509698112873676,1.979404213748784,1.374016162121876,1.894069634643033,1.346271680532222,1.616194971584153,2.272283394519956,1.787086015936513,1.663059787179784,3.217220590352474,1.374016162121876,2.363272969529008,2.326119574359567,5.441195855116186,1.316101350754534,2.406562215540802,2.515968822510325,2.455439918277436,2.240471275286998,2.58050675377267,3.678481023178394,3.185447106830681,1.447034817321517,1.632202701509068,1.399840095936045,2.333633059836688,1.787086015936513,1.859888640011846,2.880736627970267,1.509698112873676,1.905176515592675,1.92699112722832,1.509698112873676,1.399840095936045,3.072815175021681,2.859363926892715,1.346271680532222,1.774287016353139,1.916148752752665,1.399840095936045,1.316101350754534,1.528938729019491,1.316101350754534,1.346271680532222,1.599760143904067,1.489702106874392,2.385086722128888,3.194572186630946,2.901869163467361,1.582862091258352,1.706824108066642,1.374016162121876,3.217220590352474,1.67796186778068,1.489702106874392,1.374016162121876,2.165724182516704,1.346271680532222,2.555013037746614,1.509698112873676,1.824291474450705,1.489702106874392,1.424094464839985,1.424094464839985,1.509698112873676,1.489702106874392,1.489702106874392,1.989553751293299,1.424094464839985,1.509698112873676,1.316101350754534,1.316101350754534,1.692543361064444,1.346271680532222],"x":[-0.4774132714987291,-0.3179389975254598,0.129302855053399,0.4966386124106321,0.2029533451680305,-0.03793638151835299,-0.3962276851409379,-0.2973173620496167,-0.2398245803061604,-0.1626594773031615,0.02861915835498929,0.05758014531716782,-0.02351548489373323,0.2756913685825904,-0.6673068764739676,0.856522316643364,0.4017083673214152,0.766699328414604,0.5922166686301646,0.1505863565590417,-0.4542230874405535,-0.8581854980062735,-0.5881924064816197,-0.08924695379810699,0.4448640299448299,-0.6103418584073899,-0.09001138086952654,-0.4002897092348736,-0.4915241168779061,-0.3027052676329274,-0.5474076675047875,-0.7203169401672833,-0.226150868400479,-0.7591665202881135,-0.6338753543956752,0.4201554055697894,0.846599242944498,0.6879600013896743,0.6439027268302242,0.5773426360574203,1,0.3175576116863987,0.4369996114172485,0.5972994009482633,0.3506183599161403,0.4210480969554427,0.6603543564044621,0.3103094909626736,0.4793105479045117,0.3948880394211607,0.9238429738107041,-0.5803717874133514,-0.2292966643478133,0.07780591745555832,0.2458799434427867,0.01410246564917506,0.4212261164491418,0.254907488481082,0.8783174755098964,-0.4345768704783359,-0.4363675185376719,-0.5785125546926052,-0.8214612367618114,-0.3659101707727768,0.5098332786673871,0.3204877039421912,-0.01166028935487295,0.09355130013451762,-0.9412130215741111,-0.474749502250433,0.7604790190036157,0.9419633206457252,-1,0.6349033299985731,-0.2496129458075951,-0.388875349380117,-0.5336818591852348,-0.2802969304345797,-0.4375378218878385,0.2513355414424956,0.01625897185240266],"y":[-0.2988908053645825,0.280612295740021,0.3410605219881593,0.05360202234615663,-0.3453006331250796,-0.1086173992474421,-0.501033957148505,-0.4383833498048919,-0.218996151567558,-0.7762291245111701,-0.6280632410413381,-0.731030754922373,-0.7996040751702387,-0.4589469616052186,-0.4687457164965793,-0.6542306365282122,0.7973214252640408,0.004473782502125045,0.1964499088648097,0.05429155162214605,-0.1743378047389608,0.1602201531979457,0.2984448123088277,-0.4970358254703561,-0.1194660379366649,0.1311797700026525,-0.309899085286671,0.101097935316975,0.09220031707022303,-0.3273499016548953,-0.4254727199694937,-0.282669935489354,-0.1215425688121243,-0.1710373304022383,-0.08189880503187985,0.4814253094127829,0.3300221662703322,0.2518479702473955,-0.02558280701346938,0.4175544992474094,0.4113385460263179,0.4997065124468294,0.4179362117963608,-0.3928576982843877,0.2335146863764654,-0.21673270176348,-0.249271024518736,-0.726146902862057,-0.5946520312417549,-0.664088378270133,0.1984752791165654,-0.6486496789162584,-0.6794074003220429,0.4611260082516246,0.6253183227467276,0.4576406353174955,0.627252169407811,0.7618648162645631,-0.1278541169651654,0.01122290731128439,0.652866216977037,0.4015525383426792,-0.5897973664968386,-0.02391694354401608,0.9545528965058494,1,0.6209611359644442,0.6341143796266744,0.5654622413499686,0.8688682425836565,-0.7707589821078671,-0.5360543273100986,0.4472511670128037,0.6429225831988725,0.4581734106383357,0.5402633203022116,0.5139377996996195,0.5853449471701437,0.427772524909678,-0.06478934925157587,-1]},"edges":{"i":["PAK","USA","SAU","BRA","CHE","IDN","IND","KHM","MYS","NRU","NZL","VAT","ZAF","GBR","IND","MMR","SRB","RUS","CHN","FIN","MEX","USA","IND","KHM","MMR","MYS","USA","VEN","USA","TUR","BRA","DEU","FRA","ISR","PSE","SAU","FRA","GBR","ITA","MAR","VEN","CHE","DEU","GBR","NZL","USA","DEU","TUR","USA","USA","CHN","GBR","IDN","MEX","USA","SAU","PAK","GBR","IRQ","ISR","SAU","SYR","USA","TUR","USA","POL","DEU","FRA","GRC","ISR","PSE","SYR","CHN","USA","SOM","CHN","JPN","USA","SRB","ISR","SYR","USA","ITA","IND","NZL","CHN","HKG","FRA","USA","GRC","IDN","ZAF","GBR","CHN","IND","CHN","CHN","IDN","MYS","DEU","JPN","KOR","MYS","USA","VNM","ISR","SSD","CHN","USA","DNK","IRQ","RUS","TUR","MMR","DEU","RUS","SAU","RUS","BRA","USA","CHN","SAU","NZL"],"j":["AFG","AFG","ARE","ARG","AUS","AUS","AUS","AUS","AUS","AUS","AUS","AUS","AUS","BEL","BGD","BGD","BIH","BLR","CAN","CAN","CAN","CAN","CHN","CHN","CHN","CHN","CHN","COL","CUB","CYP","DEU","DNK","EGY","EGY","EGY","EGY","ESP","ESP","ESP","ESP","ESP","FRA","FRA","FRA","GBR","GEO","GRC","GRC","GTM","GUM","HKG","HKG","HKG","HND","HND","IDN","IND","IRL","IRN","IRN","IRN","IRN","IRN","IRQ","IRQ","ISR","ITA","ITA","ITA","JOR","JOR","JOR","JPN","JPN","KEN","KOR","KOR","KOR","KOS","LBN","LBN","LBR","LBY","LKA","LKA","MAC","MAC","MCO","MEX","MKD","MYS","NGA","NLD","NPL","NPL","PAN","PHL","PHL","PHL","POL","PRK","PRK","PRK","PRK","PRK","PSE","SDN","SGP","SOM","SWE","SYR","SYR","SYR","THA","TUR","TUR","TUR","UKR","VEN","VEN","VNM","YEM","ZAF"],"size":[12,56,13,7,5,36,21,5,6,7,22,6,7,5,8,10,9,6,24,5,6,42,47,8,14,19,436,24,49,12,6,5,7,9,7,7,10,10,7,6,9,11,30,26,7,9,19,11,13,5,100,14,6,5,7,5,50,14,14,22,11,25,109,15,46,7,10,14,5,7,5,5,144,136,9,44,44,75,13,9,16,5,7,7,5,5,5,8,88,6,6,6,5,7,13,8,74,10,5,6,35,76,12,112,11,161,12,31,14,8,21,91,83,7,17,28,11,121,6,49,26,34,6],"test":[115.3316922045493,40.01830585138998,330.8770045295433,100.0394069838951,6.278061158536462,370.2274732302495,29.84517573524227,28.73475786829235,4.271678972186923,176.4494830313757,205.7254340409938,18.69896195524496,10.13562200895483,36.03088581924418,71.79101183028331,612.863731402737,911.8125473903517,46.86362808660179,4.492053274407016,79.1383867548378,13.20764067890631,4.45470367597902,9.547804715647469,8.891213372139132,8.791856499919666,4.532502968627464,47.12360804619439,1141.291180871735,69.58136710546738,182.7418069068846,4.880983546021557,12.75445462174031,13.91978683147106,32.44760947268671,32.12141383664805,47.0739150908386,14.11986196348844,12.20715095694319,28.03210308955335,150.2085093902485,54.9505639840943,47.62285694671714,45.53537617143576,28.41773133111112,10.64195237843647,11.76554245006142,111.6763536022923,43.43274602764166,18.07172461764457,4.40095180540943,401.6586737304465,21.80592722516983,15.38792834966017,144.7383710416227,4.393537611956771,10.2017109668965,913.8623432852908,249.9299168922874,47.60591422688327,36.47492140530724,18.94325955646994,26.95843709053396,36.51018181553713,58.09019569394798,14.01565064181384,13.43382120409106,12.30394282580958,34.90423687117548,19.8810799001205,38.71003943425793,30.91831294663779,10.07161416417822,130.4254749678446,5.304216269216388,1060.607255368181,7.236111638569646,107.7267631560806,5.558942411641321,1913.884613930389,77.01055390330113,180.3272349694445,9.105003036660788,101.7654531568436,53.38729661177993,108.2001047771958,9.861408450601795,165.0964625316485,247.2924327756406,107.8556644693711,285.1407643663746,26.92481647884505,164.4061858583718,5.970452132477336,6.26003863938441,298.2981897840608,4.831690949667387,163.5232037555255,47.58995472949827,9.807706936003346,5.974047134226034,41.65465172698976,768.9629382171582,35.77044111461878,29.36521832517107,38.71208839840376,5410.463933517924,4873.571871915072,34.39542838098806,7.381222668260413,282.4902714506518,72.35954914444635,223.7705230997417,605.205560428742,112.5958744575641,11.3603534631291,13.40767678853547,19.66672519116144,1394.394135582115,32.36979710739404,21.28120961467696,27.96103614508153,1567.663081172548,56.23185121660165],"width":[5.550458715596331,7.568807339449542,5.596330275229358,5.321100917431193,5.229357798165138,6.651376146788991,5.963302752293578,5.229357798165138,5.275229357798165,5.321100917431193,6.009174311926605,5.275229357798165,5.321100917431193,5.229357798165138,5.36697247706422,5.458715596330276,5.412844036697248,5.275229357798165,6.100917431192661,5.229357798165138,5.275229357798165,6.926605504587156,7.155963302752294,5.36697247706422,5.642201834862385,5.871559633027523,25,6.100917431192661,7.247706422018348,5.550458715596331,5.275229357798165,5.229357798165138,5.321100917431193,5.412844036697248,5.321100917431193,5.321100917431193,5.458715596330276,5.458715596330276,5.321100917431193,5.275229357798165,5.412844036697248,5.504587155963303,6.376146788990826,6.192660550458715,5.321100917431193,5.412844036697248,5.871559633027523,5.504587155963303,5.596330275229358,5.229357798165138,9.587155963302752,5.642201834862385,5.275229357798165,5.229357798165138,5.321100917431193,5.229357798165138,7.293577981651376,5.642201834862385,5.642201834862385,6.009174311926605,5.504587155963303,6.146788990825688,10,5.688073394495412,7.110091743119266,5.321100917431193,5.458715596330276,5.642201834862385,5.229357798165138,5.321100917431193,5.229357798165138,5.229357798165138,11.60550458715596,11.23853211009174,5.412844036697248,7.01834862385321,7.01834862385321,8.440366972477065,5.596330275229358,5.412844036697248,5.73394495412844,5.229357798165138,5.321100917431193,5.321100917431193,5.229357798165138,5.229357798165138,5.229357798165138,5.36697247706422,9.036697247706421,5.275229357798165,5.275229357798165,5.275229357798165,5.229357798165138,5.321100917431193,5.596330275229358,5.36697247706422,8.394495412844037,5.458715596330276,5.229357798165138,5.275229357798165,6.605504587155963,8.486238532110091,5.550458715596331,10.13761467889908,5.504587155963303,12.38532110091743,5.550458715596331,6.422018348623853,5.642201834862385,5.36697247706422,5.963302752293578,9.174311926605505,8.807339449541285,5.321100917431193,5.779816513761467,6.284403669724771,5.504587155963303,10.55045871559633,5.275229357798165,7.247706422018348,6.192660550458715,6.559633027522936,5.275229357798165],"from":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,7,15,16,17,21,22,23,2,7,8,15,9,2,20,2,36,4,19,25,42,43,3,25,14,39,44,20,5,19,14,11,2,19,36,2,2,21,14,6,23,2,3,1,14,54,42,3,55,2,36,2,40,19,25,38,42,43,55,21,2,61,21,28,2,16,42,55,2,39,7,11,21,27,25,2,38,6,13,14,21,7,21,21,6,9,19,28,29,9,2,35,42,69,21,2,37,54,17,36,15,19,17,3,17,4,2,21,3,11],"to":[64,64,67,18,24,24,24,24,24,24,24,24,24,48,52,52,71,65,26,26,26,26,21,21,21,21,21,80,75,74,19,37,45,45,45,45,46,46,46,46,46,25,25,25,14,76,38,38,77,78,27,27,27,62,62,6,7,49,56,56,56,56,56,54,54,42,39,39,39,57,57,57,28,28,70,29,29,29,72,58,58,79,59,53,53,30,30,47,23,51,9,81,50,31,31,32,33,33,33,40,60,60,60,60,60,43,73,34,61,41,55,55,55,63,36,36,36,66,20,20,35,68,13]},"nodesToDataframe":true,"edgesToDataframe":true,"options":{"width":"100%","height":"100%","nodes":{"shape":"dot","scaling":{"min":20,"max":60,"label":{"min":20,"max":80,"maxVisible":20}},"physics":false},"manipulation":{"enabled":false},"edges":{"scaling":{"min":20,"max":60},"smooth":true},"interaction":{"navigationButtons":true,"zoomSpeed":1},"physics":{"stabilization":false}},"groups":null,"width":"100%","height":"1000px","idselection":{"enabled":true,"style":"width: 150px; height: 26px","useLabels":true,"main":"Select by id"},"byselection":{"enabled":false,"style":"width: 150px; height: 26px","multiple":false,"hideColor":"rgba(200,200,200,0.5)","highlight":false},"main":{"text":"Network","style":"font-family:Georgia, Times New Roman, Times, serif;font-weight:bold;font-size:20px;text-align:center;"},"submain":null,"footer":null,"background":"rgba(0, 0, 0, 0)","highlight":{"enabled":true,"hoverNearest":false,"degree":1,"algorithm":"all","hideColor":"rgba(200,200,200,0.5)","labelOnly":true},"collapse":{"enabled":false,"fit":false,"resetHighlight":true,"clusterOptions":null,"keepCoord":true,"labelSuffix":"(cluster)"},"tooltipStay":300,"tooltipStyle":"position: fixed;visibility:hidden;padding: 5px;white-space: nowrap;font-family: verdana;font-size:14px;font-color:#000000;background-color: #f5f4ed;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;border: 1px solid #808074;box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);","legend":{"width":0.2,"useGroups":true,"position":"left","ncol":1,"stepX":100,"stepY":100,"zoom":true},"igraphlayout":{"type":"square"}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<div id="profil">
+<div id="pays">
+<p><i class="bi bi-globe2"></i> Taiwan<br>
+</p>
+</div>
+</div>
+<section id="scale" class="level2">
+<h2 data-anchor-id="scale"><i class="bi bi-ui-checks-grid"></i> Scale</h2>
+<div id="liste">
+<ul>
+<li>Global</li>
+<li>National</li>
+</ul>
+</div>
+</section>
+<section id="topics" class="level2">
+<h2 data-anchor-id="topics"><i class="bi bi-person-video3"></i> Topics</h2>
+<div>
+<ul>
+<li>General news</li>
+<li>Political news</li>
+<li>Economic news</li>
+</ul>
+</div>
+</section>
+<section id="publications" class="level2">
+<h2 data-anchor-id="publications"><i class="bi bi-file-earmark-text"></i> Publications</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-sullivan2018media" class="csl-entry" role="listitem">
+Sullivan J, Ming-yeh TR, Feng C, Smyth J. 2018. The media in democratic taiwan. In <em>A New Era in Democratic Taiwan</em>Routledge; 104–122.
+</div>
+</div>
+
+
+</section>
+</main> 
+    <div class="about-footer"><div class="about-links">
+  <a href="https://twitter.com" class="about-link" rel="" target="">
+    <i class="bi bi-twitter"></i>
+     <span class="about-link-text">twitter</span>
+  </a>
+  <a href="https://github.com" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+</div>
+</div>
+  </div>
+</div>
+ <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright 2026, Claude Grasland</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

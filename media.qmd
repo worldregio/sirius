@@ -6,7 +6,7 @@ listing:
   fields: [image, code, name,  pays]
   filter-ui: [code, name, pays]
   contents: media
-  sort: "name"
+  sort: "code"
   sort-ui: [code, name, pays]
   type: table
   categories: true

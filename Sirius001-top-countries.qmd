@@ -194,7 +194,7 @@ kable(param, digits = 0,row.names = F, caption = "Salience of countries (p. 100,
 grat<-readRDS("geom/WORLD30.RDS")
 wld <- st_transform(map, st_crs(grat))
 wld<-wld %>% inner_join(tab)
-st_crs(wld)
+
 
 #saveRDS(wld,"geom/sirius.RDS")
 #st_write(wld,"geom/sirius.geojson",delete_dsn = T)
@@ -433,7 +433,7 @@ We can then apply different clustering methods. We have chosen here the classica
 ```{r}
 mydis2<-1-cor3
 
-cah_euc2 <- HCPC(acp2,nb.clust = 6,method = "ward",graph = F)
+cah_euc2 <- HCPC(acp2,nb.clust = 7,method = "ward",graph = F)
 
 plot(cah_euc2,choice = "tree",title = "Hierarchical clustering of media")
 
