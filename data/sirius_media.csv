@@ -1,28 +1,28 @@
 code;country;language;name;website;news;target;tags;tags_news;ISO3;lon;lat
-AUS_sydmor;Australia;en;Sydney Morning Herald;https://www.smh.com.au/;36500;100 %;67989;1,86;AUS;151,09534;-33,87631
-BRA_oglobo;Brazil;es;O Globo;https://oglobo.globo.com/;36326;100 %;64508;1,78;BRA;-46,59948;-23,56127
-CAN_tostar;Canada;en;Toronto Star;https://www.thestar.com/;35834;98 %;68215;1,9;CAN;-79,42682;43,76227
-CHN_mopost;China;en;South China Morning Post;https://www.scmp.com/;36489;100 %;98560;2,7;CHN;114,16680;22,37652
-DEU_frankf;Germany;de;Franfurter Allgemeine Zeitung;https://www.faz.net/aktuell/;36406;100 %;60963;1,67;DEU;8,62969;50,11321
-DZA_alnaha;Algeria;ar;Al Nahar;https://www.ennaharonline.com/;32757;90 %;64035;1,95;DZA;3,14206;36,72405
-EGY_alwafd;Egypt;ar;Al Wafd;https://www.alwafd.news/;36500;100 %;68384;1,87;EGY;31,23752;30,05740
-ESP_abc;Spain;es;ABC;https://www.abc.es/;36094;99 %;67176;1,86;ESP;-3,65826;40,41327
-FRA_lmonde;France;fr;Le Monde;https://www.lemonde.fr/;34267;94 %;57417;1,68;FRA;2,37415;48,83827
-GBR_indept;United Kingdom;en;The Independent;https://www.independent.co.uk/;36500;100 %;70885;1,94;GBR;-0,09886;51,49177
-IDN_republ;Indonesia;id;Republika;https://www.republika.co.id/kanal/en;36434;100 %;71656;1,97;IDN;106,83499;-6,22563
-IND_tindia;India;en;The Times of India;https://timesofindia.indiatimes.com/;36500;100 %;79174;2,17;IND;77,20622;28,54113
-IRN_hamsha;Iran;fa;Hamshari;http://hamshahrionline.ir/;36277;99 %;86970;2,4;IRN;51,38472;35,69296
-ISR_jerpos;Israel;en;The Jerusalem Post;https://www.jpost.com/;33975;93 %;71207;2,1;ISR;35,21415;31,77528
-ITA_stampa;Italy;it;La Stampa;https://www.lastampa.it/;36062;99 %;89427;2,48;ITA;7,67593;45,07105
-JPN_shikok;Japan;ja;Shikoku Shimbun;https://www.shikoku-np.co.jp/;36500;100 %;97879;2,68;JPN;134,47171;34,09702
-KEN_standa;Kenya;en;The Standard;https://www.standardmedia.co.ke/;28589;78 %;61738;2,16;KEN;36,83983;-1,31968
-MEX_inform;Mexico;es;El Informador;https://www.informador.mx/;36094;99 %;66917;1,85;MEX;-99,13033;19,33785
-NGA_vangua;Nigeria;en;Vanguard;https://www.vanguardngr.com/;28766;79 %;58113;2,02;NGA;3,34986;6,55212
-PAK_thenew;Pakistan;en;The News;https://www.thenews.pk/;33050;91 %;70400;2,13;PAK;67,22681;25,03367
-RUS_nezgaz;Russia;ru;Nezavizimaya Gazeta;https://www.ng.ru/;34947;96 %;98479;2,82;RUS;37,65700;55,73489
-SGP_today;Singapore;en;Today;https://www.channelnewsasia.com/today;32873;90 %;62143;1,89;SGP;103,82363;1,32086
-TUR_sabah;Tukey;tr;Sabah;https://www.dailysabah.com/;36500;100 %;75492;2,07;TUR;28,97367;41,04940
-TWN_chipos;Taiwan;en;The China Post;https://chinapost.nownews.com/;28727;79 %;55709;1,94;TWN;121,50901;25,01824
-UKR_fakty;Ukraine;ru;Fakty i Kommentarii;https://fakty.ua/;31400;86 %;92341;2,94;UKR;30,49969;50,44780
-USA_nytime;USA;en;The New York Times;https://www.nytimes.com/;36500;100 %;65623;1,8;USA;-73,99041;40,73003
-ZAF_times;South Africa;en;The Sunday Times;https://www.timeslive.co.za/;29163;80 %;50993;1,75;ZAF;28,05204;-26,19707
+ARG_nacion;Argentina;es;La Nacion;https://www.lanacion.com.ar/;25687;70 %;41501;1,62;ARG;-58,435;-34,672
+AUS_sydmor;Australia;en;Sydney Morning Herald;https://www.smh.com.au/;36500;100 %;55848;1,53;AUS;151,09534;-33,87631
+BRA_oglobo;Brazil;es;O Globo;https://oglobo.globo.com/;36329;100 %;57899;1,59;BRA;-46,59948;-23,56127
+CAN_tostar;Canada;en;Toronto Star;https://www.thestar.com/;35913;98 %;58482;1,63;CAN;-79,42682;43,76227
+CHN_mopost;China;en;South China Morning Post;https://www.scmp.com/;36487;100 %;58931;1,62;CHN;114,1668;22,37652
+DEU_frankf;Germany;de;Franfurter Allgemeine Zeitung;https://www.faz.net/aktuell/;36407;100 %;55206;1,52;DEU;8,62969;50,11321
+DZA_alnaha;Algeria;ar;Al Nahar;https://www.ennaharonline.com/;32977;90 %;50445;1,53;DZA;3,14206;36,72405
+EGY_alwafd;Egypt;ar;Al Wafd;https://www.alwafd.news/;36500;100 %;64564;1,77;EGY;31,23752;30,0574
+ESP_abc;Spain;es;ABC;https://www.abc.es/;36500;100 %;55696;1,53;ESP;-3,65826;40,41327
+FRA_lmonde;France;fr;Le Monde;https://www.lemonde.fr/;34428;94 %;51065;1,48;FRA;2,37415;48,83827
+GBR_indept;United Kingdom;en;The Independent;https://www.independent.co.uk/;36500;100 %;60214;1,65;GBR;-0,09886;51,49177
+IDN_republ;Indonesia;id;Republika;https://www.republika.co.id/kanal/en;36431;100 %;61464;1,69;IDN;106,83499;-6,22563
+IND_tindia;India;en;The Times of India;https://timesofindia.indiatimes.com/;36500;100 %;58278;1,60;IND;77,20622;28,54113
+IRN_hamsha;Iran;fa;Hamshari;http://hamshahrionline.ir/;36260;99 %;62725;1,73;IRN;51,38472;35,69296
+ISR_jerpos;Israel;en;The Jerusalem Post;https://www.jpost.com/;33975;93 %;60967;1,79;ISR;35,21415;31,77528
+ITA_stampa;Italy;it;La Repubblica;https://www.repubblica.it/;29170;80 %;48991;1,68;ITA;7,67593;45,07105
+JPN_shikok;Japan;ja;Shikoku Shimbun;https://www.shikoku-np.co.jp/;29386;81 %;40156;1,37;JPN;134,47171;34,09702
+KEN_standa;Kenya;en;The Standard;https://www.standardmedia.co.ke/;28540;78 %;46397;1,63;KEN;36,83983;-1,31968
+MEX_inform;Mexico;es;El Informador;https://www.informador.mx/;36094;99 %;59189;1,64;MEX;-99,13033;19,33785
+NGA_vangua;Nigeria;en;Vanguard;https://www.vanguardngr.com/;28638;78 %;44219;1,54;NGA;3,34986;6,55212
+PAK_thenew;Pakistan;en;The News;https://www.thenews.pk/;33030;90 %;55169;1,67;PAK;67,22681;25,03367
+RUS_nezgaz;Russia;ru;Nezavizimaya Gazeta;https://www.ng.ru/;34900;96 %;63515;1,82;RUS;37,657;55,73489
+SGP_today;Singapore;en;Today;https://www.channelnewsasia.com/today;32873;90 %;61372;1,87;SGP;103,82363;1,32086
+TUR_sabah;Tukey;tr;Sabah;https://www.dailysabah.com/;36500;100 %;63542;1,74;TUR;28,97367;41,0494
+UKR_fakty;Ukraine;ru;Fakty i Kommentarii;https://fakty.ua/;18168;50 %;25751;1,42;UKR;30,49969;50,4478
+USA_nytime;USA;en;The New York Times;https://www.nytimes.com/;36500;100 %;54903;1,50;USA;-73,99041;40,73003
+ZAF_times;South Africa;en;The Sunday Times;https://www.timeslive.co.za/;29192;80 %;44113;1,51;ZAF;28,05204;-26,19707

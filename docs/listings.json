@@ -2,6 +2,7 @@
   {
     "listing": "/media.html",
     "items": [
+      "/media/ARG_nacion.html",
       "/media/AUS_sydmor.html",
       "/media/BRA_oglobo.html",
       "/media/CAN_tostar.html",
@@ -16,8 +17,8 @@
       "/media/IND_tindia.html",
       "/media/IRN_hamsha.html",
       "/media/ISR_jerpos.html",
-      "/media/ITA_stampa.html",
-      "/media/JPN_shikok.html",
+      "/media/ITA_repubb.html",
+      "/media/JPN_asahis.html",
       "/media/KEN_standa.html",
       "/media/MEX_inform.html",
       "/media/NGA_vangua.html",
@@ -25,7 +26,6 @@
       "/media/RUS_nezgaz.html",
       "/media/SGP_today.html",
       "/media/TUR_sabah.html",
-      "/media/TWN_chipos.html",
       "/media/UKR_fakty.html",
       "/media/USA_nytime.html",
       "/media/ZAF_times.html"

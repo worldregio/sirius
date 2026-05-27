@@ -91,7 +91,9 @@ hc <- hc %>% filter(where1 %in% mystates,
                     where1 !="PRI",
                     where2 != "PRI")
 
+#filter time period
 
+hc <- hc %>% filter(hc$when < as.Date("2020-01-01"))
 
 ```
 
@@ -279,7 +281,7 @@ The PCA provide a first viusalization of the proximity between media and some cl
 ```{r}
 
 #library(explor)
-acp<-PCA(cor2, graph=F)
+acp<-PCA(cor2, graph=F, ncp=10)
 #explor(acp)
 res <- explor::prepare_results(acp)
 explor::PCA_ind_plot(res, xax = 1, yax = 2, ind_sup = FALSE, lab_var = "Lab",
@@ -324,7 +326,7 @@ link<- reshape2::melt(cor2)
 names(link)<-c("i","j","Rij")
 int <- link %>% filter(Rij <0.9998) %>% group_by(i) %>%
           mutate(rnk =rank(-Rij)) %>%
-          filter(rnk <6) %>% arrange(i,rnk)
+          filter(rnk <4) %>% arrange(i,rnk)
         #  filter(Rij > 0.80)
 ```
 
@@ -403,7 +405,7 @@ rownames(mat3)<-tab[tab$Q2>1,1]
 # Correlation matrux (Spearman)
 mat3<-t(mat3)
 mat3[1:3,1:3]
-cor3 <- cor(mat3,use = "pairwise.complete.obs", method="spearman",)
+cor3 <- cor(mat3,use = "pairwise.complete.obs", method="pearson",)
 cor3[1:3,1:3]
 
 #kable(cor3, digits=2, caption = "Spearman correlation coefficient between median values")
@@ -414,7 +416,7 @@ cor3[1:3,1:3]
 ```{r}
 
 #library(explor)
-acp2<-PCA(cor3, graph=F)
+acp2<-PCA(cor3, graph=F,ncp = 10)
 #explor(acp2)
 #res <- explor::prepare_results(acp2)
 
@@ -433,7 +435,7 @@ We can then apply different clustering methods. We have chosen here the classica
 ```{r}
 mydis2<-1-cor3
 
-cah_euc2 <- HCPC(acp2,nb.clust = 7,method = "ward",graph = F)
+cah_euc2 <- HCPC(acp2,nb.clust = 6,method = "ward",graph = F)
 
 plot(cah_euc2,choice = "tree",title = "Hierarchical clustering of media")
 

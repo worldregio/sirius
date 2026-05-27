@@ -27,6 +27,10 @@ class(hc)
 saveRDS(hc,"data/hc.RDS")
 
 
+x<- hc %>% group_by(where1) %>% summarise(tags=sum(tags), news=sum(news)) %>%
+  mutate(tagnews = tags/news, tagspct=tags/sum(tags), newspct=news/sum(news))
+
+
 ### Heatmap
 
 
