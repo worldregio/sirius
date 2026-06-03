@@ -86,10 +86,23 @@ codename<-map %>% st_drop_geometry() %>% select(ISO3, NAMEen)
 mystates<-names(table(map$ISO3))
 
 
+# Correct minor bugs
+
+## Correct code of Romania
+#hc$where1[hc$where1=="ROM"] <-"ROU"
+#hc$where1[hc$where2=="ROM"] <-"ROU"
+
+## Eliminate small dependant units
+smalldep <- c("PRI","MTQ","REU","GUF","GLP","NCL", "JEY", "FLK","FRO","GGY")
+
+
 hc <- hc %>% filter(where1 %in% mystates, 
                     where2 %in% mystates,
-                    where1 !="PRI",
-                    where2 != "PRI")
+                    !where1 %in% smalldep,
+                    !where2 %in% smalldep)
+
+
+
 
 #filter time period
 
@@ -103,7 +116,7 @@ Finally we standardize in order to obtain a salience of frequency per 10,000 new
 
 ```{r}
 # Agregate
-tab<-hc[,.(  Fij=sum(news)),
+tab<-hc[,.(  Fij=sum(tags)),
         .(i=who,j=where1)]
 
 # Transform in matrix
@@ -287,7 +300,7 @@ res <- explor::prepare_results(acp)
 explor::PCA_ind_plot(res, xax = 1, yax = 2, ind_sup = FALSE, lab_var = "Lab",
     ind_lab_min_contrib = 0, col_var = NULL, labels_size = 9, point_opacity = 0.5,
     opacity_var = NULL, point_size = 64, ellipses = FALSE, transitions = TRUE,
-    labels_positions = "auto", xlim = c(-8.36, 5.68), ylim = c(-7.93, 6.11))
+  labels_positions = "auto", xlim = c(-10, 6), ylim = c(-8, 6))
 
 ```
 
@@ -445,8 +458,29 @@ plot(cah_euc2,choice = "tree",title = "Hierarchical clustering of media")
 
 ```{r}
 x<-cah_euc2$data.clust
-clas <-data.frame(ISO3=rownames(x), clus11=x$clust )
+clas <-data.frame(ISO3=rownames(x), myclus=x$clust )
+clas$myclus<-as.factor(clas$myclus)
+levels(clas$myclus) <- c("1. Subsaharan Africa",
+                         "2. Anglo-Pacifica world",
+                         "3. Middle East & North Africa",
+                         "4. Latin America",
+                         "5. Eastern Europe & former USSR",
+                         "6. Western & central Europe"
+                         )
+
+
+
 wld2<-left_join(wld,clas)
-mf_map(wld2, type="typo", var="clus11", pal=rainbow(9))
+
+mf_map(wld2, 
+       type="typo",
+       var="myclus", 
+       leg_title = "WORLD REGIONS", 
+       pal=rainbow(9))
+mf_layout(title = "World regions according to media coverage (2013-2020)",
+          credits= "The Sirius Project (2026)",
+          scale = F, 
+          arrow=F,
+          frame = T)
 ```
 
