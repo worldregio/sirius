@@ -8,8 +8,10 @@ website:
     left:
       - href: index.qmd
         text: "About"
+      - href: sirius_database.qmd
+        text: "The Sirius database"
       - href: media.qmd
-        text: Media
+        text: "Media analysis"
       - text: Working Papers
         menu:
           - href: Sirius001-top-countries.qmd  
