@@ -1,5 +1,5 @@
 ---
-title: "Top countries"
+title: "Classification of media  and countries"
 subtitle: "Sirius Project - Working Paper 001"
 author: "Claude Grasland"
 date: "2026-02-24"
@@ -99,7 +99,7 @@ smalldep <- c("PRI","MTQ","REU","GUF","GLP","NCL", "JEY", "FLK","FRO","GGY")
 hc <- hc %>% filter(where1 %in% mystates, 
                     where2 %in% mystates,
                     !where1 %in% smalldep,
-                    !where2 %in% smalldep)
+                    !where2 %in% smalldep) 
 
 
 
@@ -107,6 +107,9 @@ hc <- hc %>% filter(where1 %in% mystates,
 #filter time period
 
 hc <- hc %>% filter(hc$when < as.Date("2020-01-01"))
+
+saveRDS(hc, "data/hc.RDS")
+
 
 ```
 
@@ -319,12 +322,18 @@ We can then apply different clustering methods. We have chosen here the classica
 
 ```{r}
 mydis<-1-cor2
-
-cah_euc <- HCPC(acp,nb.clust = 7,method = "ward",graph = F)
-
-plot(cah_euc,choice = "tree",title = "Hierarchical clustering of media",)
+mydis<-as.dist(mydis)
+cah_euc <- hclust(mydis, method = "ward.D")
 
 
+plot(cah_euc,
+     hang = -1,
+     check = T,
+     cex.main = 1.2,
+     main = "HCPC of media",
+     ylab = "Dissimilarity",
+     sub = NA,
+     xlab = "")
 ```
 
 - **Comment : ** The tree reveals a first partition in three main groups A, B and C, followed by a subdivision in 7 subgroups. The group A characterized media from Subsaharan Africa (A.1)  and North Africa & Arabia  (A.2). The group B is associated only to coutries located in Latin America .
@@ -340,7 +349,7 @@ names(link)<-c("i","j","Rij")
 int <- link %>% filter(Rij <0.9998) %>% group_by(i) %>%
           mutate(rnk =rank(-Rij)) %>%
           filter(rnk <4) %>% arrange(i,rnk)
-        #  filter(Rij > 0.80)
+    #      filter(Rij > 0.90)
 ```
 
 
@@ -453,6 +462,9 @@ cah_euc2 <- HCPC(acp2,nb.clust = 6,method = "ward",graph = F)
 plot(cah_euc2,choice = "tree",title = "Hierarchical clustering of media")
 
 
+
+
+
 ```
 
 
@@ -460,15 +472,13 @@ plot(cah_euc2,choice = "tree",title = "Hierarchical clustering of media")
 x<-cah_euc2$data.clust
 clas <-data.frame(ISO3=rownames(x), myclus=x$clust )
 clas$myclus<-as.factor(clas$myclus)
-levels(clas$myclus) <- c("1. Subsaharan Africa",
-                         "2. Anglo-Pacifica world",
-                         "3. Middle East & North Africa",
-                         "4. Latin America",
-                         "5. Eastern Europe & former USSR",
-                         "6. Western & central Europe"
+levels(clas$myclus) <- c("1. Western Europe",
+                         "2. Eastern Europe",
+                         "3. Latin America",
+                         "4. Middle East & North Africa",
+                         "5. Anglo-Pacifica",
+                         "6. Subsaharan Africa"
                          )
-
-
 
 wld2<-left_join(wld,clas)
 

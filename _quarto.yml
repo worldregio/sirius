@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "SIRIUS"
+  title: "THE SIRIUS PROJECT"
   navbar:
     left:
       - href: index.qmd
@@ -11,11 +11,11 @@ website:
       - href: sirius_database.qmd
         text: "The Sirius database"
       - href: media.qmd
-        text: "Media analysis"
-      - text: Working Papers
+        text: "The World seen from ..."
+      - text: "Synthesis"
         menu:
           - href: Sirius001-top-countries.qmd  
-            text: "WP1. Top countries by media"
+            text: "Classifications"
       - posts.qmd
     right: 
       - icon: github # add icons as navbar buttons

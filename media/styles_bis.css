@@ -1,9 +1,9 @@
 /* css styles */
 
 h1{
-
+  color: #198cab;
   font-weight: bold;
-  font-size:36px;
+  font-size:26px;
 }
 
 h2{
@@ -11,7 +11,10 @@ h2{
   font-size:21px;
 }
 
-
+h3{
+  color: #198cab;
+  font-size:16px;
+}
 
 #profil {
 margin-top:-30px;
