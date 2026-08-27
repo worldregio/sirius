@@ -49,3 +49,7 @@ po/*~
 rsconnect/
 
 /.quarto/
+
+# Other
+/pgm/
+/sirius_sup/

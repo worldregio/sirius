@@ -1,0 +1,241 @@
+---
+title: "Classification of media  and countries"
+subtitle: "Sirius Project - Working Paper 001"
+author: "Claude Grasland"
+date: "2026-02-24"
+date-format: iso
+lang: en
+format:
+  html:
+    embed-resources: true
+    theme: yeti
+    smooth-scroll: true
+    fontsize: 0.9em
+    toc: true
+    toc-depth: 2
+    toc-title: "."
+    css: custom.css
+    crossrefs-hover: false
+execute:
+  warning: false
+  message: false 
+  cache: false   
+  echo: false
+  comment: false
+knitr:
+  opts_chunk:
+    out.width: "100%"
+editor_options: 
+  chunk_output_type: console
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+library(data.table)
+library(dplyr)
+library(ggplot2)
+library(ggrepel)
+library(knitr)
+library(tidytext)
+library(tidyr)
+#library(FactoMineR)
+#library(sf, quietly = T)
+library(DT)
+#library(mapsf)
+library(explore)
+#library(mapsf, quietly = T)
+#library(visNetwork, quietly=T)
+library(smacof)
+```
+
+## Research question
+
+Which vision of an unknown world could be produced by an external observer starting just from an interaction matrix ? Which type of geometries could be used by this observer ? And which criteria could help him to distinguish between these geometries in order to choose the most accurate - if it does make sense to choose one "best" ?
+
+
+# A. Experimental protocol
+
+## The Rosette stone
+
+We consider an observer from Sirius trying to understand the organisation of our world on a time period comprised between June 2013 and June 2020. This observer (that we will call "it" as we ignore everything from he/she) has absolutely no preconceived idea on the geometry of our world, including the fact that we are located on a planet taking the form of a sphere. The only information at its disposal is a large set of short messages corresponding to the title and description of news published by newspapers located in different places of the world and published in different languages. As it ignores everything from ou grammar, the information received should look for him like this :
+
+```{r}
+x<-readRDS("sirius/CAN_tostar/dt_int.RDS")%>% filter(nbstates>1,month == "2014-03-01")
+
+
+y<- x[,c(2,3,1)]
+
+y$text<-encrypt(y$text)
+y$who<-"media_1"
+names(y)<-c("source","time","message")
+datatable(y)
+
+encrypt("Israel")
+```
+
+Admitting that our Sirius observed has understood that blank spaces are separators of tokens, it will probably notice quickly that in the source called **USf_B6ABs9* some tokens are frequently replicated in the message like *"jCAAs, kG90s", "m50Bwv kBsBwA", "aA9sw3"*...
+
+
+Looking at another source our observer will probably be disappointed to discover that the language is clearly different. But it will probably noticed also some recurrence of tokens and some similarities between for example the tokens *kG90s* and *kC90sz*  or between *jCAAs* and *jCA0s*. And it will certainly observe that this tokens are often associated, approximatively at the same time period, the same week or the same day.
+
+```{r}
+x<-readRDS("sirius/IDN_republ/dt_int.RDS") %>%  filter(nbstates>1,month == "2014-03-01")
+
+y<- x[,c(2,3,1)]
+y$text<-encrypt(y$text)
+y$who<-"media_2"
+names(y)<-c("source","time","message")
+datatable(y)
+
+```
+
+
+But some sources will appear more difficult, for example because they use a different alphabet or are written from left to right, instead of right to left... Our observer from Sirius will have many difficulties to solve the problem of translation.  But imagine the discovery of a Rosette stone where it will recognise many of the tokens previously mentionned. This Rosette Stone could take the form of an ISO3 code of states associated to all the possible translations of the names of countries in different languages. Something like that :
+
+```{r}
+OSI3 <- encrypt(c("USA", "SYR","RUS","ISR") )
+lang1 <- encrypt(c("United States", "Syria","Russia","Israel"))
+lang2 <- encrypt(c("Etats-Unis", "Syrie","Russie","Israël"))
+lang3 <- iconv(c("США", "Сирия", "Россия", "Израиль"), from="UTF-8", to="UTF-7")
+lang4 <- iconv(c("「米国」","「シリア」","「ロシア」","「イスラエル」"), from="UTF-8", to="UTF-7")
+
+x<-data.frame(OSI3, lang1, lang2,lang3, lang4)
+kable(x)
+
+```
+
+
+It is now possible to simplify our initial information and build a dataframe reduced to the three columns who, where, what. 
+
+
+```{r}
+s1 <- readRDS("sirius/BRA_oglobo/dt_int.RDS") %>% 
+       filter(substr(month,1,4) == "2016") %>%
+      as.data.frame()
+                                                         
+s2 <- readRDS("sirius/AUS_sydmor/dt_int.RDS") %>% 
+       filter(substr(month,1,4) == "2016") %>%
+  as.data.frame()
+
+s<-rbind(s1,s2) %>% 
+  select(who, when, what=states) %>% 
+  arrange(when) %>%
+  mutate(who=paste("media",as.numeric(as.factor(who)),sep="_"))# %>% what=encrypt(what))
+
+datatable(head(s,20))
+
+
+```
+
+
+
+
+
+## The host-guest matrix
+
+A first way to analyze the item is to build what can be called an host-guest matrix where the media (who) plays the role of hots that invite information about foreign countries that plays the role of guests. In our small example of two media during one week, we can extract a matrix describing the respective number of guest-host relation in the two media.
+
+```{r}
+col<- unnest_tokens(s,input = "what",output = "what",to_lower = F) %>% 
+              group_by(who, what) %>% 
+                  count() 
+tab <- col %>% pivot_wider(names_from = "who",values_from = "n",values_fill = 0) %>%
+                mutate(tot=		media_1+media_2) %>%
+                arrange(-tot)
+
+datatable(head(tab,20))
+
+
+```
+
+
+
+```{r}
+
+coo <- tab %>% as.data.frame() %>% mutate(pi = media_1/sum(media_1, na.rm=T),
+                     pj = media_2/sum(media_2, na.rm=T),
+                     pos = (pi-pj)/(pi+pj),
+                     size =100*(pi+pj)/2
+                     ) %>% filter(pi >0.001, pj >0.001) %>%
+         arrange(pos)
+head(coo)
+tail(coo)
+coo$y <- rnorm(dim(coo)[1])
+
+ggplot(coo) + aes(x=pos, y=y, label=what,size=size) + geom_point() +geom_text_repel(max.overlaps = 20)+ 
+  scale_y_continuous(limits = c(-10,10),
+                     labels = NULL,name = NULL) +
+  scale_x_continuous(labels=NULL, name=NULL)+
+  geom_hline(yintercept = 0,colour = "red")+
+  theme_minimal(base_line_size = 0)
+
+
+
+```
+
+
+## Unfolding approach
+
+Suppose now that we have k observers reporting on n states. We are typically in a situation of unfolding method. Let's try with a simple example :
+
+
+```{r}
+base <- readRDS("data/hc.RDS")
+mywho<- names(table(base$who))
+mywho <- mywho[-c(23,26)]
+mywho
+#
+mywho <- c("BRA_oglobo","MEX_inform","ZAF_times","NGA_vangua","DZA_alnaha","IRN_hamsha","TUR_sabah", "CHN_mopost","USA_nytime" ,"AUS_sydmor", "CAN_tostar","IND_tindia","PAK_thenew", "JPN_asahis","IDN_republ","FRA_lmonde","DEU_frankf", "GBR_indept","ESP_abc")
+mystates <- c("USA","ARG","ARG","ITA","EGY","KEN","UKR","PAK","TUR","CHN","VNM","PHL","RUS","GBR","DZA","SAU","PSE","ISR","VEN","CUB","IND","SYR","LBY","POL","IRN","SAU","YEM","MYS","KOR","PRK","GRC","HTI", "PER")
+#mystates<-substr(mywho,1,3)
+
+start <-as.Date("2013-01-01")
+end <- as.Date("2021-01-01")
+
+## Prepare interaction matrix
+sel <- base %>% filter(
+                    who %in% mywho, 
+                       where1 %in% mystates,
+                       when >= start,
+                       when < end
+                       ) %>%
+                  mutate(who=paste0("m_",substr(who,1,3)))
+
+col <- sel[,.(Fij = sum(tags)), .(i=who, j=where1)]
+
+siz <- sel[,.(Fi = sum(tags)), .(j=where1)]
+col <- col %>%left_join(siz) %>% filter(Fi>100)
+
+## Compute dissimilarity matrix
+int <- glm(data=col, formula = Fij~i+j, family="poisson")
+col$Eij<-int$fitted.values
+col$DISSij<-col$Eij/col$Fij
+col$DISSij[is.na(col$DISSij)]<-NA
+
+col$DISSij[col$Eij<5]<-NA
+
+tab<-dcast(col, formula = i~j, fill = NA,value.var = "DISSij")
+mat<-as.matrix(tab[,-1])
+row.names(mat)<-tab$i
+dis<-mat
+dim(dis)
+round(dis,2)
+
+## Define weight
+ tab<-dcast(col, formula = i~j, fill = 0,value.var = "Eij")
+mat<-as.matrix(tab[,-1])
+row.names(mat)<-tab$i
+wgt<-sqrt(mat)
+#round(wgt,2)
+
+## Unfold model
+mod<-unfolding(dis,type = "ordinal",itmax = 10000)
+mod$stress
+plot(mod,cex=0.3)
+#summary(mod)
+
+
+```
+

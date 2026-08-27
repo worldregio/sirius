@@ -17,3 +17,7 @@ In 1971, Wadlo Tobler and S. Wineburg published a very short, two-page article i
 
 The aim of the Sirius project is to revisit Tobler’s reasoning regarding the Hittite tablets by applying it to news articles circulating worldwide between 2013 and 2020 in order to deduce a political geometry of our contemporary world.
 :::
+
+
+![A preliminary attempt of mapping the world seen from Sirius in 2013-2020](img/MDS.jpg){width=900}
+

@@ -1,0 +1,154 @@
+---
+title: "Classification of media  and countries"
+subtitle: "Sirius Project - Working Paper 001"
+author: "Claude Grasland"
+date: "2026-02-24"
+date-format: iso
+lang: en
+format:
+  html:
+    embed-resources: true
+    theme: yeti
+    smooth-scroll: true
+    fontsize: 0.9em
+    toc: true
+    toc-depth: 2
+    toc-title: "."
+    css: custom.css
+    crossrefs-hover: false
+execute:
+  warning: false
+  message: false 
+  cache: false   
+  echo: false
+  comment: false
+knitr:
+  opts_chunk:
+    out.width: "100%"
+editor_options: 
+  chunk_output_type: console
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+library(data.table)
+library(dplyr)
+library(ggplot2)
+library(ggrepel)
+library(knitr)
+library(tidytext)
+library(tidyr)
+#library(FactoMineR)
+#library(sf, quietly = T)
+library(DT)
+#library(mapsf)
+library(explore)
+#library(mapsf, quietly = T)
+#library(visNetwork, quietly=T)
+library(smacof)
+```
+
+## Research question
+
+Which vision of an unknown world could be produced by an external observer starting just from an interaction matrix ? Which type of geometries could be used by this observer ? And which criteria could help him to distinguish between these geometries in order to choose the most accurate - if it does make sense to choose one "best" ?
+
+
+# A. Experimental protocol
+
+## The Rosette stone
+
+We consider an observer from Sirius trying to understand the organisation of our world on a time period comprised between June 2013 and June 2020. This observer (that we will call "it" as we ignore everything from he/she) has absolutely no preconceived idea on the geometry of our world, including the fact that we are located on a planet taking the form of a sphere. The only information at its disposal is a large set of short messages corresponding to the title and description of news published by newspapers located in different places of the world and published in different languages. As it ignores everything from ou grammar, the information received should look for him like this :
+
+```{r}
+x<-readRDS("sirius/CAN_tostar/dt_int.RDS")%>% filter(nbstates>1,month == "2014-03-01")
+
+
+y<- x[,c(2,3,1)]
+
+y$text<-encrypt(y$text)
+y$who<-"media_1"
+names(y)<-c("source","time","message")
+datatable(y)
+
+encrypt("Israel")
+```
+
+Admitting that our Sirius observed has understood that blank spaces are separators of tokens, it will probably notice quickly that in the source called **USf_B6ABs9* some tokens are frequently replicated in the message like *"jCAAs, kG90s", "m50Bwv kBsBwA", "aA9sw3"*...
+
+
+Looking at another source our observer will probably be disappointed to discover that the language is clearly different. But it will probably noticed also some recurrence of tokens and some similarities between for example the tokens *kG90s* and *kC90sz*  or between *jCAAs* and *jCA0s*. And it will certainly observe that this tokens are often associated, approximatively at the same time period, the same week or the same day.
+
+```{r}
+x<-readRDS("sirius/IDN_republ/dt_int.RDS") %>%  filter(nbstates>1,month == "2014-03-01")
+
+y<- x[,c(2,3,1)]
+y$text<-encrypt(y$text)
+y$who<-"media_2"
+names(y)<-c("source","time","message")
+datatable(y)
+
+```
+
+
+But some sources will appear more difficult, for example because they use a different alphabet or are written from left to right, instead of right to left... Our observer from Sirius will have many difficulties to solve the problem of translation.  But imagine the discovery of a Rosette stone where it will recognise many of the tokens previously mentionned. This Rosette Stone could take the form of an ISO3 code of states associated to all the possible translations of the names of countries in different languages. Something like that :
+
+```{r}
+OSI3 <- encrypt(c("USA", "SYR","RUS","ISR") )
+lang1 <- encrypt(c("United States", "Syria","Russia","Israel"))
+lang2 <- encrypt(c("Etats-Unis", "Syrie","Russie","Israël"))
+lang3 <- iconv(c("США", "Сирия", "Россия", "Израиль"), from="UTF-8", to="UTF-7")
+lang4 <- iconv(c("「米国」","「シリア」","「ロシア」","「イスラエル」"), from="UTF-8", to="UTF-7")
+
+x<-data.frame(OSI3, lang1, lang2,lang3, lang4)
+kable(x)
+
+```
+
+
+It is now possible to simplify our initial information and build a dataframe reduced to the three columns who, where, what. 
+
+
+```{r}
+s1 <- readRDS("sirius/NGA_vangua/dt_int.RDS") %>% 
+       filter(substr(month,1,4) == "2016") %>%
+      as.data.frame()
+                                                         
+s2 <- readRDS("sirius/CHN_mopost/dt_int.RDS") %>% 
+       filter(substr(month,1,4) == "2016") %>%
+  as.data.frame()
+
+s<-rbind(s1,s2) %>% 
+  select(who, when, what=states) %>% 
+  arrange(when) %>%
+  mutate(who=paste("media",as.numeric(as.factor(who)),sep="_"))# %>% what=encrypt(what))
+
+datatable(head(s,20))
+
+
+```
+
+
+
+
+
+## The host-guest matrix
+
+A first way to analyze the item is to build what can be called an host-guest matrix where the media (who) plays the role of hots that invite information about foreign countries that plays the role of guests. In our small example of two media during one week, we can extract a matrix describing the respective number of guest-host relation in the two media.
+
+```{r}
+col<- unnest_tokens(s,input = "what",output = "what",to_lower = F) %>% 
+              group_by(who, what) %>% 
+                  count() 
+tab <- col %>% pivot_wider(names_from = "who",values_from = "n",values_fill = 0) %>%
+                mutate(tot=		media_1+media_2) %>%
+                arrange(-tot) %>% filter(!what %in% c("CHN","NGA"))
+#tab$what<-toupper(encrypt(tab$what))
+
+ggplot(tab[1:100,]) +aes(x=rank(-media_1), y=rank(-media_2), label=what) +
+    geom_abline(intercept=1, slope=1, col="red")+
+  geom_point() +geom_label_repel(cex=3) +scale_x_reverse() +scale_y_reverse() 
+  geom_abline(intercept=1, slope=1)
+
+```
