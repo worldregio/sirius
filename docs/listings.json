@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2026-02-23-tobler/index.html"
+    ]
+  },
+  {
     "listing": "/media.html",
     "items": [
       "/media/ARG_nacion2.html",
@@ -30,12 +36,6 @@
       "/media/UKR_fakty2.html",
       "/media/USA_nytime2.html",
       "/media/ZAF_times2.html"
-    ]
-  },
-  {
-    "listing": "/posts.html",
-    "items": [
-      "/posts/2026-02-23-tobler/index.html"
     ]
   }
 ]

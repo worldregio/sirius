@@ -14,8 +14,8 @@ website:
         text: "The World seen from ..."
       - text: "Synthesis"
         menu:
-          - href: Sirius001-top-countries.qmd  
-            text: "Classifications"
+          - href: Sirius003-regions.qmd  
+            text: "Regionalisation"
       - posts.qmd
     right: 
       - icon: github # add icons as navbar buttons
