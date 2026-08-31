@@ -1,0 +1,122 @@
+---
+title: "Measuring geographical diversity of international agenda"
+subtitle: "An application to the Sirius database"
+author: "Claude Grasland"
+date: "20/08/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(quanteda)
+library(quanteda.textplots)
+library(quanteda.textstats)
+library(data.table)
+library(dplyr)
+library(ggplot2)
+library(zoo)
+library(knitr)
+
+```
+
+
+# DATA 
+
+We load metadata and data
+
+## Load meta
+```{r}
+#meta <- fread("mediacloud_corpus_25_countries.csv")
+```
+
+## Load data
+
+```{r}
+media<-"TUR_sabah"
+lang="fr"
+title_only=TRUE
+t1<-as.Date("2013-07-01")
+t2<-as.Date("2020-07-01")
+
+myfile<-paste0("../sirius/",media,"/dt_int.RDS")
+dt<-readRDS(myfile)
+myfile<-paste0("../sirius/",media,"/hc_int.RDS")
+hc<-readRDS(myfile)
+qd<-corpus(dt,text_field = "states")
+```
+
+
+# SAMPLING
+
+We agreggate the titles of news by month for two period
+```{r}
+
+qd1<-qd %>% corpus_subset(when > t1-15) %>%
+            corpus_subset(when < t2+15)
+
+
+#
+#if(title_only) {texts(qd1)<-qd1$title} else #{texts(qd1)<-paste(qd1$title, texts(qd1), sep=". ")}
+
+qd1$month<-cut(as.Date(qd1$when), "week")
+```
+
+# TOKENIZE & COMPUTE
+
+```{r}
+toks<-tokens(qd1)
+dfmat<-dfm(toks,tolower = F) %>%  dfm_group(month)
+dim(dfmat)
+ 
+lexdiv <- textstat_lexdiv(dfmat,measure = c("K"))
+lexdiv$date<-as.Date(lexdiv$document)
+lexdiv$K4 =rollmean(lexdiv$K, k=4, align="center", fill=NA)
+lexdiv<-lexdiv[lexdiv$date >= t1,]
+lexdiv<-lexdiv[lexdiv$date <= t2,]
+
+
+```
+
+
+
+# VISUALIZE
+
+```{r}
+mytitle=paste("Media = ",media, " - language = ",lang)
+
+p2<-ggplot(lexdiv, aes(x=date,y=K4))+
+   geom_line(aes(y=-K),lwd=0.6,col="gray70")+
+    geom_line(aes(y=-K4),lwd=1, col="red")+
+  scale_x_date("time",limits=c(t1,t2), date_breaks="1 year",date_labels = "%b%y", minor_breaks=NULL) +
+  scale_y_continuous("Yule's K index of lexical diversity",limits=c(min(-lexdiv$K4),max(-lexdiv$K4)))+
+  labs(title = "Lexical diversity of news titles", subtitle=mytitle)
+
+p2
+
+
+```
+
+## Explor outliers
+
+```{r}
+t<-"2015-11-30"
+as.Date(t)
+q<-hc %>% filter(when==as.Date(t)) %>% group_by(where1) %>% summarise(n=sum(news)) %>% arrange(-n) %>% mutate(pct=100*n/sum(n),
+  cum=cumsum(n))
+kable(q, digits=c(0,1,1,1))
+```
+
+
+
+
+# SAVE
+
+```{r}
+ggsave(plot = p2,
+       filename = paste("title_",media,"_",lang,"_long.pdf", sep=""),
+       device = "pdf",
+       width = 8,
+       height=6
+        )
+```
+

@@ -42,6 +42,7 @@ library(FactoMineR)
 library(sf, quietly = T)
 library(DT)
 library(mapsf)
+library(gridExtra)
 #library(mapsf, quietly = T)
 #library(visNetwork, quietly=T)
 ```
@@ -370,6 +371,34 @@ kable(cor2[1:5,1:5], digits=3, caption = "Spearman correlation coefficient betwe
 - **Comment** : The media *La Nacion* from Argentina is much more correlated with the brasilian newspaper *O Globo* ($\rho = + 0.87$) than with the *Sydney Morning Herald* ($\rho = + 0.65$) or the *South China Morning Post* ($\rho = + 0.62$). Reversely the  *Sydney Morning Herald*  is much more correlated with the *South China Morning Post* ($\rho = + 0.87$) than with *O Globo* ($\rho = + 0.73$). This example suggest the existence of a latent structure likely to reveal clusters of country characterized by higher levels of correlation. 
 
 
+
+### Example
+
+```{r}
+media1<-"ZAF_times"
+media2 <- "MEX_inform"
+country1 <- substr(media1,1,3)
+country2 <- substr(media2,1,3)
+ex<-mat[,c(media1,media2)] %>% as.data.frame()
+ex$code<-substr(row.names(ex),1,3) 
+names(ex)<-c("x1","x2","code")
+ex <- ex %>% filter(! code %in% c(country1,country2))
+ex$rnk1<-rank(-ex$x1)
+ex$rnk2<-rank(-ex$x2)
+cor1<-cor(ex$x1,ex$x2)
+cor2<-cor(ex$x1,ex$x2, method="spearman")
+
+plot1<-ggplot(ex) +aes(x=x1,y=x2, label=code) + geom_point()+geom_text_repel() + ggtitle(paste("Pearson correlation = ",round(cor1,2)," ***"))
+plot2<-ggplot(ex) +aes(x=rnk1,y=rnk2, label=code) + geom_point()+geom_text_repel()+scale_x_reverse()+scale_y_reverse() +ggtitle(paste("Spearman correlation = ",round(cor2,2)," ***"))
+
+grid.arrange(plot1, plot2, ncol=2)
+```
+
+
+
+
+
+
 ### Principal Component Analysis
 
 The PCA provide a first viusalization of the proximity between media and some clustrs can be easily observed on the plan defined by the two first component. It is a simple approximation and better results could be obtained with Multi Dimensional Scaling (MDS) or Network Analysis (it will be done later).
@@ -518,6 +547,30 @@ colnames(cor3)<-substr(colnames(cor3),1,3)
 rownames(cor3)<-substr(rownames(cor3),1,3)
 sel<-c("NOR","DNK","FIN","COL","PER","CHL","LBN","JOR","SAU")
 kable(cor3[sel,sel], digits=2, caption = "Pearson correlation coefficient between median values")
+```
+
+
+
+
+### Example
+
+```{r}
+mat4<-mat
+row.names(mat4)<-substr(row.names(mat4),1,3)
+place1<-"USA"
+place2 <- "CHN"
+ex<-data.frame(x1=mat4[place1,],x2=mat4[place2,])
+ex$code<-colnames(mat4)
+ex <- ex %>% filter(! substr(code,1,3) %in% c(place1,place2))
+ex$rnk1<-rank(-ex$x1)
+ex$rnk2<-rank(-ex$x2)
+cor1<-cor(ex$x1,ex$x2)
+cor2<-cor(ex$x1,ex$x2, method="spearman")
+
+plot1<-ggplot(ex) +aes(x=x1,y=x2, label=code) + geom_point()+geom_text_repel() + ggtitle(paste("Pearson correlation = ",round(cor1,2)," ***"))
+plot2<-ggplot(ex) +aes(x=rnk1,y=rnk2, label=code) + geom_point()+geom_text_repel()+scale_x_reverse()+scale_y_reverse() +ggtitle(paste("Spearman correlation = ",round(cor2,2)," ***"))
+
+grid.arrange(plot1, plot2, ncol=2)
 ```
 
 
